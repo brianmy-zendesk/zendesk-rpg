@@ -135,8 +135,8 @@ export class EndGameScene extends Phaser.Scene {
       this.add.text(col1X, row2Y, `Questions: ${correctCount}/${totalQuestions} correct`, {
         fontSize: '16px', fontFamily: 'monospace', color: '#ffffff'
       }),
-      this.add.text(col1X, row3Y, `Accuracy: ${accuracy}%`, {
-        fontSize: '16px', fontFamily: 'monospace', color: accuracy >= 70 ? '#44ff44' : '#ff8844'
+      this.add.text(col1X, row3Y, `Accuracy: ${accuracy}% (${accuracy >= 90 ? 'Gold' : accuracy >= 70 ? 'Silver' : 'Bronze'})`, {
+        fontSize: '16px', fontFamily: 'monospace', color: accuracy >= 90 ? '#f0c040' : accuracy >= 70 ? '#c0c0c0' : '#cd7f32'
       }),
       this.add.text(col2X, row1Y, `Battles Won: ${battlesWon}/${battlesTotal}`, {
         fontSize: '16px', fontFamily: 'monospace', color: '#ffffff'
