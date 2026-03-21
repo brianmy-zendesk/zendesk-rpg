@@ -240,7 +240,7 @@ export class BattleScene extends Phaser.Scene {
     this.questionCounter = this.add.text(width / 2, 568, '', {
       fontSize: '12px',
       fontFamily: 'monospace',
-      color: '#888888'
+      color: '#03b1fc'
     }).setOrigin(0.5);
 
     // Feedback overlay (hidden by default) — positioned in the battle arena (top half)
