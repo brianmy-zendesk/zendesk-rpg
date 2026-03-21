@@ -21,49 +21,61 @@ New Zendesk employees learning the platform. Future expansion may include new Ze
 The game is **linear** — the player progresses from boss to boss along a path. There are **3 levels**, each ending with a **Big Boss** battle. Within each level, the player must defeat **mini-bosses** before facing the Big Boss.
 
 ### Level 1: Team & Workflow (4 mini-bosses + 1 big boss)
-| Boss | Type | Topics | Questions Available |
-|------|------|--------|-------------------|
-| Org Structure | Mini | Groups, User fields, Organizations, Org fields | 22 (8 easy, 9 med, 5 hard) |
-| Brand & Config | Mini | Brand, Business schedule, Custom ticket fields | 22 (7 easy, 8 med, 7 hard) |
-| Workflow | Mini | Routing, Triggers, Automations, Views, Macros | 28 (9 easy, 10 med, 9 hard) |
-| Adding Agents | Mini | Agent roles, Invitations, Permissions | 18 (7 easy, 6 med, 5 hard) |
-| **The TPS Report Overlord** | **Big** | All Team & Workflow topics (mixed) | Pool from all 90 |
+
+
+| Boss                        | Type    | Topics                                         | Questions Available         |
+| --------------------------- | ------- | ---------------------------------------------- | --------------------------- |
+| Org Structure               | Mini    | Groups, User fields, Organizations, Org fields | 22 (8 easy, 9 med, 5 hard)  |
+| Brand & Config              | Mini    | Brand, Business schedule, Custom ticket fields | 22 (7 easy, 8 med, 7 hard)  |
+| Workflow                    | Mini    | Routing, Triggers, Automations, Views, Macros  | 28 (9 easy, 10 med, 9 hard) |
+| Adding Agents               | Mini    | Agent roles, Invitations, Permissions          | 18 (7 easy, 6 med, 5 hard)  |
+| **The TPS Report Overlord** | **Big** | All Team & Workflow topics (mixed)             | Pool from all 90            |
+
 
 ### Level 2: Channels (3 mini-bosses + 1 big boss)
-| Boss | Type | Topics | Questions Available |
-|------|------|--------|-------------------|
-| Help Center | Mini | Knowledge base setup, Articles, Sections | 20 (8 easy, 7 med, 5 hard) |
-| Messaging | Mini | Web widget, Messaging channels, Bots | 20 (8 easy, 7 med, 5 hard) |
-| Voice | Mini | Talk setup, Phone numbers, IVR | 20 (8 easy, 7 med, 5 hard) |
-| **The Channel Surfer** | **Big** | All Channels topics (mixed) | Pool from all 60 |
+
+
+| Boss                   | Type    | Topics                                   | Questions Available        |
+| ---------------------- | ------- | ---------------------------------------- | -------------------------- |
+| Help Center            | Mini    | Knowledge base setup, Articles, Sections | 20 (8 easy, 7 med, 5 hard) |
+| Messaging              | Mini    | Web widget, Messaging channels, Bots     | 20 (8 easy, 7 med, 5 hard) |
+| Voice                  | Mini    | Talk setup, Phone numbers, IVR           | 20 (8 easy, 7 med, 5 hard) |
+| **The Channel Surfer** | **Big** | All Channels topics (mixed)              | Pool from all 60           |
+
 
 ### Level 3: Going Live (5 mini-bosses + 1 big boss)
-| Boss | Type | Topics | Questions Available |
-|------|------|--------|-------------------|
-| Training Agents | Mini | Agent onboarding, Training resources | 13 (5 easy, 5 med, 3 hard) |
-| External Email Forwarding | Mini | Email forwarding, SPF/DNS | 11 (4 easy, 4 med, 3 hard) |
-| Configure Voice Channel | Mini | Voice activation, Number porting | 9 (3 easy, 3 med, 3 hard) |
-| Activate Help Center | Mini | HC activation, Theming | 8 (3 easy, 3 med, 2 hard) |
-| Set Up Messaging Channel | Mini | Messaging activation, Widget config | 9 (3 easy, 3 med, 3 hard) |
-| **Bill Lumbergh** | **Big** | All Going Live topics (mixed) | Pool from all 50 |
+
+
+| Boss                      | Type    | Topics                               | Questions Available        |
+| ------------------------- | ------- | ------------------------------------ | -------------------------- |
+| Training Agents           | Mini    | Agent onboarding, Training resources | 13 (5 easy, 5 med, 3 hard) |
+| External Email Forwarding | Mini    | Email forwarding, SPF/DNS            | 11 (4 easy, 4 med, 3 hard) |
+| Configure Voice Channel   | Mini    | Voice activation, Number porting     | 9 (3 easy, 3 med, 3 hard)  |
+| Activate Help Center      | Mini    | HC activation, Theming               | 8 (3 easy, 3 med, 2 hard)  |
+| Set Up Messaging Channel  | Mini    | Messaging activation, Widget config  | 9 (3 easy, 3 med, 3 hard)  |
+| **Bill Lumbergh**         | **Big** | All Going Live topics (mixed)        | Pool from all 50           |
+
 
 ---
 
 ## Battle Mechanics
 
 ### Quiz Combat
+
 - Each battle presents the player with a series of multiple-choice questions (3 answer options each).
 - **Correct answer** = player deals damage to the boss. XP earned: Easy (10), Medium (20), Hard (30).
 - **Wrong answer** = boss deals damage to the player. A "PC LOAD LETTER" error flash appears. The correct answer is revealed along with a link to the relevant Zendesk Help Center article.
 - Questions are drawn from `zendesk_boss_question_bank.json`, filtered by the boss's assigned `mini_boss` or `big_boss` value.
 
 ### Mini-Boss Battles
+
 - **Questions per battle:** 5
 - **Difficulty mix:** 3 easy, 1 medium, 1 hard (randomly selected from the boss's pool)
 - **Boss HP:** 100
 - **Damage dealt per correct answer:** Easy = 20, Medium = 25, Hard = 35
 
 ### Big Boss Battles
+
 - **Questions per battle:** 8
 - **Difficulty mix:** 2 easy, 3 medium, 3 hard (randomly selected from the level's full pool)
 - **Boss HP:** 200
@@ -71,6 +83,7 @@ The game is **linear** — the player progresses from boss to boss along a path.
 - Questions are drawn from across ALL mini-boss topics within that level (not repeating questions already seen in mini-boss battles)
 
 ### Player Health & Lives
+
 - Player starts with **3 lives** (represented as red Swingline staplers).
 - Player has **100 HP** per battle.
 - Damage taken per wrong answer: Mini-boss = 25 HP, Big Boss = 30 HP.
@@ -82,11 +95,14 @@ The game is **linear** — the player progresses from boss to boss along a path.
 ## Scoring & Summary
 
 ### Running Score
+
 - Displayed in the HUD at all times.
 - Score = cumulative XP earned from correct answers across all battles.
 
 ### Post-Battle Summary
+
 Shown after every battle (win or lose):
+
 - Questions answered correctly / total
 - XP earned this battle
 - Running total XP
@@ -94,7 +110,9 @@ Shown after every battle (win or lose):
 - "Yeah, if you could go ahead and read those articles, that'd be great." (Lumbergh quote)
 
 ### End-of-Game Summary
+
 Shown when the player defeats all 3 big bosses OR loses all lives:
+
 - Final score / total possible XP
 - Accuracy percentage
 - Battles won / total
@@ -108,20 +126,23 @@ Shown when the player defeats all 3 big bosses OR loses all lives:
 
 ## Office Space Theming
 
-| Element | Office Space Reference |
-|---------|----------------------|
-| Big Boss 3 (final) | **Bill Lumbergh** — "Yeah, if you could go ahead and configure that, that'd be great." |
-| Big Boss 1 | **The TPS Report Overlord** — demands TPS reports (ticket configuration) |
-| Big Boss 2 | **The Channel Surfer** — controls all communication channels |
-| Wrong answer flash | "PC LOAD LETTER" error message |
-| Lives indicator | Red Swingline staplers |
-| Power-up / bonus | "Pieces of Flair" — streak bonus for consecutive correct answers |
-| NPC dialogue | Milton-style mumbling about "my desk" and "burning the building down" |
-| Victory screen | "I could set the building on fire" celebration |
-| Game over screen | "You have been relocated to the basement" |
-| Background music vibe | Corporate elevator muzak (retro chiptune style) |
+
+| Element               | Office Space Reference                                                                 |
+| --------------------- | -------------------------------------------------------------------------------------- |
+| Big Boss 3 (final)    | **Bill Lumbergh** — "Yeah, if you could go ahead and configure that, that'd be great." |
+| Big Boss 1            | **The TPS Report Overlord** — demands TPS reports (ticket configuration)               |
+| Big Boss 2            | **The Channel Surfer** — controls all communication channels                           |
+| Wrong answer flash    | "PC LOAD LETTER" error message                                                         |
+| Lives indicator       | Red Swingline staplers                                                                 |
+| Power-up / bonus      | "Pieces of Flair" — streak bonus for consecutive correct answers                       |
+| NPC dialogue          | Milton-style mumbling about "my desk" and "burning the building down"                  |
+| Victory screen        | "I could set the building on fire" celebration                                         |
+| Game over screen      | "You have been relocated to the basement"                                              |
+| Background music vibe | Corporate elevator muzak (retro chiptune style)                                        |
+
 
 ### Streak Bonus: Pieces of Flair
+
 - 3 correct answers in a row = "Flair Bonus!" +10 XP
 - 5 correct answers in a row = "37 Pieces of Flair!" +25 XP
 
@@ -144,32 +165,36 @@ All assets sourced from `Legacy Collection/Assets/`.
 
 ### Primary Assets (direct fit)
 
-| Asset | Path | Usage |
-|-------|------|-------|
-| Hero spritesheet | `Packs/tiny-rpg-town-files/Environments/Town/spritesheets/hero.png` | Player character (overworld walk animations) |
-| NPC spritesheet | `Packs/tiny-rpg-town-files/Environments/Town/spritesheets/npc.png` | NPCs, Milton-style characters |
-| Town tileset | `Packs/tiny-rpg-town-files/Environments/Town/tileset/tileset.png` | Overworld map tiles (buildings, paths, water, trees) |
-| Town example | `Packs/tiny-rpg-town-files/Environments/Town/tileset/example.png` | Reference for map assembly |
-| Grass tile 1 | `Packs/tiny-rpg-town-files/Environments/Town/tileset/grass-tile.png` | Overworld ground / encounter zones |
-| Grass tile 2 | `Packs/tiny-rpg-town-files/Environments/Town/tileset/grass-tile-2.png` | Overworld ground variation |
-| Grass tile 3 | `Packs/tiny-rpg-town-files/Environments/Town/tileset/grass-tile-3.png` | Overworld ground variation |
-| Enemy sprites | `Packs/grotto_escape_pack/Base pack/Spritesheets/enemies.png` | Mini-boss battle sprites |
-| Item icons | `Packs/grotto_escape_pack/Base pack/Spritesheets/items.png` | Collectible items, flair icons |
-| Health meter | `Packs/grotto_escape_pack/Base pack/Spritesheets/meter.png` | HP bar in battle UI |
-| Player (grotto) | `Packs/grotto_escape_pack/Base pack/Spritesheets/player.png` | Alternative player sprite / battle stance |
-| Cave tiles | `Packs/grotto_escape_pack/Base pack/Spritesheets/tiles.png` | Dungeon/cave area tiles |
-| Crystal anim | `Packs/grotto_escape_pack/Base pack/anims/crystal.gif` | Reward/pickup animation |
-| Powerup anim | `Packs/grotto_escape_pack/Base pack/anims/powerup.gif` | Streak bonus animation |
+
+| Asset            | Path                                                                   | Usage                                                |
+| ---------------- | ---------------------------------------------------------------------- | ---------------------------------------------------- |
+| Hero spritesheet | `Packs/tiny-rpg-town-files/Environments/Town/spritesheets/hero.png`    | Player character (overworld walk animations)         |
+| NPC spritesheet  | `Packs/tiny-rpg-town-files/Environments/Town/spritesheets/npc.png`     | NPCs, Milton-style characters                        |
+| Town tileset     | `Packs/tiny-rpg-town-files/Environments/Town/tileset/tileset.png`      | Overworld map tiles (buildings, paths, water, trees) |
+| Town example     | `Packs/tiny-rpg-town-files/Environments/Town/tileset/example.png`      | Reference for map assembly                           |
+| Grass tile 1     | `Packs/tiny-rpg-town-files/Environments/Town/tileset/grass-tile.png`   | Overworld ground / encounter zones                   |
+| Grass tile 2     | `Packs/tiny-rpg-town-files/Environments/Town/tileset/grass-tile-2.png` | Overworld ground variation                           |
+| Grass tile 3     | `Packs/tiny-rpg-town-files/Environments/Town/tileset/grass-tile-3.png` | Overworld ground variation                           |
+| Enemy sprites    | `Packs/grotto_escape_pack/Base pack/Spritesheets/enemies.png`          | Mini-boss battle sprites                             |
+| Item icons       | `Packs/grotto_escape_pack/Base pack/Spritesheets/items.png`            | Collectible items, flair icons                       |
+| Health meter     | `Packs/grotto_escape_pack/Base pack/Spritesheets/meter.png`            | HP bar in battle UI                                  |
+| Player (grotto)  | `Packs/grotto_escape_pack/Base pack/Spritesheets/player.png`           | Alternative player sprite / battle stance            |
+| Cave tiles       | `Packs/grotto_escape_pack/Base pack/Spritesheets/tiles.png`            | Dungeon/cave area tiles                              |
+| Crystal anim     | `Packs/grotto_escape_pack/Base pack/anims/crystal.gif`                 | Reward/pickup animation                              |
+| Powerup anim     | `Packs/grotto_escape_pack/Base pack/anims/powerup.gif`                 | Streak bonus animation                               |
+
 
 ### Battle Backgrounds
 
-| Asset | Path | Usage |
-|-------|------|-------|
-| Country landscape | `Environments/country-platform-files/country-platform-preview.png` | Level 1 battle background |
-| Mist forest | `Environments/mist-forest-background/mist-forest-background-preview.png` | Level 2 battle background |
-| Night town | `Environments/night-town-background-files/night-town-background-previewx1.png` | Level 3 battle background |
-| Caverns background | `Environments/caverns-files-web/layers/background.png` | Big Boss battle background |
-| Caverns tiles | `Environments/caverns-files-web/layers/tiles.png` | Big Boss battle foreground |
+
+| Asset              | Path                                                                           | Usage                      |
+| ------------------ | ------------------------------------------------------------------------------ | -------------------------- |
+| Country landscape  | `Environments/country-platform-files/country-platform-preview.png`             | Level 1 battle background  |
+| Mist forest        | `Environments/mist-forest-background/mist-forest-background-preview.png`       | Level 2 battle background  |
+| Night town         | `Environments/night-town-background-files/night-town-background-previewx1.png` | Level 3 battle background  |
+| Caverns background | `Environments/caverns-files-web/layers/background.png`                         | Big Boss battle background |
+| Caverns tiles      | `Environments/caverns-files-web/layers/tiles.png`                              | Big Boss battle foreground |
+
 
 ### Assets NOT Used (wrong genre/perspective)
 
@@ -186,24 +211,28 @@ All assets sourced from `Legacy Collection/Assets/`.
 
 ### Assets to Create or Source
 
-| Asset | Description |
-|-------|-------------|
-| Big Boss sprites (x3) | TPS Report Overlord, Channel Surfer, Bill Lumbergh — pixel art boss portraits |
-| Red Swingline stapler | Lives indicator icon |
-| Pieces of Flair | Streak bonus icon |
-| Battle UI frame | Text box borders, menu chrome for quiz interface |
-| Pixel font | Retro monospace font for dialogue and UI |
-| TPS Report icon | Recurring motif / collectible |
-| "PC LOAD LETTER" popup | Wrong-answer error overlay |
+
+| Asset                  | Description                                                                   |
+| ---------------------- | ----------------------------------------------------------------------------- |
+| Big Boss sprites (x3)  | TPS Report Overlord, Channel Surfer, Bill Lumbergh — pixel art boss portraits |
+| Red Swingline stapler  | Lives indicator icon                                                          |
+| Pieces of Flair        | Streak bonus icon                                                             |
+| Battle UI frame        | Text box borders, menu chrome for quiz interface                              |
+| Pixel font             | Retro monospace font for dialogue and UI                                      |
+| TPS Report icon        | Recurring motif / collectible                                                 |
+| "PC LOAD LETTER" popup | Wrong-answer error overlay                                                    |
+
 
 ---
 
 ## Milestones
 
 ### Milestone 1: The Cubicle (Core Battle Loop)
+
 **Goal:** A single playable battle against one mini-boss with full quiz mechanics.
 
 **Deliverables:**
+
 - Phaser.js project scaffolded with Vite
 - Title screen with "Press Start" and Office Space-themed intro text
 - Single battle scene against the **Org Structure** mini-boss
@@ -223,9 +252,11 @@ All assets sourced from `Legacy Collection/Assets/`.
 ---
 
 ### Milestone 2: Level 1 Complete (Linear Progression + Big Boss)
+
 **Goal:** Full Level 1 playable end-to-end with all 4 mini-bosses and the Big Boss.
 
 **Deliverables:**
+
 - Linear overworld map connecting boss encounters (using `tileset.png`, `grass-tile` assets, `hero.png` for player movement)
 - NPC encounters between battles with Milton-style dialogue (using `npc.png`)
 - All 4 Level 1 mini-bosses playable: Org Structure, Brand & Config, Workflow, Adding Agents
@@ -243,9 +274,11 @@ All assets sourced from `Legacy Collection/Assets/`.
 ---
 
 ### Milestone 3: Full Game (All 3 Levels + End Game)
+
 **Goal:** Complete 10-minute experience with all content, polish, and end-of-game summary.
 
 **Deliverables:**
+
 - Level 2: Channels — 3 mini-bosses (Help Center, Messaging, Voice) + **The Channel Surfer** big boss
   - Mist forest battle background
 - Level 3: Going Live — 5 mini-bosses (Training, Email, Voice Config, HC Activation, Messaging Setup) + **Bill Lumbergh** final boss
@@ -274,6 +307,7 @@ All assets sourced from `Legacy Collection/Assets/`.
 **Source file:** `zendesk_boss_question_bank.json`
 
 **Schema:**
+
 ```json
 {
   "id": 1,
