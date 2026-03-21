@@ -77,7 +77,7 @@ export class DialogueScene extends Phaser.Scene {
     }
 
     this.isTyping = true;
-    this.fullText = this.dialogue[this.currentLine];
+    this.fullText = this.dialogue[this.currentLine].replace(/\n/g, ' ');
     this.dialogueText.setText('');
     this.continuePrompt.setAlpha(0);
 
