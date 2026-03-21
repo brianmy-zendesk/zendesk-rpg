@@ -172,10 +172,30 @@ export class BattleScene extends Phaser.Scene {
     }).setOrigin(0, 0.5);
 
     // Enemy attack timer (near boss sprite)
-    this.timerText = this.add.text(580, 58, '', {
-      fontSize: '18px', fontFamily: 'monospace', color: '#ff4444',
+    this.timerText = this.add.text(580, 78, '', {
+      fontSize: '14px', fontFamily: 'monospace', color: '#ff4444',
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 4
     }).setOrigin(0.5).setDepth(5).setAlpha(0);
+
+    // Pause button (near hero)
+    this.isPaused = false;
+    const pauseBtnBg = this.add.rectangle(220, 270, 60, 22, 0x333333, 0.8);
+    pauseBtnBg.setStrokeStyle(1, 0x03b1fc);
+    pauseBtnBg.setInteractive({ useHandCursor: true });
+    pauseBtnBg.setDepth(5);
+    this.pauseBtnText = this.add.text(220, 270, '⏸ Pause', {
+      fontSize: '10px', fontFamily: 'monospace', color: '#03b1fc'
+    }).setOrigin(0.5).setDepth(5);
+
+    pauseBtnBg.on('pointerdown', () => {
+      this.togglePause();
+    });
+    this.pauseBtnBg = pauseBtnBg;
+
+    // Also allow P key to toggle pause
+    this.input.keyboard.on('keydown-P', () => {
+      this.togglePause();
+    });
 
     // Player HP bar
     this.add.text(50, 275, 'The Hero', {
@@ -437,19 +457,21 @@ export class BattleScene extends Phaser.Scene {
 
   startAttackTimer() {
     this.stopAttackTimer();
+    if (this.isPaused) return;
     this.attackTimeLeft = ATTACK_TIMER_SECONDS;
-    this.timerText.setText(this.attackTimeLeft).setAlpha(1).setColor('#ffffff');
+    this.timerText.setText(`Attack in ${this.attackTimeLeft}`).setAlpha(1).setColor('#ffffff');
 
     this.attackTimerEvent = this.time.addEvent({
       delay: 1000,
       repeat: ATTACK_TIMER_SECONDS - 1,
       callback: () => {
+        if (this.isPaused) return;
         this.attackTimeLeft--;
         if (this.attackTimeLeft <= 0) {
           this.timerText.setAlpha(0);
           this.enemyAttack();
         } else {
-          this.timerText.setText(this.attackTimeLeft);
+          this.timerText.setText(`Attack in ${this.attackTimeLeft}`);
           // Turn red and pulse when low
           if (this.attackTimeLeft <= 3) {
             this.timerText.setColor('#ff4444');
@@ -473,6 +495,56 @@ export class BattleScene extends Phaser.Scene {
     if (this.timerText) {
       this.timerText.setAlpha(0).setScale(1);
     }
+  }
+
+  togglePause() {
+    this.isPaused = !this.isPaused;
+    if (this.isPaused) {
+      this.pauseBtnText.setText('▶ Resume');
+      this.pauseBtnBg.setStrokeStyle(1, 0xf0c040);
+      this.pauseBtnText.setColor('#f0c040');
+      // Stop the timer
+      if (this.attackTimerEvent) {
+        this.attackTimerEvent.paused = true;
+      }
+      this.timerText.setText('PAUSED').setAlpha(1).setColor('#f0c040');
+    } else {
+      this.pauseBtnText.setText('⏸ Pause');
+      this.pauseBtnBg.setStrokeStyle(1, 0x03b1fc);
+      this.pauseBtnText.setColor('#03b1fc');
+      // Restart the timer from where it left off
+      this.startAttackTimerFrom(this.attackTimeLeft || ATTACK_TIMER_SECONDS);
+    }
+  }
+
+  startAttackTimerFrom(seconds) {
+    this.stopAttackTimer();
+    this.attackTimeLeft = seconds;
+    this.timerText.setText(`Attack in ${this.attackTimeLeft}`).setAlpha(1).setColor('#ffffff');
+
+    this.attackTimerEvent = this.time.addEvent({
+      delay: 1000,
+      repeat: seconds - 1,
+      callback: () => {
+        if (this.isPaused) return;
+        this.attackTimeLeft--;
+        if (this.attackTimeLeft <= 0) {
+          this.timerText.setAlpha(0);
+          this.enemyAttack();
+        } else {
+          this.timerText.setText(`Attack in ${this.attackTimeLeft}`);
+          if (this.attackTimeLeft <= 3) {
+            this.timerText.setColor('#ff4444');
+            this.tweens.add({
+              targets: this.timerText,
+              scaleX: 1.4, scaleY: 1.4,
+              duration: 150,
+              yoyo: true
+            });
+          }
+        }
+      }
+    });
   }
 
   enemyAttack() {
