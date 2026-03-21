@@ -18,11 +18,11 @@ export const LEVELS = [
         background: 'bg-country',
         enemyFrame: 0,
         introDialogue: [
-          'Hey... have you seen my stapler?',
-          'I was told there would be a stapler...',
-          'The new admin has to defeat the\nOrg Structure boss to move on.',
-          'Something about groups and\norganizations, I think...',
-          'I just want my stapler back.'
+          'Excuse me... have you seen my stapler?',
+          'Oh, you\'re the new admin.\nI was told there would be one.',
+          'The Org Structure boss is up ahead.\nGroups, organizations, that sort of thing.',
+          'I... I could help you, but\nthey moved my desk again.',
+          'Just... be careful, okay?'
         ]
       },
       {
@@ -33,10 +33,10 @@ export const LEVELS = [
         background: 'bg-country',
         enemyFrame: 4,
         introDialogue: [
-          'Excuse me... I was told I could\nlisten to my radio at a reasonable volume.',
-          'The Brand & Config boss controls\nbusiness hours and ticket fields.',
-          'If you could go ahead and defeat it,\nthat would be great.',
-          'And use a cover sheet on your\nTPS reports from now on.'
+          'Oh... it\'s you again. Good.',
+          'The Brand & Config boss is next.\nBusiness hours, ticket fields, all that.',
+          'I tried to configure my own brand\nonce but they said I wasn\'t authorized.',
+          'They also took my radio.\nI was told I could listen at\na reasonable volume.'
         ]
       },
       {
@@ -47,10 +47,10 @@ export const LEVELS = [
         background: 'bg-country',
         enemyFrame: 8,
         introDialogue: [
-          'I... I could set the building on fire.',
+          'I... I don\'t like this place.',
           'The Workflow boss is tough.\nTriggers, automations, views, macros...',
-          'It\'s like doing a TPS report\nbut the report fights back.',
-          'Good luck. You\'ll need it.'
+          'It\'s like filling out a TPS report\nbut the report fights back.',
+          'I believe in you though.\nMore than I believe in\nthis building\'s fire safety.'
         ]
       },
       {
@@ -61,9 +61,9 @@ export const LEVELS = [
         background: 'bg-country',
         enemyFrame: 4,
         introDialogue: [
-          'Corporate wants you to add agents\nto the Zendesk instance.',
-          'I\'ve been moved to the basement\nfour times already.',
-          'Roles, permissions, invitations...\nit\'s all very complicated.',
+          'They keep adding new people but\nno one ever introduces themselves to me.',
+          'This boss is about adding agents.\nRoles, permissions, invitations...',
+          'I was never given proper permissions\nmyself. I just sort of... exist here.',
           'At least they haven\'t taken\nmy stapler. Yet.'
         ]
       },
@@ -74,20 +74,21 @@ export const LEVELS = [
         miniBoss: null,
         background: 'bg-country',
         enemyFrame: 8,
+        bossSprite: 'boss-ogre',
         introDialogue: [
           '...',
-          'Did you get the memo about\nthe TPS reports?',
-          'I\'m gonna need you to go ahead\nand answer ALL these questions.',
-          'If you could do that,\nthat would be terrific.',
-          'Mmkay? Great.'
+          'Oh no. That\'s the TPS Report Overlord.',
+          'It\'s the big boss of this level.\nIt knows everything about\nTeam & Workflow.',
+          'I... I would run, but they moved\nthe exit again.',
+          'You\'re going to have to answer\nALL of its questions. Good luck.'
         ]
       }
     ],
     completionDialogue: [
-      'Level 1 Complete!',
-      'You have conquered Team & Workflow.',
-      'The TPS Report Overlord has been\nvanquished from Support Land!',
-      'But darker forces await in\nthe Channels ahead...'
+      'You... you actually did it.',
+      'The TPS Report Overlord is gone.\nTeam & Workflow is safe.',
+      'I\'m so happy I could...\nwell, I won\'t set anything on fire.',
+      'But there\'s more ahead.\nThe Channels are waiting.'
     ]
   },
 
@@ -105,10 +106,10 @@ export const LEVELS = [
         background: 'bg-forest',
         enemyFrame: 0,
         introDialogue: [
-          'No one ever reads the articles\nI write...',
-          'The Help Center boss guards all\nthe knowledge base content.',
+          'I wrote a Help Center article once.\nNo one read it.',
+          'This boss guards all the\nknowledge base content.',
           'Articles, sections, categories...\nit\'s a whole thing.',
-          'If customers would just read\nthe articles, I wouldn\'t have\nto answer the phone.'
+          'Maybe if I put my stapler in\nan article someone would\nfinally pay attention.'
         ]
       },
       {
@@ -119,10 +120,10 @@ export const LEVELS = [
         background: 'bg-forest',
         enemyFrame: 4,
         introDialogue: [
-          'Why does anyone need to talk\nto a real person anyway?',
-          'The Messaging boss controls\nweb widgets, bots, and channels.',
+          'No one ever messages me.\nNot even the bots.',
+          'This boss controls web widgets,\nbots, and messaging channels.',
           'It keeps saying "How can I\nhelp you today?" over and over.',
-          'Sounds like my manager,\nactually.'
+          'I asked it for my stapler\nand it just sent me a knowledge\nbase article.'
         ]
       },
       {
@@ -133,10 +134,10 @@ export const LEVELS = [
         background: 'bg-forest',
         enemyFrame: 8,
         introDialogue: [
-          'The phone keeps ringing and\nringing and ringing...',
-          'The Voice boss controls Talk setup,\nphone numbers, and IVR menus.',
-          'Press 1 for pain.\nPress 2 for more pain.',
-          'I was told there would be\nno phone calls.'
+          'The phone keeps ringing and\nno one ever answers it.',
+          'This boss controls Talk setup,\nphone numbers, and IVR menus.',
+          'I was told there would be\nno phone calls in this job.',
+          'That was a lie.'
         ]
       },
       {
@@ -146,20 +147,21 @@ export const LEVELS = [
         miniBoss: null,
         background: 'bg-forest',
         enemyFrame: 4,
+        bossSprite: 'boss-nightmare',
         introDialogue: [
-          'INCOMING TRANSMISSION...',
-          'I am The Channel Surfer.\nI control ALL communication.',
-          'Help Center. Messaging. Voice.\nNothing gets through without\nmy permission.',
-          'Let\'s see if you can handle\nthe full omnichannel experience.',
-          'Yeah... that\'d be great.'
+          '...',
+          'Oh no. That\'s The Channel Surfer.\nThe big boss of this level.',
+          'It controls ALL the channels.\nHelp Center. Messaging. Voice.\nEverything.',
+          'I tried to submit a ticket about\nmy stapler through every channel.\nNone of them worked.',
+          'Be careful. This one is... angry.'
         ]
       }
     ],
     completionDialogue: [
-      'Level 2 Complete!',
-      'You have conquered the Channels.',
-      'The Channel Surfer has been\ndisconnected from Support Land!',
-      'But the final challenge awaits...\nGoing Live.'
+      'The Channel Surfer is defeated.\nAll channels are open again.',
+      'You\'re really good at this.\nBetter than anyone here.',
+      'But the final challenge is ahead.\nGoing Live.',
+      'And... Lumbergh is waiting.'
     ]
   },
 
@@ -177,10 +179,10 @@ export const LEVELS = [
         background: 'bg-night-town',
         enemyFrame: 0,
         introDialogue: [
-          'We\'re not gonna protest.\nWe\'re not gonna do anything illegal.',
-          'But somebody has to train\nthese new agents.',
-          'Onboarding, resources, best\npractices... the works.',
-          'Let\'s see if you know enough\nto train others.'
+          'We\'re getting close to going live.\nI can feel it.',
+          'This boss is about training agents.\nOnboarding, resources, best practices.',
+          'Nobody ever trained me.\nI just showed up one day and\nthey gave me a desk.',
+          'Well... they gave me a desk\nat first.'
         ]
       },
       {
@@ -191,10 +193,10 @@ export const LEVELS = [
         background: 'bg-night-town',
         enemyFrame: 4,
         introDialogue: [
-          'I swear, one more SPF record\nand I\'m setting the building on fire.',
-          'The Email Forwarding boss guards\nexternal email and DNS settings.',
+          'This next one is about\nemail forwarding. DNS stuff.',
           'SPF, DKIM, forwarding rules...\nit\'s all very technical.',
-          'Good luck. And remember:\nPC LOAD LETTER.'
+          'I forwarded an email about\nmy stapler once. It bounced.',
+          'PC LOAD LETTER.\nWhat does that even mean?'
         ]
       },
       {
@@ -205,10 +207,10 @@ export const LEVELS = [
         background: 'bg-night-town',
         enemyFrame: 8,
         introDialogue: [
-          'Just a moment please, your call\nis very important to us.',
-          'The Voice Config boss handles\nnumber porting and activation.',
+          'This boss handles voice configuration.\nNumber porting and activation.',
           'Have you ever configured\nan IVR menu? It\'s... something.',
-          'I believe you have my\nphone number.'
+          'I called the support line once\nand was on hold for three hours.',
+          'I believe you have my\nphone number. No one else does.'
         ]
       },
       {
@@ -219,10 +221,10 @@ export const LEVELS = [
         background: 'bg-night-town',
         enemyFrame: 0,
         introDialogue: [
-          'The Help Center is ready\nfor launch.',
+          'The Help Center is almost\nready to go public.',
           'Activation, theming, permissions...\nall the final touches.',
-          'This is it. The knowledge base\ngoes public.',
-          'No pressure. Just... don\'t\nbreak anything.'
+          'I\'m a little nervous.\nWhat if no one reads it?',
+          'What if EVERYONE reads it?\nThat might be worse.'
         ]
       },
       {
@@ -233,10 +235,10 @@ export const LEVELS = [
         background: 'bg-night-town',
         enemyFrame: 4,
         introDialogue: [
-          'The messaging widget is almost\nready for customers.',
+          'Almost there. The messaging widget\nis nearly ready for customers.',
           'Widget config, authentication,\nthe whole nine yards.',
-          'Soon customers will be chatting\nwith your bots.',
-          'I hope the bots are smarter\nthan my coworkers.'
+          'Soon customers will be chatting\naway. With bots, mostly.',
+          'I wish someone would chat\nwith me. Even a bot would be nice.'
         ]
       },
       {
@@ -246,45 +248,30 @@ export const LEVELS = [
         miniBoss: null,
         background: 'bg-caverns',
         enemyFrame: 8,
+        bossSprite: 'boss-demon',
         introDialogue: [
           '...',
-          'Yeahhh... hi.',
-          'So if you could go ahead and\nanswer all of these questions...',
-          'That would be great.',
-          'I\'m also gonna need you to\ncome in on Saturday.',
-          'And Sunday too. Mmkay? Thanks.'
+          'Oh no. It\'s him. It\'s Lumbergh.',
+          'He\'s the one who keeps moving\nmy desk. And taking my stapler.',
+          'This is the final boss.\nEverything you\'ve learned\ncomes down to this.',
+          'If you defeat him, maybe...\nmaybe I\'ll finally get\nmy stapler back.',
+          'Please. I\'m counting on you.'
         ]
       }
     ],
     completionDialogue: [
-      'Congratulations!',
-      'You have defeated Bill Lumbergh\nand conquered Support Land!',
-      'Your Zendesk instance is now\nfully configured and live.',
-      '"I could set the building on fire..."',
-      'Just kidding. Great job, admin!'
+      'You... you defeated Lumbergh.',
+      'I can\'t believe it.\nSupport Land is free.',
+      'Your Zendesk instance is fully\nconfigured and live.',
+      'And look... he dropped something.',
+      'MY STAPLER! You got my stapler back!',
+      'Thank you. You\'re the best admin\nI\'ve ever met.'
     ]
   }
 ];
 
-/** NPC names that rotate for dialogue encounters */
-export const NPC_NAMES = [
-  'Milton',
-  'Milton',
-  'Samir',
-  'Michael Bolton',
-  'Bill Lumbergh',
-  'Milton',
-  'Samir',
-  'Michael Bolton',
-  'Milton',
-  'Samir',
-  'Milton',
-  'Michael Bolton',
-  'Samir',
-  'Milton',
-  'Milton',
-  'Bill Lumbergh'
-];
+/** Milton is the permanent guide NPC throughout the game */
+export const NPC_NAME = 'Milton';
 
 /**
  * Gets the current boss config based on level and boss index.

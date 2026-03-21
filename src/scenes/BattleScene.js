@@ -29,6 +29,7 @@ export class BattleScene extends Phaser.Scene {
     this.miniBoss = data.miniBoss;
     this.backgroundKey = data.background || 'bg-country';
     this.enemyFrame = data.enemyFrame || 0;
+    this.bossSpriteKey = data.bossSprite || null;
     this.levelIndex = data.levelIndex || 0;
     this.bossIndex = data.bossIndex || 0;
 
@@ -116,9 +117,14 @@ export class BattleScene extends Phaser.Scene {
       fontStyle: 'bold'
     }).setOrigin(0.5);
 
-    // Boss sprite (right side) — use per-boss enemy frame
-    this.bossSprite = this.add.sprite(580, 170, 'enemies', this.enemyFrame).setScale(8);
-    this.bossSprite.play(`enemy-idle-${this.enemyFrame}`);
+    // Boss sprite (right side)
+    if (this.bossSpriteKey) {
+      this.bossSpriteObj = this.add.sprite(580, 150, this.bossSpriteKey, 0).setScale(2.5);
+      this.bossSpriteObj.play(`${this.bossSpriteKey}-idle`);
+    } else {
+      this.bossSpriteObj = this.add.sprite(580, 170, 'enemies', this.enemyFrame).setScale(8);
+      this.bossSpriteObj.play(`enemy-idle-${this.enemyFrame}`);
+    }
 
     // Player sprite (left side)
     this.playerSprite = this.add.sprite(220, 200, 'hero', 6).setScale(8);
@@ -414,8 +420,8 @@ export class BattleScene extends Phaser.Scene {
 
     // Hit animation on boss
     this.tweens.add({
-      targets: this.bossSprite,
-      x: this.bossSprite.x + 15,
+      targets: this.bossSpriteObj,
+      x: this.bossSpriteObj.x + 15,
       duration: 50,
       yoyo: true,
       repeat: 3,
@@ -624,7 +630,7 @@ export class BattleScene extends Phaser.Scene {
 
       // Boss death animation
       this.tweens.add({
-        targets: this.bossSprite,
+        targets: this.bossSpriteObj,
         alpha: 0,
         scaleX: 0,
         scaleY: 12,

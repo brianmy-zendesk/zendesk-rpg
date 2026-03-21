@@ -32,6 +32,11 @@ export class BootScene extends Phaser.Scene {
     this.load.spritesheet('player-battle', 'assets/sprites/player-battle.png', { frameWidth: 16, frameHeight: 16 });
     this.load.spritesheet('meter', 'assets/ui/meter.png', { frameWidth: 14, frameHeight: 7 });
 
+    // Big boss sprites
+    this.load.spritesheet('boss-ogre', 'assets/sprites/boss-ogre.png', { frameWidth: 128, frameHeight: 128 });
+    this.load.spritesheet('boss-nightmare', 'assets/sprites/boss-nightmare.png', { frameWidth: 160, frameHeight: 96 });
+    this.load.spritesheet('boss-demon', 'assets/sprites/boss-demon.png', { frameWidth: 112, frameHeight: 153 });
+
     // Tilesets
     this.load.spritesheet('town-tileset', 'assets/tilesets/town-tileset.png', { frameWidth: 16, frameHeight: 16 });
     this.load.image('grass', 'assets/tilesets/grass.png');
@@ -115,6 +120,26 @@ export class BootScene extends Phaser.Scene {
       key: 'enemy-idle',
       frames: this.anims.generateFrameNumbers('enemies', { start: 0, end: 3 }),
       frameRate: 4,
+      repeat: -1
+    });
+
+    // Big boss idle animations
+    this.anims.create({
+      key: 'boss-ogre-idle',
+      frames: this.anims.generateFrameNumbers('boss-ogre', { start: 0, end: 4 }),
+      frameRate: 5,
+      repeat: -1
+    });
+    this.anims.create({
+      key: 'boss-nightmare-idle',
+      frames: this.anims.generateFrameNumbers('boss-nightmare', { start: 0, end: 3 }),
+      frameRate: 5,
+      repeat: -1
+    });
+    this.anims.create({
+      key: 'boss-demon-idle',
+      frames: this.anims.generateFrameNumbers('boss-demon', { start: 0, end: 4 }),
+      frameRate: 5,
       repeat: -1
     });
 

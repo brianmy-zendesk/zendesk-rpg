@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { getBossConfig, getBossCount, LEVELS } from '../GameState.js';
+import { getBossConfig, getBossCount, LEVELS, NPC_NAME } from '../GameState.js';
 
 export class SummaryScene extends Phaser.Scene {
   constructor() {
@@ -149,7 +149,7 @@ export class SummaryScene extends Phaser.Scene {
               levelIndex: this.levelIndex,
               bossIndex: this.bossIndex,
               dialogue: level.completionDialogue,
-              npcName: 'Narrator',
+              npcName: NPC_NAME,
               nextScene: 'Overworld',
               nextSceneData: { levelIndex: nextLevelIndex, bossIndex: 0 }
             });
@@ -159,7 +159,7 @@ export class SummaryScene extends Phaser.Scene {
               levelIndex: this.levelIndex,
               bossIndex: this.bossIndex,
               dialogue: level.completionDialogue,
-              npcName: 'Narrator',
+              npcName: NPC_NAME,
               nextScene: 'EndGame',
               nextSceneData: {
                 totalScore: this.totalScore,
@@ -189,6 +189,7 @@ export class SummaryScene extends Phaser.Scene {
           miniBoss: boss.miniBoss,
           background: boss.background,
           enemyFrame: boss.enemyFrame,
+          bossSprite: boss.bossSprite,
           levelIndex: this.levelIndex,
           bossIndex: this.bossIndex
         });

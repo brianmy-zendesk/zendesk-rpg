@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import { LEVELS, getBossConfig, getBossCount, NPC_NAMES } from '../GameState.js';
+import { LEVELS, getBossConfig, getBossCount, NPC_NAME } from '../GameState.js';
 import { soundManager } from '../SoundManager.js';
 
 /**
@@ -88,9 +88,15 @@ export class OverworldScene extends Phaser.Scene {
 
       // Enemy sprite on future/current boss nodes
       if (!defeated) {
-        const ef = boss.enemyFrame || 0;
-        const enemy = this.add.sprite(pos.x, pos.y - 30, 'enemies', ef).setScale(3);
-        enemy.play(`enemy-idle-${ef}`);
+        let enemy;
+        if (boss.bossSprite) {
+          enemy = this.add.sprite(pos.x, pos.y - 40, boss.bossSprite, 0).setScale(0.8);
+          enemy.play(`${boss.bossSprite}-idle`);
+        } else {
+          const ef = boss.enemyFrame || 0;
+          enemy = this.add.sprite(pos.x, pos.y - 30, 'enemies', ef).setScale(3);
+          enemy.play(`enemy-idle-${ef}`);
+        }
         if (!current) enemy.setAlpha(0.4);
       }
 
@@ -105,7 +111,7 @@ export class OverworldScene extends Phaser.Scene {
         this.currentNpc = npc;
 
         // NPC name tag
-        const npcName = NPC_NAMES[this.bossIndex % NPC_NAMES.length];
+        const npcName = NPC_NAME;
         this.npcNameTag = this.add.text(npcX, npcY - 30, npcName, {
           fontSize: '10px', fontFamily: 'monospace', color: '#f0c040',
           stroke: '#000000', strokeThickness: 3
@@ -356,7 +362,7 @@ export class OverworldScene extends Phaser.Scene {
         levelIndex: this.levelIndex,
         bossIndex: this.bossIndex,
         dialogue: boss.introDialogue,
-        npcName: NPC_NAMES[this.bossIndex % NPC_NAMES.length],
+        npcName: NPC_NAME,
         nextScene: 'Battle',
         nextSceneData: {
           bossType: boss.type,
@@ -365,6 +371,7 @@ export class OverworldScene extends Phaser.Scene {
           miniBoss: boss.miniBoss,
           background: boss.background,
           enemyFrame: boss.enemyFrame,
+          bossSprite: boss.bossSprite,
           levelIndex: this.levelIndex,
           bossIndex: this.bossIndex
         }
