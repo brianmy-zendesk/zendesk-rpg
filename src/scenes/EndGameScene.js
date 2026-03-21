@@ -113,25 +113,27 @@ export class EndGameScene extends Phaser.Scene {
         duration: 700, yoyo: true, repeat: -1, ease: 'Sine.easeInOut', delay: 300
       });
 
-      // Golden stapler trophy (centered between hero and NPC)
-      const stapler = this.add.image(width / 2, 185, 'stapler-gold').setScale(0).setAlpha(0).setDepth(5);
+      // Golden stapler trophy (near title, left side)
+      const staplerX = 155;
+      const staplerY = 52;
+      const stapler = this.add.image(staplerX, staplerY, 'stapler-gold').setScale(0).setAlpha(0).setDepth(5);
       this.tweens.add({
         targets: stapler,
-        scaleX: 1, scaleY: 1, alpha: 1,
-        duration: 800, delay: 1000, ease: 'Back.easeOut'
+        scaleX: 0.4, scaleY: 0.4, alpha: 1,
+        duration: 800, delay: 1200, ease: 'Back.easeOut'
       });
       this.tweens.add({
         targets: stapler,
-        y: 178, duration: 1000, yoyo: true, repeat: -1,
-        ease: 'Sine.easeInOut', delay: 1800
+        angle: -5, duration: 1500, yoyo: true, repeat: -1,
+        ease: 'Sine.easeInOut', delay: 2000
       });
-      // Shimmer glow around stapler
-      const glow = this.add.circle(width / 2, 185, 50, 0xf0c040, 0).setDepth(4);
+      // Small glow
+      const glow = this.add.circle(staplerX, staplerY, 22, 0xf0c040, 0).setDepth(4);
       this.tweens.add({
         targets: glow,
-        alpha: 0.15, scaleX: 1.3, scaleY: 1.3,
+        alpha: 0.12, scaleX: 1.2, scaleY: 1.2,
         duration: 1200, yoyo: true, repeat: -1,
-        ease: 'Sine.easeInOut', delay: 1000
+        ease: 'Sine.easeInOut', delay: 1200
       });
     }
 
