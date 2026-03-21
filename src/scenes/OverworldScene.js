@@ -134,6 +134,12 @@ export class OverworldScene extends Phaser.Scene {
     this.hero.body.setSize(12, 12);
     this.hero.body.setOffset(2, 4);
 
+    // Hero name tag
+    this.heroNameTag = this.add.text(startPos.x, startPos.y - 30, 'The Hero', {
+      fontSize: '10px', fontFamily: 'monospace', color: '#03b1fc',
+      stroke: '#000000', strokeThickness: 3
+    }).setOrigin(0.5);
+
     // Camera follows hero
     this.cameras.main.startFollow(this.hero, true, 0.1, 0.1);
     this.cameras.main.setBounds(0, 0, WORLD_W, WORLD_H);
@@ -313,6 +319,9 @@ export class OverworldScene extends Phaser.Scene {
     }
 
     this.hero.body.setVelocity(vx, vy);
+
+    // Update hero name tag position
+    this.heroNameTag.setPosition(this.hero.x, this.hero.y - 30);
 
     // Animation
     if (vx < 0) {

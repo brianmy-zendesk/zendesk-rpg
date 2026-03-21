@@ -131,21 +131,21 @@ export class BattleScene extends Phaser.Scene {
     this.playerSprite.play('hero-walk-right');
 
     // Boss HP bar
-    this.add.text(430, 95, this.bossName, {
+    this.add.text(430, 275, this.bossName, {
       fontSize: '14px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 3
     });
-    const bossBarBg = this.add.rectangle(560, 120, 204, 18, 0x333333);
+    const bossBarBg = this.add.rectangle(560, 300, 204, 18, 0x333333);
     bossBarBg.setStrokeStyle(2, 0xffffff);
-    this.bossHpBar = this.add.rectangle(460, 120, 200, 14, 0xff4444);
+    this.bossHpBar = this.add.rectangle(460, 300, 200, 14, 0xff4444);
     this.bossHpBar.setOrigin(0, 0.5);
-    this.bossHpText = this.add.text(660, 120, `${this.bossHp}/${this.bossMaxHp}`, {
+    this.bossHpText = this.add.text(660, 300, `${this.bossHp}/${this.bossMaxHp}`, {
       fontSize: '12px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 2
     }).setOrigin(0, 0.5);
 
     // Player HP bar
-    this.add.text(50, 275, 'YOU', {
+    this.add.text(50, 275, 'The Hero', {
       fontSize: '14px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 3
     });
