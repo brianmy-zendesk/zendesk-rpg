@@ -1,5 +1,6 @@
 import Phaser from 'phaser';
 import { soundManager } from '../SoundManager.js';
+import { submitScore } from '../leaderboard.js';
 
 /**
  * End-of-game summary showing final stats, missed questions, and performance rating.
@@ -28,6 +29,16 @@ export class EndGameScene extends Phaser.Scene {
 
     const battlesWon = this.registry.get('battlesWon') || 0;
     const battlesTotal = this.registry.get('battlesTotal') || 0;
+
+    // Submit score to leaderboard
+    const playerName = this.registry.get('playerName') || 'Unknown';
+    submitScore({
+      name: playerName,
+      xp: this.totalScore,
+      accuracy,
+      battlesWon,
+      battlesTotal
+    });
 
     // Background
     this.add.rectangle(width / 2, height / 2, width, height, 0x0a0a1a);

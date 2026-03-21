@@ -11,11 +11,12 @@ export class SoundManager {
     this.currentTrack = null;
     this.musicNodes = [];
     this.musicTimeout = null;
+    this.muted = false;
   }
 
   init() {
     if (this.ctx) {
-      if (this.ctx.state === 'suspended') this.ctx.resume();
+      if (!this.muted && this.ctx.state === 'suspended') this.ctx.resume();
       return;
     }
     this.ctx = new (window.AudioContext || window.webkitAudioContext)();
@@ -25,7 +26,25 @@ export class SoundManager {
     this.sfxGain = this.ctx.createGain();
     this.sfxGain.gain.value = 0.3;
     this.sfxGain.connect(this.ctx.destination);
-    if (this.ctx.state === 'suspended') this.ctx.resume();
+    if (!this.muted && this.ctx.state === 'suspended') this.ctx.resume();
+  }
+
+  mute() {
+    this.muted = true;
+    this._trackBeforeMute = this.currentTrack;
+    this.stopMusic();
+    if (this.ctx) this.ctx.suspend();
+  }
+
+  unmute() {
+    this.muted = false;
+    if (this.ctx) this.ctx.resume();
+    // Restart the track that was playing before mute
+    const track = this._trackBeforeMute;
+    this._trackBeforeMute = null;
+    if (track === 'title') this.startTitleMusic();
+    else if (track === 'overworld') this.startOverworldMusic();
+    else if (track === 'battle') this.startBattleMusic();
   }
 
   // --- SFX ---
@@ -76,7 +95,7 @@ export class SoundManager {
   }
 
   playTone(frequency, duration, type = 'square') {
-    if (!this.ctx) return;
+    if (!this.ctx || this.muted) return;
     const osc = this.ctx.createOscillator();
     const gain = this.ctx.createGain();
     osc.type = type;
@@ -93,6 +112,7 @@ export class SoundManager {
 
   startTitleMusic() {
     this.init();
+    if (this.muted) return;
     if (this.currentTrack === 'title' && this.musicPlaying) return;
     this.stopMusic();
     this.musicPlaying = true;
@@ -102,6 +122,7 @@ export class SoundManager {
 
   startOverworldMusic() {
     this.init();
+    if (this.muted) return;
     if (this.currentTrack === 'overworld' && this.musicPlaying) return;
     this.stopMusic();
     this.musicPlaying = true;
@@ -111,6 +132,7 @@ export class SoundManager {
 
   startBattleMusic() {
     this.init();
+    if (this.muted) return;
     if (this.currentTrack === 'battle' && this.musicPlaying) return;
     this.stopMusic();
     this.musicPlaying = true;

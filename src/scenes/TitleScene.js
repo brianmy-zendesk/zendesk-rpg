@@ -24,13 +24,13 @@ export class TitleScene extends Phaser.Scene {
     bg.setAlpha(0.3);
 
     // Title
-    this.add.text(width / 2, 120, 'SUPPORT LAND', {
+    this.add.text(width / 2, 100, 'SUPPORT LAND', {
       fontSize: '64px', fontFamily: 'monospace', color: '#03b1fc',
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 8
     }).setOrigin(0.5);
 
     // Subtitle
-    this.add.text(width / 2, 190, 'A Zendesk RPG', {
+    this.add.text(width / 2, 170, 'A Zendesk RPG', {
       fontSize: '24px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 4
     }).setOrigin(0.5);
@@ -42,45 +42,109 @@ export class TitleScene extends Phaser.Scene {
       '',
       '- Bill Lumbergh, VP of Support Land'
     ];
-    this.add.text(width / 2, 290, introLines.join('\n'), {
-      fontSize: '16px', fontFamily: 'monospace', color: '#f0c040',
+    this.add.text(width / 2, 255, introLines.join('\n'), {
+      fontSize: '14px', fontFamily: 'monospace', color: '#f0c040',
       align: 'center', lineSpacing: 6,
       stroke: '#000000', strokeThickness: 3
     }).setOrigin(0.5);
 
-    // Hero sprite — walking right animation
-    const hero = this.add.sprite(width / 2, 410, 'hero', 6).setScale(6);
+    // Hero sprite
+    const hero = this.add.sprite(width / 2, 380, 'hero', 6).setScale(5);
     hero.play('hero-walk-right');
 
-    // Press Start - blinking
-    const startText = this.add.text(width / 2, 510, 'PRESS ENTER TO START', {
-      fontSize: '22px', fontFamily: 'monospace', color: '#ffffff',
-      stroke: '#000000', strokeThickness: 4
+    // --- Name input ---
+    const nameBoxBg = this.add.rectangle(width / 2, 440, 260, 32, 0x111122, 0.9);
+    nameBoxBg.setStrokeStyle(2, 0x03b1fc);
+
+    this.playerName = '';
+    this.nameText = this.add.text(width / 2, 440, '_', {
+      fontSize: '18px', fontFamily: 'monospace', color: '#ffffff'
+    }).setOrigin(0.5);
+
+    // Cursor blink
+    this.cursorVisible = true;
+    this.time.addEvent({
+      delay: 500, loop: true,
+      callback: () => {
+        this.cursorVisible = !this.cursorVisible;
+        this.updateNameDisplay();
+      }
+    });
+
+    // Resume audio on first interaction and restart title music
+    this.input.keyboard.once('keydown', () => {
+      soundManager.init();
+      soundManager.startTitleMusic();
+    });
+    this.input.once('pointerdown', () => {
+      soundManager.init();
+      soundManager.startTitleMusic();
+    });
+
+    // Keyboard input for name
+    this.input.keyboard.on('keydown', (event) => {
+      if (this.gameStarting) return;
+
+      if (event.key === 'Backspace') {
+        this.playerName = this.playerName.slice(0, -1);
+        this.updateNameDisplay();
+      } else if (event.key === 'Enter') {
+        this.startGame();
+      } else if (event.key.length === 1 && this.playerName.length < 10) {
+        // Allow alphanumeric, spaces, and basic punctuation
+        if (/[a-zA-Z0-9 ._-]/.test(event.key)) {
+          this.playerName += event.key;
+          this.updateNameDisplay();
+        }
+      }
+    });
+
+    // Start button
+    this.startPrompt = this.add.text(width / 2, 480, 'TYPE YOUR NAME AND PRESS ENTER', {
+      fontSize: '16px', fontFamily: 'monospace', color: '#03b1fc',
+      stroke: '#000000', strokeThickness: 3
     }).setOrigin(0.5);
 
     this.tweens.add({
-      targets: startText, alpha: 0.2,
+      targets: this.startPrompt, alpha: 0.3,
       duration: 600, yoyo: true, repeat: -1
     });
 
     // Lives display
-    this.add.text(width / 2, 560, 'Lives: ♥ ♥ ♥', {
+    this.add.text(width / 2, 520, 'Lives: ♥ ♥ ♥', {
       fontSize: '14px', fontFamily: 'monospace', color: '#ff4444',
       stroke: '#000000', strokeThickness: 2
     }).setOrigin(0.5);
 
-    // Start game handler — init audio on first user gesture
-    const startGame = () => {
-      soundManager.init();
-      this.cameras.main.fadeOut(500, 0, 0, 0);
-      this.time.delayedCall(500, () => {
-        this.scene.start('Overworld', { levelIndex: 0, bossIndex: 0 });
-      });
-    };
-
-    this.input.keyboard.once('keydown-ENTER', startGame);
-    this.input.once('pointerdown', startGame);
-
+    this.gameStarting = false;
     this.cameras.main.fadeIn(500, 0, 0, 0);
+  }
+
+  updateNameDisplay() {
+    const cursor = this.cursorVisible ? '_' : '';
+    this.nameText.setText(this.playerName + cursor);
+
+    // Update prompt based on whether name is entered
+    if (this.playerName.trim().length > 0) {
+      this.startPrompt.setText('PRESS ENTER TO START');
+      this.startPrompt.setColor('#03b1fc');
+    } else {
+      this.startPrompt.setText('TYPE YOUR NAME AND PRESS ENTER');
+      this.startPrompt.setColor('#03b1fc');
+    }
+  }
+
+  startGame() {
+    if (this.gameStarting) return;
+    this.gameStarting = true;
+
+    // Store player name in registry (default to "Player" if empty)
+    this.registry.set('playerName', this.playerName.trim() || 'Player');
+
+    soundManager.init();
+    this.cameras.main.fadeOut(500, 0, 0, 0);
+    this.time.delayedCall(500, () => {
+      this.scene.start('Overworld', { levelIndex: 0, bossIndex: 0 });
+    });
   }
 }
