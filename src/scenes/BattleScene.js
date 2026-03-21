@@ -177,13 +177,13 @@ export class BattleScene extends Phaser.Scene {
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 4
     }).setOrigin(0.5).setDepth(5).setAlpha(0);
 
-    // Pause button (near hero)
+    // Pause button (near countdown timer)
     this.isPaused = false;
-    const pauseBtnBg = this.add.rectangle(220, 270, 60, 22, 0x333333, 0.8);
+    const pauseBtnBg = this.add.rectangle(580, 100, 100, 22, 0x333333, 0.8);
     pauseBtnBg.setStrokeStyle(1, 0x03b1fc);
     pauseBtnBg.setInteractive({ useHandCursor: true });
     pauseBtnBg.setDepth(5);
-    this.pauseBtnText = this.add.text(220, 270, '⏸ Pause', {
+    this.pauseBtnText = this.add.text(580, 100, '☕ Coffee Break', {
       fontSize: '10px', fontFamily: 'monospace', color: '#03b1fc'
     }).setOrigin(0.5).setDepth(5);
 
@@ -500,7 +500,7 @@ export class BattleScene extends Phaser.Scene {
   togglePause() {
     this.isPaused = !this.isPaused;
     if (this.isPaused) {
-      this.pauseBtnText.setText('▶ Resume');
+      this.pauseBtnText.setText('▶ Back to Work');
       this.pauseBtnBg.setStrokeStyle(1, 0xf0c040);
       this.pauseBtnText.setColor('#f0c040');
       // Stop the timer
@@ -509,7 +509,7 @@ export class BattleScene extends Phaser.Scene {
       }
       this.timerText.setText('PAUSED').setAlpha(1).setColor('#f0c040');
     } else {
-      this.pauseBtnText.setText('⏸ Pause');
+      this.pauseBtnText.setText('☕ Coffee Break');
       this.pauseBtnBg.setStrokeStyle(1, 0x03b1fc);
       this.pauseBtnText.setColor('#03b1fc');
       // Restart the timer from where it left off
@@ -902,7 +902,7 @@ export class BattleScene extends Phaser.Scene {
       const btnBg = this.add.rectangle(width / 2, btnY, 220, 36, 0x1a5c2a, 0.9);
       btnBg.setStrokeStyle(2, 0x44ff44);
       btnBg.setDepth(31);
-      const continueText = this.add.text(width / 2, btnY, 'Click to continue', {
+      const continueText = this.add.text(width / 2, btnY, 'Continue', {
         fontSize: '14px', fontFamily: 'monospace', color: '#ffffff'
       }).setOrigin(0.5).setDepth(32);
 
