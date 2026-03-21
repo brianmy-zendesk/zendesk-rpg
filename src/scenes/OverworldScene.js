@@ -136,7 +136,8 @@ export class OverworldScene extends Phaser.Scene {
     this.hero.body.setOffset(2, 4);
 
     // Hero name tag
-    this.heroNameTag = this.add.text(startPos.x, startPos.y - 30, 'The Hero', {
+    const playerName = this.registry.get('playerName') || 'Player';
+    this.heroNameTag = this.add.text(startPos.x, startPos.y - 30, playerName, {
       fontSize: '10px', fontFamily: 'monospace', color: '#03b1fc',
       stroke: '#000000', strokeThickness: 3
     }).setOrigin(0.5);
