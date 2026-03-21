@@ -162,30 +162,31 @@ export class BattleScene extends Phaser.Scene {
       fontSize: '14px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 3
     });
-    const bossBarBg = this.add.rectangle(560, 300, 204, 18, 0x333333);
+    const bossBarBg = this.add.rectangle(550, 300, 184, 16, 0x333333);
     bossBarBg.setStrokeStyle(2, 0xffffff);
-    this.bossHpBar = this.add.rectangle(460, 300, 200, 14, 0xff4444);
+    this.bossHpBar = this.add.rectangle(460, 300, 180, 12, 0xff4444);
     this.bossHpBar.setOrigin(0, 0.5);
-    this.bossHpText = this.add.text(660, 300, `${this.bossHp}/${this.bossMaxHp}`, {
+    this.bossHpText = this.add.text(640, 300, `${this.bossHp}/${this.bossMaxHp}`, {
       fontSize: '12px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 2
     }).setOrigin(0, 0.5);
 
-    // Enemy attack timer (below lives display, top-right)
-    this.timerText = this.add.text(width - 16, 30, '', {
+    // Enemy attack timer (above boss sprite)
+    this.timerText = this.add.text(700, 110, '', {
       fontSize: '14px', fontFamily: 'monospace', color: '#ff4444',
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 4
-    }).setOrigin(1, 0).setDepth(20).setAlpha(0);
+    }).setOrigin(0.5, 0).setDepth(20).setAlpha(0);
 
-    // Pause button (below timer, top-right)
+    // Pause button (below timer)
     this.isPaused = false;
-    const pauseBtnBg = this.add.rectangle(width - 60, 54, 100, 20, 0x333333, 0.8);
+    const pauseBtnBg = this.add.rectangle(700, 142, 100, 20, 0x333333, 0.8);
     pauseBtnBg.setStrokeStyle(1, 0x03b1fc);
     pauseBtnBg.setInteractive({ useHandCursor: true });
     pauseBtnBg.setDepth(20);
-    this.pauseBtnText = this.add.text(width - 60, 54, '☕ Coffee Break', {
+    pauseBtnBg.setAlpha(0);
+    this.pauseBtnText = this.add.text(700, 142, '☕ Coffee Break', {
       fontSize: '10px', fontFamily: 'monospace', color: '#03b1fc'
-    }).setOrigin(0.5).setDepth(20);
+    }).setOrigin(0.5).setDepth(20).setAlpha(0);
 
     pauseBtnBg.on('pointerdown', () => {
       this.togglePause();
@@ -202,11 +203,11 @@ export class BattleScene extends Phaser.Scene {
       fontSize: '14px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 3
     });
-    const playerBarBg = this.add.rectangle(180, 300, 204, 18, 0x333333);
+    const playerBarBg = this.add.rectangle(170, 300, 184, 16, 0x333333);
     playerBarBg.setStrokeStyle(2, 0xffffff);
-    this.playerHpBar = this.add.rectangle(80, 300, 200, 14, 0x44ff44);
+    this.playerHpBar = this.add.rectangle(80, 300, 180, 12, 0x44ff44);
     this.playerHpBar.setOrigin(0, 0.5);
-    this.playerHpText = this.add.text(280, 300, `${this.playerHp}/${this.playerMaxHp}`, {
+    this.playerHpText = this.add.text(260, 300, `${this.playerHp}/${this.playerMaxHp}`, {
       fontSize: '12px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 2
     }).setOrigin(0, 0.5);
@@ -460,6 +461,8 @@ export class BattleScene extends Phaser.Scene {
     if (this.isPaused) return;
     this.attackTimeLeft = ATTACK_TIMER_SECONDS;
     this.timerText.setText(`Attacks in ${this.attackTimeLeft}`).setAlpha(1).setColor('#ffffff');
+    this.pauseBtnBg.setAlpha(1);
+    this.pauseBtnText.setAlpha(1);
 
     this.attackTimerEvent = this.time.addEvent({
       delay: 1000,
@@ -494,6 +497,10 @@ export class BattleScene extends Phaser.Scene {
     }
     if (this.timerText) {
       this.timerText.setAlpha(0).setScale(1);
+    }
+    if (this.pauseBtnBg) {
+      this.pauseBtnBg.setAlpha(0);
+      this.pauseBtnText.setAlpha(0);
     }
   }
 
