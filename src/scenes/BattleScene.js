@@ -877,12 +877,7 @@ export class BattleScene extends Phaser.Scene {
       soundManager.playDefeat();
     }
 
-    const overlay = this.add.rectangle(width / 2, height / 2, width, height, 0x000000, 0).setDepth(30);
-    this.tweens.add({
-      targets: overlay,
-      alpha: 0.8,
-      duration: 500
-    });
+    const overlay = this.add.rectangle(width / 2, height / 2, width, height, 0x000000, 0.85).setDepth(30);
 
     let titleText, subtitleText;
     if (won) {
