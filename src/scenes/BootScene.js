@@ -54,6 +54,9 @@ export class BootScene extends Phaser.Scene {
     this.load.image('bg-night-town', 'assets/backgrounds/night-town.png');
     this.load.image('bg-caverns', 'assets/backgrounds/caverns.png');
 
+    // Items
+    this.load.image('stapler-gold', 'assets/sprites/stapler_gold.png');
+
     // Question data
     this.load.json('questions', 'assets/data/questions.json');
   }

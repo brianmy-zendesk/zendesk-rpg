@@ -164,7 +164,8 @@ export class SummaryScene extends Phaser.Scene {
               nextSceneData: {
                 totalScore: this.totalScore,
                 lives: this.lives
-              }
+              },
+              showStapler: true
             });
           }
         };

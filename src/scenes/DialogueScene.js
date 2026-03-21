@@ -17,6 +17,7 @@ export class DialogueScene extends Phaser.Scene {
     this.nextSceneData = data.nextSceneData || {};
     this.levelIndex = data.levelIndex || 0;
     this.bossIndex = data.bossIndex || 0;
+    this.showStapler = data.showStapler || false;
     this.currentLine = 0;
     this.isTyping = false;
     this.fullText = '';
@@ -39,6 +40,42 @@ export class DialogueScene extends Phaser.Scene {
       fontSize: '18px', fontFamily: 'monospace', color: '#f0c040',
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 4
     }).setOrigin(0.5);
+
+    // Golden stapler reveal on final dialogue
+    if (this.showStapler) {
+      const stapler = this.add.image(width / 2, height / 2 - 80, 'stapler-gold').setScale(0).setAlpha(0).setDepth(10);
+      // Reveal after a delay to sync with dialogue about the stapler
+      this.time.delayedCall(2000, () => {
+        npc.setVisible(false);
+        this.tweens.add({
+          targets: stapler,
+          scaleX: 1.2, scaleY: 1.2, alpha: 1,
+          duration: 800, ease: 'Back.easeOut'
+        });
+        // Gentle float
+        this.tweens.add({
+          targets: stapler,
+          y: stapler.y - 8,
+          duration: 1200, yoyo: true, repeat: -1, ease: 'Sine.easeInOut',
+          delay: 800
+        });
+        // Gold glow particles
+        for (let i = 0; i < 12; i++) {
+          const sparkle = this.add.circle(
+            width / 2 + Phaser.Math.Between(-60, 60),
+            height / 2 - 80 + Phaser.Math.Between(-40, 40),
+            Phaser.Math.Between(2, 4), 0xf0c040
+          ).setAlpha(0).setDepth(9);
+          this.tweens.add({
+            targets: sparkle,
+            alpha: { from: 0, to: 0.8 }, scaleX: 0, scaleY: 0,
+            duration: Phaser.Math.Between(600, 1200),
+            yoyo: true, repeat: -1,
+            delay: Phaser.Math.Between(0, 2000)
+          });
+        }
+      });
+    }
 
     // Dialogue box
     this.dialogueBox = this.add.rectangle(width / 2, height - 120, 700, 140, 0x111122, 0.95);

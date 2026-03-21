@@ -112,6 +112,27 @@ export class EndGameScene extends Phaser.Scene {
         targets: npc, y: 185,
         duration: 700, yoyo: true, repeat: -1, ease: 'Sine.easeInOut', delay: 300
       });
+
+      // Golden stapler trophy (centered between hero and NPC)
+      const stapler = this.add.image(width / 2, 185, 'stapler-gold').setScale(0).setAlpha(0).setDepth(5);
+      this.tweens.add({
+        targets: stapler,
+        scaleX: 1, scaleY: 1, alpha: 1,
+        duration: 800, delay: 1000, ease: 'Back.easeOut'
+      });
+      this.tweens.add({
+        targets: stapler,
+        y: 178, duration: 1000, yoyo: true, repeat: -1,
+        ease: 'Sine.easeInOut', delay: 1800
+      });
+      // Shimmer glow around stapler
+      const glow = this.add.circle(width / 2, 185, 50, 0xf0c040, 0).setDepth(4);
+      this.tweens.add({
+        targets: glow,
+        alpha: 0.15, scaleX: 1.3, scaleY: 1.3,
+        duration: 1200, yoyo: true, repeat: -1,
+        ease: 'Sine.easeInOut', delay: 1000
+      });
     }
 
     // Stats panel with slide-in animation
