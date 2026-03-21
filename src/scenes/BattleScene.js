@@ -110,16 +110,20 @@ export class BattleScene extends Phaser.Scene {
 
   selectQuestions() {
     const allQuestions = this.cache.json.get('questions');
+    const answered = this.registry.get('questionsAnswered') || [];
 
-    // Filter questions for this boss
+    // Filter questions for this boss, excluding already answered
     let pool;
     if (this.bossType === 'big') {
       pool = allQuestions.filter(q => q.big_boss === this.bigBoss);
-      // Exclude already answered questions from mini-boss battles
-      const answered = this.registry.get('questionsAnswered') || [];
-      pool = pool.filter(q => !answered.includes(q.id));
     } else {
       pool = allQuestions.filter(q => q.mini_boss === this.miniBoss);
+    }
+    pool = pool.filter(q => !answered.includes(q.id));
+
+    // If all topic questions exhausted, fall back to any unanswered questions
+    if (pool.length === 0) {
+      pool = allQuestions.filter(q => !answered.includes(q.id));
     }
 
     // Shuffle the full pool — battle continues until boss or player HP reaches 0
@@ -413,9 +417,9 @@ export class BattleScene extends Phaser.Scene {
   }
 
   showQuestion() {
-    // If we've exhausted all questions, reshuffle to keep going
+    // If we've exhausted current pool, fetch more unanswered questions
     if (this.currentQuestionIndex >= this.questions.length) {
-      Phaser.Utils.Array.Shuffle(this.questions);
+      this.questions = this.selectQuestions();
       this.currentQuestionIndex = 0;
     }
 
