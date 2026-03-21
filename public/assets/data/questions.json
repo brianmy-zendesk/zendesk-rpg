@@ -12,7 +12,7 @@
       "To publish Help Center articles"
     ],
     "correct_answer": "To organize agents by responsibility",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 2,
@@ -27,7 +27,7 @@
       "View"
     ],
     "correct_answer": "Organization",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408829473050-Organizing-users-into-organizations"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408882246298-Creating-organizations"
   },
   {
     "id": 3,
@@ -72,7 +72,7 @@
       "Unlimited"
     ],
     "correct_answer": "One",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 6,
@@ -87,7 +87,7 @@
       "Light agent"
     ],
     "correct_answer": "Admin",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 7,
@@ -102,7 +102,7 @@
       "Storing macro text"
     ],
     "correct_answer": "Grouping users from the same company",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408829473050-Organizing-users-into-organizations"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408882246298-Creating-organizations"
   },
   {
     "id": 8,
@@ -162,7 +162,7 @@
       "Specific brands only"
     ],
     "correct_answer": "Specific teams",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 12,
@@ -177,7 +177,7 @@
       "Themes"
     ],
     "correct_answer": "Groups",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 13,
@@ -207,7 +207,7 @@
       "Only agents"
     ],
     "correct_answer": "Many users",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408829473050-Organizing-users-into-organizations"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408882246298-Creating-organizations"
   },
   {
     "id": 15,
@@ -252,7 +252,7 @@
       "Create voice greetings"
     ],
     "correct_answer": "Automatically assign users to the right organization",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408829473050-Organizing-users-into-organizations"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408882246298-Creating-organizations"
   },
   {
     "id": 18,
@@ -297,7 +297,7 @@
       "When publishing article labels"
     ],
     "correct_answer": "When separating internal agent teams",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 21,
@@ -312,7 +312,7 @@
       "Article votes"
     ],
     "correct_answer": "Group assignment",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 22,
@@ -342,7 +342,7 @@
       "SLA targets"
     ],
     "correct_answer": "Agents",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 24,
@@ -387,7 +387,7 @@
       "Macro level"
     ],
     "correct_answer": "Company level",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408829473050-Organizing-users-into-organizations"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408882246298-Creating-organizations"
   },
   {
     "id": 27,
@@ -477,7 +477,7 @@
       "Article labels"
     ],
     "correct_answer": "Schedules and SLA timing",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 33,
@@ -492,7 +492,7 @@
       "Only article comments"
     ],
     "correct_answer": "Additional ticket-specific data",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 34,
@@ -507,7 +507,7 @@
       "Date"
     ],
     "correct_answer": "Dropdown",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 35,
@@ -537,7 +537,7 @@
       "Users lose names"
     ],
     "correct_answer": "SLA calculations may be wrong",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 37,
@@ -552,7 +552,7 @@
       "Publishing chat widgets"
     ],
     "correct_answer": "Classifying tickets",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 38,
@@ -582,7 +582,7 @@
       "To rename agents"
     ],
     "correct_answer": "To exclude non-working days from business-hour timing",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 40,
@@ -597,7 +597,7 @@
       "Only in article comments"
     ],
     "correct_answer": "Support request forms",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 41,
@@ -612,7 +612,7 @@
       "To force article translations"
     ],
     "correct_answer": "To ensure agents capture key data",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 42,
@@ -642,7 +642,7 @@
       "Picking weekdays"
     ],
     "correct_answer": "Storing an order amount or quantity",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 44,
@@ -657,7 +657,7 @@
       "Disable organizations"
     ],
     "correct_answer": "Create appropriate business schedules",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 45,
@@ -672,7 +672,7 @@
       "Organization record"
     ],
     "correct_answer": "Ticket",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 46,
@@ -687,7 +687,7 @@
       "They create phone numbers"
     ],
     "correct_answer": "They affect reporting and automation logic",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 47,
@@ -702,7 +702,7 @@
       "Assign light agents"
     ],
     "correct_answer": "Mark closed dates",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 48,
@@ -717,7 +717,7 @@
       "Decimal"
     ],
     "correct_answer": "Date",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 49,
@@ -747,7 +747,7 @@
       "Theme font loading"
     ],
     "correct_answer": "Consistency in ticket data",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 51,
@@ -777,7 +777,7 @@
       "User profile photos"
     ],
     "correct_answer": "Time-based conditions",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887035290-About-automations-and-how-they-work"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
   },
   {
     "id": 53,
@@ -792,7 +792,7 @@
       "Forwarding DNS records"
     ],
     "correct_answer": "Applying prebuilt updates quickly",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 54,
@@ -807,7 +807,7 @@
       "Create user fields"
     ],
     "correct_answer": "Organize ticket lists for agents",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 55,
@@ -822,7 +822,7 @@
       "Changing account billing"
     ],
     "correct_answer": "Directing work to the right team or agent",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839160474-Setting-up-ticket-routing-options"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408831658650-Routing-and-automation-options-for-incoming-tickets"
   },
   {
     "id": 56,
@@ -852,7 +852,7 @@
       "Organization field"
     ],
     "correct_answer": "Automation",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887035290-About-automations-and-how-they-work"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
   },
   {
     "id": 58,
@@ -867,7 +867,7 @@
       "Article section only"
     ],
     "correct_answer": "Fields and comment",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 59,
@@ -897,7 +897,7 @@
       "Only voice greetings"
     ],
     "correct_answer": "Open and assigned to a group",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 61,
@@ -912,7 +912,7 @@
       "They publish articles automatically"
     ],
     "correct_answer": "They help identify tickets for conditions and actions",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-About-tags"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags"
   },
   {
     "id": 62,
@@ -927,7 +927,7 @@
       "Business schedule"
     ],
     "correct_answer": "Macro",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 63,
@@ -972,7 +972,7 @@
       "Building brands"
     ],
     "correct_answer": "Prioritizing work queues",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 66,
@@ -987,7 +987,7 @@
       "Organization"
     ],
     "correct_answer": "Macro",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 67,
@@ -1002,7 +1002,7 @@
       "User field"
     ],
     "correct_answer": "Automation",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887035290-About-automations-and-how-they-work"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
   },
   {
     "id": 68,
@@ -1017,7 +1017,7 @@
       "The oldest brand"
     ],
     "correct_answer": "The right team",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839160474-Setting-up-ticket-routing-options"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408831658650-Routing-and-automation-options-for-incoming-tickets"
   },
   {
     "id": 69,
@@ -1032,7 +1032,7 @@
       "To manage article translations only"
     ],
     "correct_answer": "To help agents process tickets efficiently",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 70,
@@ -1062,7 +1062,7 @@
       "Article followers only"
     ],
     "correct_answer": "Agents",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 72,
@@ -1077,7 +1077,7 @@
       "Add a holiday"
     ],
     "correct_answer": "Add them as a team member and assign a role",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 73,
@@ -1092,7 +1092,7 @@
       "To publish articles automatically"
     ],
     "correct_answer": "To define which team queues they work in",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 74,
@@ -1107,7 +1107,7 @@
       "Owning all automations"
     ],
     "correct_answer": "Limited collaboration without full ticket solving",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 75,
@@ -1122,7 +1122,7 @@
       "Their article votes"
     ],
     "correct_answer": "Their role and permissions",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 76,
@@ -1137,7 +1137,7 @@
       "Requester"
     ],
     "correct_answer": "Admin",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 77,
@@ -1152,7 +1152,7 @@
       "Brand logo size"
     ],
     "correct_answer": "Group membership",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 78,
@@ -1167,7 +1167,7 @@
       "Admins cannot use views"
     ],
     "correct_answer": "Admins can change critical settings and workflows",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 79,
@@ -1182,7 +1182,7 @@
       "Business schedules"
     ],
     "correct_answer": "Team members",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 80,
@@ -1197,7 +1197,7 @@
       "Increase ticket IDs"
     ],
     "correct_answer": "Reduce risk and keep setup controlled",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 81,
@@ -1212,7 +1212,7 @@
       "Only agent payroll"
     ],
     "correct_answer": "Self-service support content",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 82,
@@ -1227,7 +1227,7 @@
       "Agent profile only"
     ],
     "correct_answer": "Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 83,
@@ -1242,7 +1242,7 @@
       "Only macros"
     ],
     "correct_answer": "Sections",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 84,
@@ -1257,7 +1257,7 @@
       "Only groups"
     ],
     "correct_answer": "Articles",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 85,
@@ -1272,7 +1272,7 @@
       "Create call recordings"
     ],
     "correct_answer": "Make content easy to find",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 86,
@@ -1287,7 +1287,7 @@
       "Only admin passwords"
     ],
     "correct_answer": "A clear customer question",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 87,
@@ -1302,7 +1302,7 @@
       "To create agent seats"
     ],
     "correct_answer": "To improve search and management",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838037274-Adding-labels-to-improve-article-search"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/9155884786458-Managing-content-tags"
   },
   {
     "id": 88,
@@ -1317,7 +1317,7 @@
       "It removes brands"
     ],
     "correct_answer": "Customers can self-serve from day one",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 89,
@@ -1332,7 +1332,7 @@
       "It creates new groups automatically"
     ],
     "correct_answer": "It improves findability and reduces tickets",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 90,
@@ -1347,7 +1347,7 @@
       "Only voice callers"
     ],
     "correct_answer": "Agents or admins with Guide permissions",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 91,
@@ -1362,7 +1362,7 @@
       "Only outbound email"
     ],
     "correct_answer": "Web and mobile conversations",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 92,
@@ -1377,7 +1377,7 @@
       "SLA policy screen"
     ],
     "correct_answer": "Website",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 93,
@@ -1392,7 +1392,7 @@
       "No agent involvement ever"
     ],
     "correct_answer": "Persistent conversations across sessions",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 94,
@@ -1407,7 +1407,7 @@
       "Only email forwarding"
     ],
     "correct_answer": "Bots and live agent handoff",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 95,
@@ -1422,7 +1422,7 @@
       "To disable all triggers"
     ],
     "correct_answer": "To define entry points and conversation behavior",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 96,
@@ -1437,7 +1437,7 @@
       "Internal admin channel"
     ],
     "correct_answer": "Conversational support",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 97,
@@ -1452,7 +1452,7 @@
       "Create brands"
     ],
     "correct_answer": "Answer common questions and route users",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 98,
@@ -1467,7 +1467,7 @@
       "Only article comments"
     ],
     "correct_answer": "When bots transfer to agents",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 99,
@@ -1482,7 +1482,7 @@
       "Only triggers"
     ],
     "correct_answer": "Website pages",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 100,
@@ -1497,7 +1497,7 @@
       "Close the Help Center"
     ],
     "correct_answer": "Verify the widget appears and routes correctly",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 101,
@@ -1512,7 +1512,7 @@
       "User field creation only"
     ],
     "correct_answer": "Phone support",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 102,
@@ -1527,7 +1527,7 @@
       "Add holiday labels"
     ],
     "correct_answer": "Set up a Talk number",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 103,
@@ -1542,7 +1542,7 @@
       "Create organizations automatically"
     ],
     "correct_answer": "Send callers to the right team or menu path",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 104,
@@ -1557,7 +1557,7 @@
       "Assigning organizations"
     ],
     "correct_answer": "Guiding callers through menu options",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 105,
@@ -1572,7 +1572,7 @@
       "To rename all views"
     ],
     "correct_answer": "To confirm number setup and routing work",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 106,
@@ -1587,7 +1587,7 @@
       "Only user passwords"
     ],
     "correct_answer": "Inbound and outbound calling setup",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 107,
@@ -1602,7 +1602,7 @@
       "They create ticket fields"
     ],
     "correct_answer": "They shape caller experience and routing accuracy",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 108,
@@ -1617,7 +1617,7 @@
       "They can edit themes"
     ],
     "correct_answer": "They have Talk access and proper availability setup",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 109,
@@ -1632,7 +1632,7 @@
       "Organizations"
     ],
     "correct_answer": "Voice",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 110,
@@ -1647,7 +1647,7 @@
       "Fewer article sections"
     ],
     "correct_answer": "Faster connection to the right team",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 111,
@@ -1662,7 +1662,7 @@
       "So they can rebuild the database"
     ],
     "correct_answer": "So they can use workflows and channels correctly",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 112,
@@ -1677,7 +1677,7 @@
       "Only billing invoices"
     ],
     "correct_answer": "Ticket handling basics and tools",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 113,
@@ -1692,7 +1692,7 @@
       "Theme code only"
     ],
     "correct_answer": "Views, macros, and ticket statuses",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 114,
@@ -1707,7 +1707,7 @@
       "They remove article labels"
     ],
     "correct_answer": "They make practice more relevant",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 115,
@@ -1722,7 +1722,7 @@
       "Organizations cannot exist"
     ],
     "correct_answer": "Inconsistent handling and slower responses",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 116,
@@ -1737,7 +1737,7 @@
       "So macros publish automatically"
     ],
     "correct_answer": "So emails sent to your support address create tickets in Zendesk",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 117,
@@ -1752,7 +1752,7 @@
       "Only voice is enabled"
     ],
     "correct_answer": "Content and structure are ready for customers",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 118,
@@ -1767,7 +1767,7 @@
       "Only user avatars"
     ],
     "correct_answer": "Widget placement and routing behavior",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 119,
@@ -1782,7 +1782,7 @@
       "Only ticket form colors"
     ],
     "correct_answer": "Phone number, routing, and greetings",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 120,
@@ -1797,7 +1797,7 @@
       "Wait until after first customer complaints"
     ],
     "correct_answer": "Test each channel end to end before customers use it",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 121,
@@ -1812,7 +1812,7 @@
       "Brand"
     ],
     "correct_answer": "Group",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 122,
@@ -1857,7 +1857,7 @@
       "To create Voice greetings"
     ],
     "correct_answer": "To centralize company-level data and relationships",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408829473050-Organizing-users-into-organizations"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408882246298-Creating-organizations"
   },
   {
     "id": 125,
@@ -1887,7 +1887,7 @@
       "Track holidays"
     ],
     "correct_answer": "Capture yes/no information",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 127,
@@ -1902,7 +1902,7 @@
       "User aliases"
     ],
     "correct_answer": "Business hours",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 128,
@@ -1932,7 +1932,7 @@
       "Brand"
     ],
     "correct_answer": "Macro",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 130,
@@ -1947,7 +1947,7 @@
       "View"
     ],
     "correct_answer": "Automation",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887035290-About-automations-and-how-they-work"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
   },
   {
     "id": 131,
@@ -1962,7 +1962,7 @@
       "A new brand"
     ],
     "correct_answer": "The right role and group access",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 132,
@@ -1977,7 +1977,7 @@
       "They create IVR options"
     ],
     "correct_answer": "They improve findability for users",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 133,
@@ -1992,7 +1992,7 @@
       "A schedule editor"
     ],
     "correct_answer": "An ongoing conversation channel",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 134,
@@ -2007,7 +2007,7 @@
       "Only user imports"
     ],
     "correct_answer": "Routing and caller experience",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 135,
@@ -2022,7 +2022,7 @@
       "Edit user passwords"
     ],
     "correct_answer": "Respond consistently",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 136,
@@ -2037,7 +2037,7 @@
       "Turn off triggers"
     ],
     "correct_answer": "Send a test email and confirm a ticket is created",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 137,
@@ -2052,7 +2052,7 @@
       "Which phone greeting is active"
     ],
     "correct_answer": "Which company a user belongs to",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408829473050-Organizing-users-into-organizations"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408882246298-Creating-organizations"
   },
   {
     "id": 138,
@@ -2082,7 +2082,7 @@
       "Agent names"
     ],
     "correct_answer": "SLA measurements",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 140,
@@ -2097,7 +2097,7 @@
       "Store user domains"
     ],
     "correct_answer": "Help agents spot priority work fast",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 141,
@@ -2112,7 +2112,7 @@
       "Only holiday dates"
     ],
     "correct_answer": "How workflows, views, and macros are used",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 142,
@@ -2127,7 +2127,7 @@
       "No categories exist"
     ],
     "correct_answer": "Customers can find answers without opening tickets",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 143,
@@ -2142,7 +2142,7 @@
       "To remove user fields"
     ],
     "correct_answer": "To meet customers where they need help",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 144,
@@ -2157,7 +2157,7 @@
       "Ticket tags"
     ],
     "correct_answer": "Phone contact",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 145,
@@ -2172,7 +2172,7 @@
       "It deletes old tickets"
     ],
     "correct_answer": "It reveals routing, content, and access issues before customers do",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 146,
@@ -2202,7 +2202,7 @@
       "To design IVR menus"
     ],
     "correct_answer": "To support routing and reporting",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 148,
@@ -2217,7 +2217,7 @@
       "A new organization"
     ],
     "correct_answer": "A standard response",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 149,
@@ -2232,7 +2232,7 @@
       "Admin"
     ],
     "correct_answer": "End user",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 150,
@@ -2247,7 +2247,7 @@
       "Only phone queues"
     ],
     "correct_answer": "Articles and support content",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 151,
@@ -2262,7 +2262,7 @@
       "A holiday schedule"
     ],
     "correct_answer": "A customer conversation entry point",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 152,
@@ -2277,7 +2277,7 @@
       "So tags disappear"
     ],
     "correct_answer": "So callers reach specialists faster",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 153,
@@ -2292,7 +2292,7 @@
       "Only after Voice is removed"
     ],
     "correct_answer": "Before customers start using the system",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 154,
@@ -2307,7 +2307,7 @@
       "Groups become brands"
     ],
     "correct_answer": "Incoming emails create tickets",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 155,
@@ -2337,7 +2337,7 @@
       "It changes Guide themes"
     ],
     "correct_answer": "It improves consistent routing and reporting",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 157,
@@ -2367,7 +2367,7 @@
       "Wait until after they leave"
     ],
     "correct_answer": "Grant it only if their responsibilities require it",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 159,
@@ -2382,7 +2382,7 @@
       "Only billing terms"
     ],
     "correct_answer": "How customers think about their problems",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 160,
@@ -2397,7 +2397,7 @@
       "It deletes pending tickets"
     ],
     "correct_answer": "It can guide customers when agents are unavailable",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 161,
@@ -2412,7 +2412,7 @@
       "Change a user field"
     ],
     "correct_answer": "Make a call and confirm it reaches the expected flow",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 162,
@@ -2427,7 +2427,7 @@
       "Changing billing contacts"
     ],
     "correct_answer": "Using views",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 163,
@@ -2442,7 +2442,7 @@
       "Voice numbers are deleted"
     ],
     "correct_answer": "Customers can access published self-service content",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 164,
@@ -2472,7 +2472,7 @@
       "Workflow"
     ],
     "correct_answer": "User record",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 166,
@@ -2487,7 +2487,7 @@
       "So brands merge"
     ],
     "correct_answer": "So agents can find the right one quickly",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 167,
@@ -2502,7 +2502,7 @@
       "All article readers"
     ],
     "correct_answer": "Agents who work that queue",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 168,
@@ -2517,7 +2517,7 @@
       "Only one giant article"
     ],
     "correct_answer": "Logical categories and sections",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 169,
@@ -2532,7 +2532,7 @@
       "Which users join organizations"
     ],
     "correct_answer": "Which conversations go to agents",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 170,
@@ -2547,7 +2547,7 @@
       "Integrated visual report"
     ],
     "correct_answer": "Interactive voice response",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 171,
@@ -2562,7 +2562,7 @@
       "It removes the need for views"
     ],
     "correct_answer": "Each channel has different workflows and expectations",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 172,
@@ -2577,7 +2577,7 @@
       "It renames the brand"
     ],
     "correct_answer": "It follows the configured messaging flow",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 173,
@@ -2607,7 +2607,7 @@
       "User aliases"
     ],
     "correct_answer": "Business schedule",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 175,
@@ -2622,7 +2622,7 @@
       "Automation"
     ],
     "correct_answer": "View",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 176,
@@ -2637,7 +2637,7 @@
       "It creates ticket IDs"
     ],
     "correct_answer": "It affects which tickets they work",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 177,
@@ -2652,7 +2652,7 @@
       "They create business hours"
     ],
     "correct_answer": "They can improve search relevance",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838037274-Adding-labels-to-improve-article-search"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/9155884786458-Managing-content-tags"
   },
   {
     "id": 178,
@@ -2667,7 +2667,7 @@
       "Schedule rule"
     ],
     "correct_answer": "Web widget",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 179,
@@ -2682,7 +2682,7 @@
       "An article label"
     ],
     "correct_answer": "A clear greeting or menu",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 180,
@@ -2697,7 +2697,7 @@
       "All views disappear"
     ],
     "correct_answer": "A sent email appears as a new ticket",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 181,
@@ -2757,7 +2757,7 @@
       "The same permissions as an end user only"
     ],
     "correct_answer": "Limited permissions compared with a full agent",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 185,
@@ -2772,7 +2772,7 @@
       "User roles"
     ],
     "correct_answer": "Articles",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 186,
@@ -2787,7 +2787,7 @@
       "Replace all schedules"
     ],
     "correct_answer": "Set expectations and guide customers quickly",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 187,
@@ -2802,7 +2802,7 @@
       "It creates new brands"
     ],
     "correct_answer": "Each option may route differently and needs validation",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 188,
@@ -2817,7 +2817,7 @@
       "Change article themes"
     ],
     "correct_answer": "Move work through the right lifecycle",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 189,
@@ -2832,7 +2832,7 @@
       "Only groups"
     ],
     "correct_answer": "Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 190,
@@ -2847,7 +2847,7 @@
       "Add a holiday"
     ],
     "correct_answer": "Set up and publish messaging",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 191,
@@ -2862,7 +2862,7 @@
       "To create custom roles"
     ],
     "correct_answer": "To help agents focus on their team's queue",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 192,
@@ -2877,7 +2877,7 @@
       "Theme"
     ],
     "correct_answer": "Organization",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408829473050-Organizing-users-into-organizations"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408882246298-Creating-organizations"
   },
   {
     "id": 193,
@@ -2892,7 +2892,7 @@
       "To publish article labels"
     ],
     "correct_answer": "To keep work focused and permissions tidy",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 194,
@@ -2907,7 +2907,7 @@
       "Only internal jargon"
     ],
     "correct_answer": "Clear and easy to follow",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 195,
@@ -2922,7 +2922,7 @@
       "Call-only way"
     ],
     "correct_answer": "Conversational way",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 196,
@@ -2937,7 +2937,7 @@
       "Creating organizations"
     ],
     "correct_answer": "Choosing or adding a phone number",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 197,
@@ -2952,7 +2952,7 @@
       "Only DNS training"
     ],
     "correct_answer": "Standard process training",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 198,
@@ -2967,7 +2967,7 @@
       "Archive all views"
     ],
     "correct_answer": "Place test calls",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 199,
@@ -2982,7 +2982,7 @@
       "To rename users automatically"
     ],
     "correct_answer": "To avoid unintended ticket updates over time",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887035290-About-automations-and-how-they-work"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
   },
   {
     "id": 200,
@@ -2997,7 +2997,7 @@
       "They disable messaging"
     ],
     "correct_answer": "They solve the most common customer needs fastest",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 201,
@@ -3027,7 +3027,7 @@
       "Multi-line"
     ],
     "correct_answer": "Dropdown",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 203,
@@ -3057,7 +3057,7 @@
       "Requester only"
     ],
     "correct_answer": "Agent",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 205,
@@ -3072,7 +3072,7 @@
       "It creates article sections"
     ],
     "correct_answer": "Customers can ask for help in the moment",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 206,
@@ -3087,7 +3087,7 @@
       "Create brands"
     ],
     "correct_answer": "Set expectations and orient callers",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 207,
@@ -3102,7 +3102,7 @@
       "Disable Help Center"
     ],
     "correct_answer": "Learn the interface before real tickets arrive",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 208,
@@ -3117,7 +3117,7 @@
       "Delete old macros"
     ],
     "correct_answer": "Forward the existing support address into Zendesk",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 209,
@@ -3162,7 +3162,7 @@
       "Create a brand"
     ],
     "correct_answer": "Create a macro",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 212,
@@ -3177,7 +3177,7 @@
       "Only more holidays"
     ],
     "correct_answer": "Clear access plus training on workflows",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 213,
@@ -3192,7 +3192,7 @@
       "Users, tags, macros"
     ],
     "correct_answer": "Categories, sections, articles",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 214,
@@ -3207,7 +3207,7 @@
       "Configuring schedules"
     ],
     "correct_answer": "Browsing your site",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 215,
@@ -3222,7 +3222,7 @@
       "Views"
     ],
     "correct_answer": "Voice",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 216,
@@ -3237,7 +3237,7 @@
       "To rename users"
     ],
     "correct_answer": "Agents need to know where complex issues go",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 217,
@@ -3252,7 +3252,7 @@
       "Article labels"
     ],
     "correct_answer": "Voice channel setup",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 218,
@@ -3267,7 +3267,7 @@
       "Date"
     ],
     "correct_answer": "Text",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 219,
@@ -3282,7 +3282,7 @@
       "Message widget color"
     ],
     "correct_answer": "Ticket ownership by team",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 220,
@@ -3297,7 +3297,7 @@
       "Only brand settings"
     ],
     "correct_answer": "Tickets matching selected conditions",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 221,
@@ -3312,7 +3312,7 @@
       "Change all customer passwords"
     ],
     "correct_answer": "Access the right queues and tools",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 222,
@@ -3327,7 +3327,7 @@
       "It disables Voice"
     ],
     "correct_answer": "It makes answers easier to find and understand",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 223,
@@ -3342,7 +3342,7 @@
       "Views only work on desktop"
     ],
     "correct_answer": "Customer experience may differ by device",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 224,
@@ -3357,7 +3357,7 @@
       "Only user imports"
     ],
     "correct_answer": "Numbers, routing, greetings, and agent readiness",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 225,
@@ -3372,7 +3372,7 @@
       "Removing all schedules"
     ],
     "correct_answer": "Handling sample tickets",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 226,
@@ -3387,7 +3387,7 @@
       "Turn off search"
     ],
     "correct_answer": "Review published content as an end user would",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 227,
@@ -3432,7 +3432,7 @@
       "A holiday only"
     ],
     "correct_answer": "A live agent",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 230,
@@ -3447,7 +3447,7 @@
       "It guarantees zero tickets forever"
     ],
     "correct_answer": "It reduces surprises across email, voice, messaging, and Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 231,
@@ -3462,7 +3462,7 @@
       "Website source code"
     ],
     "correct_answer": "Structured issue details",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 232,
@@ -3477,7 +3477,7 @@
       "Groups"
     ],
     "correct_answer": "Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 233,
@@ -3492,7 +3492,7 @@
       "Only their profile picture"
     ],
     "correct_answer": "Their group membership and permissions",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 234,
@@ -3507,7 +3507,7 @@
       "Schedule"
     ],
     "correct_answer": "Macro",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 235,
@@ -3522,7 +3522,7 @@
       "Macro selection"
     ],
     "correct_answer": "Phone",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 236,
@@ -3537,7 +3537,7 @@
       "It adds IVR branches"
     ],
     "correct_answer": "Agents need to capture the right data consistently",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 237,
@@ -3552,7 +3552,7 @@
       "Agent aliases"
     ],
     "correct_answer": "External email forwarding",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 238,
@@ -3582,7 +3582,7 @@
       "Changing them adds brands"
     ],
     "correct_answer": "Changing them can affect reporting and business rules",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 240,
@@ -3597,7 +3597,7 @@
       "Voice numbers need labels"
     ],
     "correct_answer": "Customers need an intuitive path to answers",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 241,
@@ -3612,7 +3612,7 @@
       "It replaces all tickets"
     ],
     "correct_answer": "Customers get the right help path faster",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 242,
@@ -3627,7 +3627,7 @@
       "User field imports"
     ],
     "correct_answer": "Caller routing and support access",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 243,
@@ -3642,7 +3642,7 @@
       "DNS records"
     ],
     "correct_answer": "Ticket status usage",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 244,
@@ -3657,7 +3657,7 @@
       "Voice numbers stop ringing"
     ],
     "correct_answer": "Published articles are visible and searchable",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 245,
@@ -3672,7 +3672,7 @@
       "View"
     ],
     "correct_answer": "Automation",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887035290-About-automations-and-how-they-work"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
   },
   {
     "id": 246,
@@ -3687,7 +3687,7 @@
       "Voice numbers rename themselves"
     ],
     "correct_answer": "Team responsibilities change over time",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 247,
@@ -3702,7 +3702,7 @@
       "Groups"
     ],
     "correct_answer": "Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 248,
@@ -3717,7 +3717,7 @@
       "Create holidays"
     ],
     "correct_answer": "Start a support conversation",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 249,
@@ -3732,7 +3732,7 @@
       "A custom organization field"
     ],
     "correct_answer": "A meaningful routing destination",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 250,
@@ -3747,7 +3747,7 @@
       "Schedules"
     ],
     "correct_answer": "Macros",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 251,
@@ -3762,7 +3762,7 @@
       "Create a macro folder"
     ],
     "correct_answer": "Set up messaging",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 252,
@@ -3777,7 +3777,7 @@
       "Call recordings"
     ],
     "correct_answer": "Agents assigned to that team",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 253,
@@ -3792,7 +3792,7 @@
       "It turns tickets into articles"
     ],
     "correct_answer": "It ensures key issue details are captured up front",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 254,
@@ -3807,7 +3807,7 @@
       "Brand"
     ],
     "correct_answer": "Macro",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 255,
@@ -3822,7 +3822,7 @@
       "Fewer search results"
     ],
     "correct_answer": "Fast self-service answers",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 256,
@@ -3837,7 +3837,7 @@
       "Only call center seating"
     ],
     "correct_answer": "How customers ask for help on your site",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 257,
@@ -3852,7 +3852,7 @@
       "User fields"
     ],
     "correct_answer": "IVR",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 258,
@@ -3867,7 +3867,7 @@
       "It disables views"
     ],
     "correct_answer": "Customers may move across email, messaging, and voice",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 259,
@@ -3882,7 +3882,7 @@
       "All triggers are deleted"
     ],
     "correct_answer": "Visitors can open conversations successfully",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 260,
@@ -3912,7 +3912,7 @@
       "User roles depend on them"
     ],
     "correct_answer": "Time-based workflows and SLAs depend on them",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 262,
@@ -3942,7 +3942,7 @@
       "Admin"
     ],
     "correct_answer": "End user",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 264,
@@ -3957,7 +3957,7 @@
       "Only screenshots and no text"
     ],
     "correct_answer": "One clear topic per article",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 265,
@@ -3972,7 +3972,7 @@
       "Only available to admins"
     ],
     "correct_answer": "Easy to start from the website",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 266,
@@ -3987,7 +3987,7 @@
       "User field"
     ],
     "correct_answer": "IVR menu",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 267,
@@ -4002,7 +4002,7 @@
       "Voice numbers"
     ],
     "correct_answer": "Agent confusion",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 268,
@@ -4017,7 +4017,7 @@
       "To rename the account"
     ],
     "correct_answer": "To experience them the way customers do",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 269,
@@ -4047,7 +4047,7 @@
       "When a holiday starts"
     ],
     "correct_answer": "When the ticket meets a rule you want to track or route",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-About-tags"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags"
   },
   {
     "id": 271,
@@ -4062,7 +4062,7 @@
       "Remove all groups"
     ],
     "correct_answer": "Assign the minimum needed role",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821965210-Understanding-Zendesk-user-roles-in-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
   },
   {
     "id": 272,
@@ -4077,7 +4077,7 @@
       "It creates call menus"
     ],
     "correct_answer": "Task-based content is easier for customers to use",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 273,
@@ -4092,7 +4092,7 @@
       "It adds more holidays"
     ],
     "correct_answer": "Customers can get to help faster",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 274,
@@ -4107,7 +4107,7 @@
       "Agents to create holidays"
     ],
     "correct_answer": "Customers to call your support line",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 275,
@@ -4122,7 +4122,7 @@
       "Only company billing terms"
     ],
     "correct_answer": "Common ticket scenarios and channel workflows",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 276,
@@ -4137,7 +4137,7 @@
       "Turn off search"
     ],
     "correct_answer": "Publish the needed articles and structure",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 277,
@@ -4152,7 +4152,7 @@
       "So agents become admins"
     ],
     "correct_answer": "So time-based calculations reflect closures",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 278,
@@ -4167,7 +4167,7 @@
       "Set phone greetings"
     ],
     "correct_answer": "Mark tickets for later conditions",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-About-tags"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags"
   },
   {
     "id": 279,
@@ -4182,7 +4182,7 @@
       "Automations"
     ],
     "correct_answer": "Articles",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 280,
@@ -4197,7 +4197,7 @@
       "It removes the widget"
     ],
     "correct_answer": "It balances speed, effort, and issue complexity",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 281,
@@ -4212,7 +4212,7 @@
       "They replace organizations"
     ],
     "correct_answer": "They help callers know what will happen next",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 282,
@@ -4227,7 +4227,7 @@
       "Activating Help Center"
     ],
     "correct_answer": "Training agents",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 283,
@@ -4242,7 +4242,7 @@
       "A group should be deleted"
     ],
     "correct_answer": "A ticket should appear in Zendesk",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 284,
@@ -4287,7 +4287,7 @@
       "Create phone greetings"
     ],
     "correct_answer": "Enable later routing, reporting, or views",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-About-tags"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888664474-About-tags"
   },
   {
     "id": 287,
@@ -4302,7 +4302,7 @@
       "Set holidays"
     ],
     "correct_answer": "Improve search behavior",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838037274-Adding-labels-to-improve-article-search"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/9155884786458-Managing-content-tags"
   },
   {
     "id": 288,
@@ -4317,7 +4317,7 @@
       "An organization field"
     ],
     "correct_answer": "The installed messaging widget",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 289,
@@ -4332,7 +4332,7 @@
       "Brand count"
     ],
     "correct_answer": "Caller transfers and confusion",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 290,
@@ -4347,7 +4347,7 @@
       "They need to create holidays"
     ],
     "correct_answer": "They need to know where to find work",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 291,
@@ -4362,7 +4362,7 @@
       "Assign agents"
     ],
     "correct_answer": "Activate Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 292,
@@ -4377,7 +4377,7 @@
       "A holiday code"
     ],
     "correct_answer": "The team's function",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822901146-Creating-managing-and-using-groups"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408894175130-Creating-groups"
   },
   {
     "id": 293,
@@ -4392,7 +4392,7 @@
       "They create extra brands"
     ],
     "correct_answer": "They can confuse agents and reduce consistency",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 294,
@@ -4407,7 +4407,7 @@
       "Article"
     ],
     "correct_answer": "Category",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 295,
@@ -4422,7 +4422,7 @@
       "Theme CSS"
     ],
     "correct_answer": "Common customer intents",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 296,
@@ -4437,7 +4437,7 @@
       "Hide the Help Center"
     ],
     "correct_answer": "Confirm the phone number is active",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 297,
@@ -4452,7 +4452,7 @@
       "To redesign the widget"
     ],
     "correct_answer": "To verify they can apply the workflow correctly",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 298,
@@ -4467,7 +4467,7 @@
       "Only admin birthdays"
     ],
     "correct_answer": "Agents, workflows, and customer channels",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 299,
@@ -4482,7 +4482,7 @@
       "It creates organizations"
     ],
     "correct_answer": "It affects how time-based rules behave from the start",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883475354-Setting-your-schedule-with-business-hours-and-holidays"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
   },
   {
     "id": 300,
@@ -4497,7 +4497,7 @@
       "So automations can be deleted"
     ],
     "correct_answer": "So staff can handle customer requests",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821569946-Adding-agents-and-administrators"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886939930-Adding-agents-and-admins-and-setting-ticket-access"
   },
   {
     "id": 301,
@@ -4512,7 +4512,7 @@
       "Store business hours only"
     ],
     "correct_answer": "Enable self-service",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 302,
@@ -4527,7 +4527,7 @@
       "They set agent roles"
     ],
     "correct_answer": "They help customers browse effectively",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 303,
@@ -4542,7 +4542,7 @@
       "No one"
     ],
     "correct_answer": "Its allowed audience",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 304,
@@ -4557,7 +4557,7 @@
       "They configure IVR"
     ],
     "correct_answer": "Those articles can reduce the most demand fastest",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 305,
@@ -4572,7 +4572,7 @@
       "A phone queue"
     ],
     "correct_answer": "A broad topic area",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 306,
@@ -4587,7 +4587,7 @@
       "Random abbreviations"
     ],
     "correct_answer": "Clear topic wording",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 307,
@@ -4602,7 +4602,7 @@
       "Route phone calls"
     ],
     "correct_answer": "Improve article search relevance",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838037274-Adding-labels-to-improve-article-search"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/9155884786458-Managing-content-tags"
   },
   {
     "id": 308,
@@ -4617,7 +4617,7 @@
       "Schedule"
     ],
     "correct_answer": "Section",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 309,
@@ -4632,7 +4632,7 @@
       "It creates agent roles"
     ],
     "correct_answer": "Customers may search differently than internal teams speak",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838037274-Adding-labels-to-improve-article-search"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/9155884786458-Managing-content-tags"
   },
   {
     "id": 310,
@@ -4647,7 +4647,7 @@
       "Groups page"
     ],
     "correct_answer": "Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 311,
@@ -4662,7 +4662,7 @@
       "Set business hours"
     ],
     "correct_answer": "Start a support conversation",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 312,
@@ -4677,7 +4677,7 @@
       "To replace organizations"
     ],
     "correct_answer": "To offer help where questions happen",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 313,
@@ -4692,7 +4692,7 @@
       "Only email-based"
     ],
     "correct_answer": "Persistent",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 314,
@@ -4707,7 +4707,7 @@
       "It creates more brands"
     ],
     "correct_answer": "It speeds resolution and reduces unnecessary handoff",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 315,
@@ -4722,7 +4722,7 @@
       "Rename users"
     ],
     "correct_answer": "Set context and guide next steps",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 316,
@@ -4737,7 +4737,7 @@
       "Organizations"
     ],
     "correct_answer": "Messaging",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 317,
@@ -4752,7 +4752,7 @@
       "Ticket fields disappear otherwise"
     ],
     "correct_answer": "Placement and behavior can vary by page",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 318,
@@ -4767,7 +4767,7 @@
       "A schedule report"
     ],
     "correct_answer": "A bot or guided flow",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 319,
@@ -4782,7 +4782,7 @@
       "More brands than needed"
     ],
     "correct_answer": "Customers getting stuck without reaching the right support path",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 320,
@@ -4797,7 +4797,7 @@
       "Managing IVR"
     ],
     "correct_answer": "Customer support conversations",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 321,
@@ -4812,7 +4812,7 @@
       "Explore"
     ],
     "correct_answer": "Talk",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 322,
@@ -4827,7 +4827,7 @@
       "It assigns agent roles"
     ],
     "correct_answer": "Customers need a number to call",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 323,
@@ -4842,7 +4842,7 @@
       "Join an organization"
     ],
     "correct_answer": "Choose a route with menu options",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 324,
@@ -4857,7 +4857,7 @@
       "It changes macros"
     ],
     "correct_answer": "A wrong branch can send callers to the wrong team or dead end",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 325,
@@ -4872,7 +4872,7 @@
       "Only internal terminology"
     ],
     "correct_answer": "Clear and concise",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 326,
@@ -4887,7 +4887,7 @@
       "User fields"
     ],
     "correct_answer": "Voice",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 327,
@@ -4902,7 +4902,7 @@
       "Only brand logo size"
     ],
     "correct_answer": "Your team's actual phone support process",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 328,
@@ -4917,7 +4917,7 @@
       "User profiles"
     ],
     "correct_answer": "IVR routing",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 329,
@@ -4932,7 +4932,7 @@
       "Brands need extra colors"
     ],
     "correct_answer": "Calls need to reach available agents with the right access",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 330,
@@ -4947,7 +4947,7 @@
       "Organization imports only"
     ],
     "correct_answer": "Inbound calling behavior",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 331,
@@ -4962,7 +4962,7 @@
       "How to buy phone hardware"
     ],
     "correct_answer": "How to handle tickets in Zendesk",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 332,
@@ -4977,7 +4977,7 @@
       "So they can add holidays"
     ],
     "correct_answer": "So they move work correctly through the queue",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 333,
@@ -4992,7 +4992,7 @@
       "Organization"
     ],
     "correct_answer": "Macro",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 334,
@@ -5007,7 +5007,7 @@
       "Training should ignore workflows"
     ],
     "correct_answer": "Different teams use Zendesk differently",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 335,
@@ -5022,7 +5022,7 @@
       "Only renaming views"
     ],
     "correct_answer": "Hands-on scenario practice",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 336,
@@ -5037,7 +5037,7 @@
       "How to edit brands"
     ],
     "correct_answer": "Where to find their work",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 337,
@@ -5052,7 +5052,7 @@
       "So they can create phone numbers"
     ],
     "correct_answer": "So they capture important data consistently",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838963482-Adding-custom-fields-to-tickets-and-support-request-forms"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
   },
   {
     "id": 338,
@@ -5067,7 +5067,7 @@
       "Which colors each brand uses"
     ],
     "correct_answer": "Which team should handle which issues",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839160474-Setting-up-ticket-routing-options"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408831658650-Routing-and-automation-options-for-incoming-tickets"
   },
   {
     "id": 339,
@@ -5082,7 +5082,7 @@
       "They remove ticket forms"
     ],
     "correct_answer": "They reduce confusion when tickets become complex",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 340,
@@ -5097,7 +5097,7 @@
       "Holiday count"
     ],
     "correct_answer": "Consistency and confidence",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 341,
@@ -5112,7 +5112,7 @@
       "Article label list"
     ],
     "correct_answer": "Support email address",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 342,
@@ -5127,7 +5127,7 @@
       "It creates phone numbers"
     ],
     "correct_answer": "Customers will see what is published",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 343,
@@ -5142,7 +5142,7 @@
       "Only organization imports"
     ],
     "correct_answer": "Widget and conversation flow testing",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 344,
@@ -5157,7 +5157,7 @@
       "It changes account billing"
     ],
     "correct_answer": "Customers experience the full flow, not isolated settings",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 345,
@@ -5172,7 +5172,7 @@
       "All groups are renamed"
     ],
     "correct_answer": "Callers hear the right greeting and reach the right path",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 346,
@@ -5187,7 +5187,7 @@
       "Macro cleanup"
     ],
     "correct_answer": "Messaging setup",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 347,
@@ -5202,7 +5202,7 @@
       "Users can edit all roles"
     ],
     "correct_answer": "Forwarded emails create tickets correctly",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 348,
@@ -5217,7 +5217,7 @@
       "An internal view"
     ],
     "correct_answer": "Published and accessible content",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 349,
@@ -5232,7 +5232,7 @@
       "It removes the need for training"
     ],
     "correct_answer": "Configured settings do not guarantee a good customer experience",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 350,
@@ -5247,7 +5247,7 @@
       "Create macros"
     ],
     "correct_answer": "Activate Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 351,
@@ -5262,7 +5262,7 @@
       "Only call queue names"
     ],
     "correct_answer": "Customer mental models",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 352,
@@ -5277,7 +5277,7 @@
       "Article section"
     ],
     "correct_answer": "Web widget",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 353,
@@ -5292,7 +5292,7 @@
       "Publish articles"
     ],
     "correct_answer": "Get callers to the right support team",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 354,
@@ -5307,7 +5307,7 @@
       "To edit user roles"
     ],
     "correct_answer": "To learn accurate and efficient responses",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 355,
@@ -5322,7 +5322,7 @@
       "The Help Center is hidden"
     ],
     "correct_answer": "The ticket arrives in the right workflow",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 356,
@@ -5337,7 +5337,7 @@
       "Section"
     ],
     "correct_answer": "Article",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 357,
@@ -5352,7 +5352,7 @@
       "Reduce Help Center categories"
     ],
     "correct_answer": "Catch broken handoffs or confusing paths",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 358,
@@ -5367,7 +5367,7 @@
       "Workflow"
     ],
     "correct_answer": "Voice",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 359,
@@ -5382,7 +5382,7 @@
       "Holiday naming"
     ],
     "correct_answer": "Groups and routing",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839160474-Setting-up-ticket-routing-options"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408831658650-Routing-and-automation-options-for-incoming-tickets"
   },
   {
     "id": 360,
@@ -5397,7 +5397,7 @@
       "It creates more holidays"
     ],
     "correct_answer": "Customers expect a consistent support experience everywhere",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 361,
@@ -5412,7 +5412,7 @@
       "It creates IVR options"
     ],
     "correct_answer": "Customers search by intent, not internal departments",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 362,
@@ -5427,7 +5427,7 @@
       "Create holidays"
     ],
     "correct_answer": "Guide users and answer common questions",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 363,
@@ -5442,7 +5442,7 @@
       "A group is created"
     ],
     "correct_answer": "The number connects and the greeting plays",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 364,
@@ -5457,7 +5457,7 @@
       "It changes IVR routing"
     ],
     "correct_answer": "Agents need to communicate appropriately with customers and teammates",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 365,
@@ -5472,7 +5472,7 @@
       "Only admin settings"
     ],
     "correct_answer": "Published articles",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 366,
@@ -5487,7 +5487,7 @@
       "To change ticket IDs"
     ],
     "correct_answer": "To shape efficient customer journeys",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 367,
@@ -5502,7 +5502,7 @@
       "Macro"
     ],
     "correct_answer": "IVR",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 368,
@@ -5517,7 +5517,7 @@
       "It sets holidays automatically"
     ],
     "correct_answer": "Untrained use can undermine even a well-configured system",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 369,
@@ -5532,7 +5532,7 @@
       "Remove all greetings"
     ],
     "correct_answer": "Open the widget as a visitor and follow the full path",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 370,
@@ -5547,7 +5547,7 @@
       "Agent permissions"
     ],
     "correct_answer": "Search discoverability",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838037274-Adding-labels-to-improve-article-search"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/9155884786458-Managing-content-tags"
   },
   {
     "id": 371,
@@ -5562,7 +5562,7 @@
       "Views"
     ],
     "correct_answer": "Messaging",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 372,
@@ -5577,7 +5577,7 @@
       "Organizations are deleted"
     ],
     "correct_answer": "Callers may bounce between teams or abandon",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 373,
@@ -5592,7 +5592,7 @@
       "Only accountants"
     ],
     "correct_answer": "Agents and customers",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 374,
@@ -5607,7 +5607,7 @@
       "No greeting at all"
     ],
     "correct_answer": "A reachable phone support path",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 375,
@@ -5622,7 +5622,7 @@
       "Talk menu"
     ],
     "correct_answer": "Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 376,
@@ -5637,7 +5637,7 @@
       "Set holidays"
     ],
     "correct_answer": "Route users to the right support path",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 377,
@@ -5652,7 +5652,7 @@
       "A dropdown field"
     ],
     "correct_answer": "A clear way to reach support",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 378,
@@ -5667,7 +5667,7 @@
       "Brands will not load otherwise"
     ],
     "correct_answer": "Agents may receive work from multiple entry points",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 379,
@@ -5682,7 +5682,7 @@
       "No workflows are needed"
     ],
     "correct_answer": "Customers can reach support smoothly across channels",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 380,
@@ -5697,7 +5697,7 @@
       "Creates a new agent"
     ],
     "correct_answer": "Makes it available to its intended audience",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 381,
@@ -5712,7 +5712,7 @@
       "Group cleanup"
     ],
     "correct_answer": "Email forwarding",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 382,
@@ -5727,7 +5727,7 @@
       "Agent handoff rules"
     ],
     "correct_answer": "Unnecessary complexity",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 383,
@@ -5742,7 +5742,7 @@
       "Only organization admins"
     ],
     "correct_answer": "The caller's experience",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 384,
@@ -5757,7 +5757,7 @@
       "How to publish them as articles"
     ],
     "correct_answer": "Which ones to use and when",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884167578-Using-macros-to-update-tickets-and-chat-sessions"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
   },
   {
     "id": 385,
@@ -5772,7 +5772,7 @@
       "Every section has the same number of articles"
     ],
     "correct_answer": "Customers can find answers with minimal effort",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 386,
@@ -5787,7 +5787,7 @@
       "Only article browsing"
     ],
     "correct_answer": "Chat-like support",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 387,
@@ -5802,7 +5802,7 @@
       "Macro"
     ],
     "correct_answer": "IVR",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 388,
@@ -5817,7 +5817,7 @@
       "That channels replace workflows"
     ],
     "correct_answer": "How the customer experience and agent work may differ",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 389,
@@ -5832,7 +5832,7 @@
       "Article labels"
     ],
     "correct_answer": "External email forwarding",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 390,
@@ -5847,7 +5847,7 @@
       "Macro"
     ],
     "correct_answer": "Category",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 391,
@@ -5862,7 +5862,7 @@
       "Placement sets business hours"
     ],
     "correct_answer": "Placement affects whether customers actually use the channel",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 392,
@@ -5877,7 +5877,7 @@
       "It creates more groups"
     ],
     "correct_answer": "Callers need to understand options quickly",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 393,
@@ -5892,7 +5892,7 @@
       "Changing phone numbers"
     ],
     "correct_answer": "Practicing with macros and views",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 394,
@@ -5907,7 +5907,7 @@
       "Ensure ticket IDs restart"
     ],
     "correct_answer": "Ensure visitors can reach the intended conversation path",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 395,
@@ -5922,7 +5922,7 @@
       "Forwarding emails"
     ],
     "correct_answer": "Adding related search terms customers might use",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838037274-Adding-labels-to-improve-article-search"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/9155884786458-Managing-content-tags"
   },
   {
     "id": 396,
@@ -5937,7 +5937,7 @@
       "Holiday"
     ],
     "correct_answer": "Widget",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 397,
@@ -5952,7 +5952,7 @@
       "Organization fields are populated"
     ],
     "correct_answer": "Customer call flow works as intended",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 398,
@@ -5967,7 +5967,7 @@
       "It sets IVR branches"
     ],
     "correct_answer": "Agents need a full process view to work consistently",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 399,
@@ -5982,7 +5982,7 @@
       "Organizations"
     ],
     "correct_answer": "Voice",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 400,
@@ -5997,7 +5997,7 @@
       "Trigger"
     ],
     "correct_answer": "Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 401,
@@ -6012,7 +6012,7 @@
       "All agents are admins"
     ],
     "correct_answer": "Core content is published and usable",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 402,
@@ -6027,7 +6027,7 @@
       "Only article translation"
     ],
     "correct_answer": "Fast, guided customer conversations",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 403,
@@ -6042,7 +6042,7 @@
       "User field templates only"
     ],
     "correct_answer": "Phone support capability",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 404,
@@ -6057,7 +6057,7 @@
       "How to publish articles"
     ],
     "correct_answer": "How agents prioritize and process work",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 405,
@@ -6072,7 +6072,7 @@
       "It changes agent roles"
     ],
     "correct_answer": "It reduces the chance of customer-facing issues at launch",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 406,
@@ -6087,7 +6087,7 @@
       "Role management"
     ],
     "correct_answer": "Self-service answers",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 407,
@@ -6102,7 +6102,7 @@
       "Only a brand manager"
     ],
     "correct_answer": "A customer or site visitor",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 408,
@@ -6117,7 +6117,7 @@
       "Only your org fields"
     ],
     "correct_answer": "How you want to receive and route calls",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 409,
@@ -6132,7 +6132,7 @@
       "More deleted views"
     ],
     "correct_answer": "Faster and more consistent support",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 410,
@@ -6147,7 +6147,7 @@
       "Remove labels"
     ],
     "correct_answer": "Open it as a customer and find key articles",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 411,
@@ -6162,7 +6162,7 @@
       "It increases agent seats"
     ],
     "correct_answer": "It creates a clearer browsing path",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 412,
@@ -6177,7 +6177,7 @@
       "User field creation"
     ],
     "correct_answer": "Customers wandering through unclear choices",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 413,
@@ -6192,7 +6192,7 @@
       "Organization"
     ],
     "correct_answer": "IVR",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 414,
@@ -6207,7 +6207,7 @@
       "When to buy more domains"
     ],
     "correct_answer": "When to use public replies versus internal notes",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 415,
@@ -6222,7 +6222,7 @@
       "Only organizations"
     ],
     "correct_answer": "Voice configuration",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 416,
@@ -6237,7 +6237,7 @@
       "Brand"
     ],
     "correct_answer": "Section",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 417,
@@ -6252,7 +6252,7 @@
       "Removal of the widget"
     ],
     "correct_answer": "A path to the right support outcome",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 418,
@@ -6267,7 +6267,7 @@
       "They create brands"
     ],
     "correct_answer": "They reduce caller confusion",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 419,
@@ -6282,7 +6282,7 @@
       "DNS"
     ],
     "correct_answer": "Views",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886861082-Using-views-to-manage-ticket-workflow"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
   },
   {
     "id": 420,
@@ -6297,7 +6297,7 @@
       "It changes article hierarchy"
     ],
     "correct_answer": "Real interactions expose issues that static setup review may miss",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 421,
@@ -6312,7 +6312,7 @@
       "You must avoid search"
     ],
     "correct_answer": "Quality and coverage of common issues matter most first",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 422,
@@ -6327,7 +6327,7 @@
       "Groups"
     ],
     "correct_answer": "Messaging",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839532314-Getting-started-with-messaging"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408827701530-Getting-started-with-messaging"
   },
   {
     "id": 423,
@@ -6342,7 +6342,7 @@
       "Workflow automation only"
     ],
     "correct_answer": "Voice support",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 424,
@@ -6357,7 +6357,7 @@
       "Brand logo errors only"
     ],
     "correct_answer": "Workflow and process mistakes",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 425,
@@ -6372,7 +6372,7 @@
       "A new group appears"
     ],
     "correct_answer": "Zendesk creates a ticket",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838966170-Forwarding-incoming-email-to-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868506-Adding-support-email-addresses"
   },
   {
     "id": 426,
@@ -6387,7 +6387,7 @@
       "It sets IVR branches"
     ],
     "correct_answer": "Search terms vary from official product language",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838037274-Adding-labels-to-improve-article-search"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/9155884786458-Managing-content-tags"
   },
   {
     "id": 427,
@@ -6402,7 +6402,7 @@
       "Groups are merged"
     ],
     "correct_answer": "The widget is usable and visible",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 428,
@@ -6417,7 +6417,7 @@
       "Publish an article"
     ],
     "correct_answer": "Reach the correct next step",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 429,
@@ -6432,7 +6432,7 @@
       "Only schedules"
     ],
     "correct_answer": "Views and macros",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 430,
@@ -6447,7 +6447,7 @@
       "Customers to create brands"
     ],
     "correct_answer": "Customers to start conversations through the widget",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 431,
@@ -6462,7 +6462,7 @@
       "User fields"
     ],
     "correct_answer": "Help Center",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821695130-Getting-started-with-Guide-for-self-service"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408885576346-Getting-started-with-self-service"
   },
   {
     "id": 432,
@@ -6477,7 +6477,7 @@
       "Business hours may vanish"
     ],
     "correct_answer": "Customers may not reach agents when needed",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842868250-Creating-flow-builds-for-bots"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408824263578-Creating-an-AI-agent"
   },
   {
     "id": 433,
@@ -6492,7 +6492,7 @@
       "A custom field"
     ],
     "correct_answer": "A phone number",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881955610-Managing-Talk-phone-numbers"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408881907994-Managing-Zendesk-phone-lines"
   },
   {
     "id": 434,
@@ -6507,7 +6507,7 @@
       "It creates new brands"
     ],
     "correct_answer": "Practice should resemble real work agents will face",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   },
   {
     "id": 435,
@@ -6522,7 +6522,7 @@
       "Organization fields"
     ],
     "correct_answer": "Voice channel and IVR setup",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839410202-Configuring-IVR"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4576052164762-Configuring-voice-channel-settings"
   },
   {
     "id": 436,
@@ -6537,7 +6537,7 @@
       "Section > Macro > Article"
     ],
     "correct_answer": "Category > Section > Article",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408821858586-Organizing-your-knowledge-base-content-in-Guide"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839258778-Creating-articles-in-the-knowledge-base"
   },
   {
     "id": 437,
@@ -6552,7 +6552,7 @@
       "A view editor"
     ],
     "correct_answer": "A messaging entry point or widget",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408839028250-Adding-messaging-to-your-websites"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4409103246874-Setting-up-Web-Widget-for-messaging"
   },
   {
     "id": 438,
@@ -6567,7 +6567,7 @@
       "Every agent is an admin"
     ],
     "correct_answer": "Customers can call, navigate, and reach the right support path",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408823704474-Setting-up-Talk"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838035866-Activating-the-voice-channel"
   },
   {
     "id": 439,
@@ -6582,6 +6582,6 @@
       "It changes article search"
     ],
     "correct_answer": "Expectations can differ between email, messaging, and voice",
-    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838965914-Preparing-your-team-to-use-Zendesk-Support"
+    "article_url": "https://support.zendesk.com/hc/en-us/articles/4408884056346-Getting-started-with-Zendesk-Support"
   }
 ]
