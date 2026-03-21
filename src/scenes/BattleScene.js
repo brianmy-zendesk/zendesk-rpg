@@ -39,7 +39,7 @@ const ENEMY_ATTACK_NAMES = [
   'Monday Morning Blast'
 ];
 
-const ATTACK_TIMER_SECONDS = 8;
+const ATTACK_TIMER_SECONDS = 15;
 
 export class BattleScene extends Phaser.Scene {
   constructor() {
@@ -459,7 +459,7 @@ export class BattleScene extends Phaser.Scene {
     this.stopAttackTimer();
     if (this.isPaused) return;
     this.attackTimeLeft = ATTACK_TIMER_SECONDS;
-    this.timerText.setText(`Attack in ${this.attackTimeLeft}`).setAlpha(1).setColor('#ffffff');
+    this.timerText.setText(`Attacks in ${this.attackTimeLeft}`).setAlpha(1).setColor('#ffffff');
 
     this.attackTimerEvent = this.time.addEvent({
       delay: 1000,
@@ -471,7 +471,7 @@ export class BattleScene extends Phaser.Scene {
           this.timerText.setAlpha(0);
           this.enemyAttack();
         } else {
-          this.timerText.setText(`Attack in ${this.attackTimeLeft}`);
+          this.timerText.setText(`Attacks in ${this.attackTimeLeft}`);
           // Turn red and pulse when low
           if (this.attackTimeLeft <= 3) {
             this.timerText.setColor('#ff4444');
@@ -520,7 +520,7 @@ export class BattleScene extends Phaser.Scene {
   startAttackTimerFrom(seconds) {
     this.stopAttackTimer();
     this.attackTimeLeft = seconds;
-    this.timerText.setText(`Attack in ${this.attackTimeLeft}`).setAlpha(1).setColor('#ffffff');
+    this.timerText.setText(`Attacks in ${this.attackTimeLeft}`).setAlpha(1).setColor('#ffffff');
 
     this.attackTimerEvent = this.time.addEvent({
       delay: 1000,
@@ -532,7 +532,7 @@ export class BattleScene extends Phaser.Scene {
           this.timerText.setAlpha(0);
           this.enemyAttack();
         } else {
-          this.timerText.setText(`Attack in ${this.attackTimeLeft}`);
+          this.timerText.setText(`Attacks in ${this.attackTimeLeft}`);
           if (this.attackTimeLeft <= 3) {
             this.timerText.setColor('#ff4444');
             this.tweens.add({
