@@ -68,7 +68,9 @@ export class DialogueScene extends Phaser.Scene {
     this.input.on('pointerdown', () => this.advanceDialogue());
     this.input.keyboard.on('keydown-ENTER', () => this.advanceDialogue());
     this.input.keyboard.on('keydown-SPACE', () => this.advanceDialogue());
-    this.input.keyboard.on('keydown-S', () => this.endDialogue());
+    this.input.keyboard.on('keydown-ONE', (event) => {
+      if (event.shiftKey) this.endDialogue();
+    });
   }
 
   showLine() {
