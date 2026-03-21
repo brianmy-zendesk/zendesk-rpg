@@ -171,21 +171,21 @@ export class BattleScene extends Phaser.Scene {
       stroke: '#000000', strokeThickness: 2
     }).setOrigin(0, 0.5);
 
-    // Enemy attack timer (near boss sprite)
-    this.timerText = this.add.text(580, 78, '', {
+    // Enemy attack timer (below lives display, top-right)
+    this.timerText = this.add.text(width - 16, 30, '', {
       fontSize: '14px', fontFamily: 'monospace', color: '#ff4444',
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 4
-    }).setOrigin(0.5).setDepth(5).setAlpha(0);
+    }).setOrigin(1, 0).setDepth(20).setAlpha(0);
 
-    // Pause button (near countdown timer)
+    // Pause button (below timer, top-right)
     this.isPaused = false;
-    const pauseBtnBg = this.add.rectangle(580, 100, 100, 22, 0x333333, 0.8);
+    const pauseBtnBg = this.add.rectangle(width - 60, 54, 100, 20, 0x333333, 0.8);
     pauseBtnBg.setStrokeStyle(1, 0x03b1fc);
     pauseBtnBg.setInteractive({ useHandCursor: true });
-    pauseBtnBg.setDepth(5);
-    this.pauseBtnText = this.add.text(580, 100, '☕ Coffee Break', {
+    pauseBtnBg.setDepth(20);
+    this.pauseBtnText = this.add.text(width - 60, 54, '☕ Coffee Break', {
       fontSize: '10px', fontFamily: 'monospace', color: '#03b1fc'
-    }).setOrigin(0.5).setDepth(5);
+    }).setOrigin(0.5).setDepth(20);
 
     pauseBtnBg.on('pointerdown', () => {
       this.togglePause();
@@ -887,18 +887,18 @@ export class BattleScene extends Phaser.Scene {
     }
 
     this.time.delayedCall(600, () => {
-      const title = this.add.text(width / 2, height / 2 - 40, titleText, {
+      const title = this.add.text(width / 2, 160, titleText, {
         fontSize: '40px', fontFamily: 'monospace',
         color: won ? '#44ff44' : '#ff4444',
         fontStyle: 'bold', stroke: '#000000', strokeThickness: 6
       }).setOrigin(0.5).setDepth(31);
 
-      const sub = this.add.text(width / 2, height / 2 + 20, subtitleText, {
+      const sub = this.add.text(width / 2, 210, subtitleText, {
         fontSize: '16px', fontFamily: 'monospace', color: '#ffffff',
         stroke: '#000000', strokeThickness: 3
       }).setOrigin(0.5).setDepth(31);
 
-      const btnY = height / 2 + 45;
+      const btnY = 245;
       const btnBg = this.add.rectangle(width / 2, btnY, 220, 36, 0x1a5c2a, 0.9);
       btnBg.setStrokeStyle(2, 0x44ff44);
       btnBg.setDepth(31);
