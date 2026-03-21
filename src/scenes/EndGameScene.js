@@ -257,24 +257,27 @@ export class EndGameScene extends Phaser.Scene {
         wordWrap: { width: 680 }
       }).setDepth(51);
       container.add(qText);
-      y += 22;
+      y += qText.height + 6;
 
       const aText = this.add.text(70, y, `Answer: ${r.correctAnswer}`, {
-        fontSize: '12px', fontFamily: 'monospace', color: '#44ff44'
+        fontSize: '12px', fontFamily: 'monospace', color: '#44ff44',
+        wordWrap: { width: 600 }
       }).setDepth(51);
       container.add(aText);
+      y += aText.height + 4;
 
       if (r.articleUrl) {
-        const linkText = this.add.text(440, y, 'Read article >', {
-          fontSize: '12px', fontFamily: 'monospace', color: '#03b1fc'
-        }).setDepth(51);
+        const linkText = this.add.text(width - 60, y, 'Read article >', {
+          fontSize: '11px', fontFamily: 'monospace', color: '#03b1fc'
+        }).setOrigin(1, 0).setDepth(51);
         linkText.setInteractive({ useHandCursor: true });
         linkText.on('pointerdown', () => window.open(r.articleUrl, '_blank'));
         linkText.on('pointerover', () => linkText.setColor('#66ccff'));
         linkText.on('pointerout', () => linkText.setColor('#03b1fc'));
         container.add(linkText);
+        y += 18;
       }
-      y += 28;
+      y += 12;
     });
 
     const contentHeight = y - listTop;
