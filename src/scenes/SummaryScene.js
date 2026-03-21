@@ -201,10 +201,12 @@ export class SummaryScene extends Phaser.Scene {
     btn.setInteractive({ useHandCursor: true });
     btn.on('pointerover', () => btn.setFillStyle(0x0599d4));
     btn.on('pointerout', () => btn.setFillStyle(0x03b1fc));
-    btn.on('pointerdown', () => {
+    const proceed = () => {
       this.cameras.main.fadeOut(500, 0, 0, 0);
       this.time.delayedCall(500, buttonAction);
-    });
+    };
+    btn.on('pointerdown', proceed);
+    this.input.keyboard.once('keydown-ENTER', proceed);
 
     this.add.text(width / 2, height - 35, buttonText, {
       fontSize: '16px', fontFamily: 'monospace', color: '#ffffff', fontStyle: 'bold'

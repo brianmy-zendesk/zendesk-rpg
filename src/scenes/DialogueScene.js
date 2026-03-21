@@ -51,7 +51,7 @@ export class DialogueScene extends Phaser.Scene {
     });
 
     // Continue prompt
-    this.continuePrompt = this.add.text(width / 2, height - 55, '▼ Click to continue', {
+    this.continuePrompt = this.add.text(width / 2, height - 25, '▼ Click to continue', {
       fontSize: '12px', fontFamily: 'monospace', color: '#888888'
     }).setOrigin(0.5).setAlpha(0);
 

@@ -131,29 +131,29 @@ export class BattleScene extends Phaser.Scene {
     this.playerSprite.play('hero-walk-right');
 
     // Boss HP bar
-    this.add.text(430, 65, this.bossName, {
+    this.add.text(430, 95, this.bossName, {
       fontSize: '14px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 3
     });
-    const bossBarBg = this.add.rectangle(560, 90, 204, 18, 0x333333);
+    const bossBarBg = this.add.rectangle(560, 120, 204, 18, 0x333333);
     bossBarBg.setStrokeStyle(2, 0xffffff);
-    this.bossHpBar = this.add.rectangle(460, 90, 200, 14, 0xff4444);
+    this.bossHpBar = this.add.rectangle(460, 120, 200, 14, 0xff4444);
     this.bossHpBar.setOrigin(0, 0.5);
-    this.bossHpText = this.add.text(660, 90, `${this.bossHp}/${this.bossMaxHp}`, {
+    this.bossHpText = this.add.text(660, 120, `${this.bossHp}/${this.bossMaxHp}`, {
       fontSize: '12px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 2
     }).setOrigin(0, 0.5);
 
     // Player HP bar
-    this.add.text(50, 225, 'YOU', {
+    this.add.text(50, 275, 'YOU', {
       fontSize: '14px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 3
     });
-    const playerBarBg = this.add.rectangle(180, 250, 204, 18, 0x333333);
+    const playerBarBg = this.add.rectangle(180, 300, 204, 18, 0x333333);
     playerBarBg.setStrokeStyle(2, 0xffffff);
-    this.playerHpBar = this.add.rectangle(80, 250, 200, 14, 0x44ff44);
+    this.playerHpBar = this.add.rectangle(80, 300, 200, 14, 0x44ff44);
     this.playerHpBar.setOrigin(0, 0.5);
-    this.playerHpText = this.add.text(280, 250, `${this.playerHp}/${this.playerMaxHp}`, {
+    this.playerHpText = this.add.text(280, 300, `${this.playerHp}/${this.playerMaxHp}`, {
       fontSize: '12px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 2
     }).setOrigin(0, 0.5);
@@ -673,7 +673,7 @@ export class BattleScene extends Phaser.Scene {
         repeat: -1
       });
 
-      this.input.once('pointerdown', () => {
+      const proceed = () => {
         this.cameras.main.fadeOut(500, 0, 0, 0);
         this.time.delayedCall(500, () => {
           this.scene.start('Summary', {
@@ -689,7 +689,9 @@ export class BattleScene extends Phaser.Scene {
             bossIndex: this.bossIndex
           });
         });
-      });
+      };
+      this.input.once('pointerdown', proceed);
+      this.input.keyboard.once('keydown-ENTER', proceed);
     });
   }
 }
