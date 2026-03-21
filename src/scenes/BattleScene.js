@@ -6,7 +6,9 @@ const MINI_BOSS_CONFIG = {
   difficultyMix: { easy: 3, medium: 1, hard: 1 },
   bossHp: 100,
   damage: { easy: 20, medium: 25, hard: 35 },
-  playerDamageOnWrong: 25
+  playerDamageOnWrong: 25,
+  timerDamageMin: 5,
+  timerDamageMax: 10
 };
 
 const BIG_BOSS_CONFIG = {
@@ -14,8 +16,30 @@ const BIG_BOSS_CONFIG = {
   difficultyMix: { easy: 2, medium: 3, hard: 3 },
   bossHp: 200,
   damage: { easy: 15, medium: 25, hard: 40 },
-  playerDamageOnWrong: 30
+  playerDamageOnWrong: 30,
+  timerDamageMin: 10,
+  timerDamageMax: 20
 };
+
+const ENEMY_ATTACK_NAMES = [
+  'TPS Report Barrage',
+  'Mandatory Overtime',
+  'Reply-All Avalanche',
+  'Calendar Invite Spam',
+  'Passive-Aggressive Email',
+  'Unnecessary Meeting',
+  'Printer Jam Curse',
+  'PTO Denied',
+  'Micromanagement Beam',
+  'Status Update Slap',
+  'Desk Relocation',
+  'Stapler Confiscation',
+  'Budget Cut Strike',
+  'Performance Review',
+  'Monday Morning Blast'
+];
+
+const ATTACK_TIMER_SECONDS = 8;
 
 export class BattleScene extends Phaser.Scene {
   constructor() {
@@ -146,6 +170,12 @@ export class BattleScene extends Phaser.Scene {
       fontSize: '12px', fontFamily: 'monospace', color: '#ffffff',
       stroke: '#000000', strokeThickness: 2
     }).setOrigin(0, 0.5);
+
+    // Enemy attack timer (near boss sprite)
+    this.timerText = this.add.text(580, 58, '', {
+      fontSize: '18px', fontFamily: 'monospace', color: '#ff4444',
+      fontStyle: 'bold', stroke: '#000000', strokeThickness: 4
+    }).setOrigin(0.5).setDepth(5).setAlpha(0);
 
     // Player HP bar
     this.add.text(50, 275, 'The Hero', {
@@ -388,6 +418,9 @@ export class BattleScene extends Phaser.Scene {
       this.answerTexts[i].setAlpha(1);
       this.answerButtons[i].setInteractive({ useHandCursor: true });
     }
+
+    // Start attack countdown
+    this.startAttackTimer();
   }
 
   highlightAnswer() {
@@ -402,8 +435,96 @@ export class BattleScene extends Phaser.Scene {
     }
   }
 
+  startAttackTimer() {
+    this.stopAttackTimer();
+    this.attackTimeLeft = ATTACK_TIMER_SECONDS;
+    this.timerText.setText(this.attackTimeLeft).setAlpha(1).setColor('#ffffff');
+
+    this.attackTimerEvent = this.time.addEvent({
+      delay: 1000,
+      repeat: ATTACK_TIMER_SECONDS - 1,
+      callback: () => {
+        this.attackTimeLeft--;
+        if (this.attackTimeLeft <= 0) {
+          this.timerText.setAlpha(0);
+          this.enemyAttack();
+        } else {
+          this.timerText.setText(this.attackTimeLeft);
+          // Turn red and pulse when low
+          if (this.attackTimeLeft <= 3) {
+            this.timerText.setColor('#ff4444');
+            this.tweens.add({
+              targets: this.timerText,
+              scaleX: 1.4, scaleY: 1.4,
+              duration: 150,
+              yoyo: true
+            });
+          }
+        }
+      }
+    });
+  }
+
+  stopAttackTimer() {
+    if (this.attackTimerEvent) {
+      this.attackTimerEvent.destroy();
+      this.attackTimerEvent = null;
+    }
+    if (this.timerText) {
+      this.timerText.setAlpha(0).setScale(1);
+    }
+  }
+
+  enemyAttack() {
+    if (this.isAnimating) return;
+    this.isAnimating = true;
+
+    const { timerDamageMin, timerDamageMax } = this.config;
+    const damage = Phaser.Math.Between(timerDamageMin, timerDamageMax);
+    const attackName = Phaser.Utils.Array.GetRandom(ENEMY_ATTACK_NAMES);
+
+    this.playerHp = Math.max(0, this.playerHp - damage);
+    this.updatePlayerHpBar();
+
+    // Boss lunge animation
+    const origX = this.bossSpriteObj.x;
+    this.tweens.add({
+      targets: this.bossSpriteObj,
+      x: origX - 40,
+      duration: 150,
+      yoyo: true,
+      ease: 'Power2'
+    });
+
+    // Player hit animation
+    this.tweens.add({
+      targets: this.playerSprite,
+      x: this.playerSprite.x - 15,
+      duration: 50,
+      yoyo: true,
+      repeat: 3,
+      ease: 'Bounce'
+    });
+    this.cameras.main.flash(200, 255, 100, 0);
+    soundManager.playWrong();
+
+    // Show attack name feedback
+    this.showFeedback(attackName, `-${damage} HP  |  Answer faster!`, '', 0xff4444);
+
+    this.time.delayedCall(1500, () => {
+      this.clearFeedback();
+      if (this.playerHp <= 0) {
+        this.handlePlayerDefeat();
+      } else {
+        this.isAnimating = false;
+        this.startAttackTimer();
+      }
+    });
+  }
+
   handleAnswer(index) {
     this.isAnimating = true;
+    this.stopAttackTimer();
     const q = this.questions[this.currentQuestionIndex];
     const selectedAnswer = this.currentShuffledAnswers[index];
     const isCorrect = selectedAnswer === q.correct_answer;
@@ -641,6 +762,7 @@ export class BattleScene extends Phaser.Scene {
     const { width, height } = this.cameras.main;
 
     // Disable any remaining interaction
+    this.stopAttackTimer();
     this.answerButtons.forEach(btn => btn.disableInteractive());
     this.clearFeedback();
     soundManager.stopMusic();
