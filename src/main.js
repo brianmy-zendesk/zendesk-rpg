@@ -6,7 +6,7 @@ import { DialogueScene } from './scenes/DialogueScene.js';
 import { BattleScene } from './scenes/BattleScene.js';
 import { SummaryScene } from './scenes/SummaryScene.js';
 import { EndGameScene } from './scenes/EndGameScene.js';
-import { fetchLeaderboard } from './leaderboard.js';
+import { fetchLeaderboard, submitScore } from './leaderboard.js';
 import { soundManager } from './SoundManager.js';
 
 const config = {
@@ -119,4 +119,34 @@ btnHowToPlay.addEventListener('click', () => htpOverlay.classList.add('open'));
 htpClose.addEventListener('click', () => { htpOverlay.classList.remove('open'); refocusGame(); });
 htpOverlay.addEventListener('click', (e) => {
   if (e.target === htpOverlay) htpOverlay.classList.remove('open');
+});
+
+// --- Reset button ---
+const btnReset = document.getElementById('btn-reset');
+
+btnReset.addEventListener('click', async () => {
+  const reg = game.registry;
+  const playerName = reg.get('playerName');
+  const xp = reg.get('score') || 0;
+
+  // Only submit if they've actually played (have XP or battle results)
+  if (playerName && xp > 0) {
+    const allResults = reg.get('allBattleResults') || [];
+    const totalQuestions = allResults.length;
+    const correctCount = allResults.filter(r => r.correct).length;
+    const accuracy = totalQuestions > 0 ? Math.round((correctCount / totalQuestions) * 100) : 0;
+
+    await submitScore({
+      name: playerName,
+      xp,
+      accuracy,
+      battlesWon: reg.get('battlesWon') || 0,
+      battlesTotal: reg.get('battlesTotal') || 0
+    });
+  }
+
+  // Stop all scenes and go to title
+  game.scene.getScenes(true).forEach(s => game.scene.stop(s));
+  game.scene.start('Title');
+  refocusGame();
 });
