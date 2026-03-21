@@ -374,7 +374,8 @@ export class BattleScene extends Phaser.Scene {
     const { width, height } = this.cameras.main;
 
     const overlay = this.add.rectangle(width / 2, height / 2, width, height, 0x000000, 0.85).setDepth(30);
-    const bossLabel = this.add.text(width / 2, height / 2 - 60, 'BOSS ENCOUNTER!', {
+    const encounterLabel = this.bossType === 'big' ? 'BOSS ENCOUNTER!' : 'COWORKER CONFRONTATION!';
+    const bossLabel = this.add.text(width / 2, height / 2 - 60, encounterLabel, {
       fontSize: '32px', fontFamily: 'monospace', color: '#ff4444',
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 6
     }).setOrigin(0.5).setDepth(31);
@@ -877,8 +878,10 @@ export class BattleScene extends Phaser.Scene {
 
     let titleText, subtitleText;
     if (won) {
-      titleText = 'VICTORY!';
-      subtitleText = `${this.bossName} has been defeated!`;
+      titleText = this.bossType === 'big' ? 'BOSS DEFEATED!' : 'VICTORY!';
+      subtitleText = this.bossType === 'big'
+        ? `${this.bossName} has been vanquished!`
+        : `${this.bossName} has been put on leave!`;
 
       // Boss death animation
       this.tweens.add({
@@ -893,7 +896,7 @@ export class BattleScene extends Phaser.Scene {
       titleText = 'GAME OVER';
       subtitleText = 'You have been relocated to the basement.';
     } else {
-      titleText = 'DEFEATED!';
+      titleText = this.bossType === 'big' ? 'DEFEATED!' : 'WRITE-UP!';
       subtitleText = `You lost a life! ${this.registry.get('lives')} staplers remaining.`;
     }
 
