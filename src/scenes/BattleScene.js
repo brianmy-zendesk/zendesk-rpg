@@ -374,21 +374,28 @@ export class BattleScene extends Phaser.Scene {
     const { width, height } = this.cameras.main;
 
     const overlay = this.add.rectangle(width / 2, height / 2, width, height, 0x000000, 0.85).setDepth(30);
+
+    // Dialogue box behind intro text
+    const boxW = 520;
+    const boxH = 200;
+    const introBox = this.add.rectangle(width / 2, height / 2, boxW, boxH, 0x111122, 0.95).setDepth(31);
+    introBox.setStrokeStyle(3, this.bossType === 'big' ? 0xff4444 : 0x03b1fc);
+
     const encounterLabel = this.bossType === 'big' ? 'BOSS ENCOUNTER!' : 'COWORKER CONFRONTATION!';
     const bossLabel = this.add.text(width / 2, height / 2 - 60, encounterLabel, {
       fontSize: '32px', fontFamily: 'monospace', color: '#ff4444',
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 6
-    }).setOrigin(0.5).setDepth(31);
+    }).setOrigin(0.5).setDepth(32);
 
     const bossNameText = this.add.text(width / 2, height / 2, this.bossName.toUpperCase(), {
       fontSize: '28px', fontFamily: 'monospace', color: '#ffffff',
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 6
-    }).setOrigin(0.5).setDepth(31);
+    }).setOrigin(0.5).setDepth(32);
 
     const lumberghQuote = this.add.text(width / 2, height / 2 + 60, '"Yeah, if you could go ahead and answer\nthese questions, that\'d be great."', {
       fontSize: '14px', fontFamily: 'monospace', color: '#f0c040',
       align: 'center', stroke: '#000000', strokeThickness: 3
-    }).setOrigin(0.5).setDepth(31);
+    }).setOrigin(0.5).setDepth(32);
 
     // Flash effect
     this.tweens.add({
@@ -400,11 +407,12 @@ export class BattleScene extends Phaser.Scene {
       onComplete: () => {
         this.time.delayedCall(1200, () => {
           this.tweens.add({
-            targets: [overlay, bossLabel, bossNameText, lumberghQuote],
+            targets: [overlay, introBox, bossLabel, bossNameText, lumberghQuote],
             alpha: 0,
             duration: 500,
             onComplete: () => {
               overlay.destroy();
+              introBox.destroy();
               bossLabel.destroy();
               bossNameText.destroy();
               lumberghQuote.destroy();
@@ -901,24 +909,30 @@ export class BattleScene extends Phaser.Scene {
     }
 
     this.time.delayedCall(600, () => {
+      // Dialogue box behind victory/defeat text
+      const resultBoxW = 460;
+      const resultBoxH = 160;
+      const resultBox = this.add.rectangle(width / 2, 200, resultBoxW, resultBoxH, 0x111122, 0.95).setDepth(31);
+      resultBox.setStrokeStyle(3, won ? 0x44ff44 : 0xff4444);
+
       const title = this.add.text(width / 2, 160, titleText, {
         fontSize: '40px', fontFamily: 'monospace',
         color: won ? '#44ff44' : '#ff4444',
         fontStyle: 'bold', stroke: '#000000', strokeThickness: 6
-      }).setOrigin(0.5).setDepth(31);
+      }).setOrigin(0.5).setDepth(32);
 
       const sub = this.add.text(width / 2, 210, subtitleText, {
         fontSize: '16px', fontFamily: 'monospace', color: '#ffffff',
         stroke: '#000000', strokeThickness: 3
-      }).setOrigin(0.5).setDepth(31);
+      }).setOrigin(0.5).setDepth(32);
 
-      const btnY = 245;
+      const btnY = 250;
       const btnBg = this.add.rectangle(width / 2, btnY, 220, 36, 0x1a5c2a, 0.9);
       btnBg.setStrokeStyle(2, 0x44ff44);
-      btnBg.setDepth(31);
+      btnBg.setDepth(32);
       const continueText = this.add.text(width / 2, btnY, 'Continue', {
         fontSize: '14px', fontFamily: 'monospace', color: '#ffffff'
-      }).setOrigin(0.5).setDepth(32);
+      }).setOrigin(0.5).setDepth(33);
 
       this.tweens.add({
         targets: continueText,
