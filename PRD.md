@@ -62,25 +62,34 @@ The game is **linear** — the player progresses from boss to boss along a path.
 
 ### Quiz Combat
 
+- Each battle opens with an **encounter intro screen** — a dialogue box displaying "BOSS ENCOUNTER!" or "COWORKER CONFRONTATION!" with the boss name, over a dimmed battle background.
 - Each battle presents the player with a series of multiple-choice questions (3 answer options each).
 - **Correct answer** = player deals damage to the boss. XP earned: Easy (10), Medium (20), Hard (30).
 - **Wrong answer** = boss deals damage to the player. A "PC LOAD LETTER" error flash appears. The correct answer is revealed along with a link to the relevant Zendesk Help Center article.
+- **Timer:** Enemies attack automatically after 15 seconds if the player doesn't answer. Press **P** to pause the timer (Coffee Break).
+- Victory and defeat outcomes display in a **dialogue box** with a dimmed overlay, matching the encounter intro style.
 - Questions are drawn from `zendesk_boss_question_bank.json`, filtered by the boss's assigned `mini_boss` or `big_boss` value.
 
 ### Mini-Boss Battles
 
+- **Encounter label:** "COWORKER CONFRONTATION!"
 - **Questions per battle:** 5
 - **Difficulty mix:** 3 easy, 1 medium, 1 hard (randomly selected from the boss's pool)
 - **Boss HP:** 100
 - **Damage dealt per correct answer:** Easy = 20, Medium = 25, Hard = 35
+- **Victory message:** "VICTORY!" / boss "put on leave"
+- **Defeat message:** "WRITE-UP!"
 
 ### Big Boss Battles
 
+- **Encounter label:** "BOSS ENCOUNTER!"
 - **Questions per battle:** 8
 - **Difficulty mix:** 2 easy, 3 medium, 3 hard (randomly selected from the level's full pool)
 - **Boss HP:** 200
 - **Damage dealt per correct answer:** Easy = 15, Medium = 25, Hard = 40
 - Questions are drawn from across ALL mini-boss topics within that level (not repeating questions already seen in mini-boss battles)
+- **Victory message:** "BOSS DEFEATED!" / boss "vanquished"
+- **Defeat message:** "DEFEATED!"
 
 ### Player Health & Lives
 
@@ -114,13 +123,18 @@ Shown after every battle (win or lose):
 Shown when the player defeats all 3 big bosses OR loses all lives:
 
 - Final score / total possible XP
-- Accuracy percentage
+- Accuracy percentage with tier label:
+  - 90%+: **Gold** (displayed in gold #f0c040)
+  - 70-89%: **Silver** (displayed in silver #c0c0c0)
+  - Below 70%: **Bronze** (displayed in bronze #cd7f32)
 - Battles won / total
-- All missed questions with Help Center links
+- All missed questions with "Read article >" links to Zendesk Help Center
 - Performance rating:
   - 90%+ correct: "You've been promoted to Senior Admin."
   - 70-89%: "Looks like someone has a case of the Mondays."
   - Below 70%: "I believe you have my stapler."
+- **Golden Stapler trophy** displayed with rocking animation and glow effect
+- Score is automatically submitted to the shared leaderboard
 
 ---
 
@@ -136,6 +150,7 @@ Shown when the player defeats all 3 big bosses OR loses all lives:
 | Lives indicator       | Red Swingline staplers                                                                 |
 | Power-up / bonus      | "Pieces of Flair" — streak bonus for consecutive correct answers                       |
 | NPC dialogue          | Milton-style mumbling about "my desk" and "burning the building down"                  |
+| Golden stapler reveal | Small stapler appears in dialogue box when "stapler" is mentioned; big reveal on final dialogue |
 | Victory screen        | "I could set the building on fire" celebration                                         |
 | Game over screen      | "You have been relocated to the basement"                                              |
 | Background music vibe | Corporate elevator muzak (retro chiptune style)                                        |
@@ -148,11 +163,95 @@ Shown when the player defeats all 3 big bosses OR loses all lives:
 
 ---
 
+## Player Identity & Name Input
+
+- On the **Title Screen**, players type their name (max 10 characters, alphanumeric + spaces + `._-`).
+- If no name is entered, the default is **"Player"**.
+- The player's name is displayed:
+  - Above the hero sprite in the **Overworld** map
+  - On the **Leaderboard** when a score is submitted
+  - On the **End-of-Game Summary** screen
+
+---
+
+## Toolbar
+
+A persistent **Toolbar** is displayed below the game canvas on all screens. It contains four buttons:
+
+| Button        | Behavior                                                                                                  |
+| ------------- | --------------------------------------------------------------------------------------------------------- |
+| Leaderboard   | Opens the Leaderboard modal (Hall of Fame)                                                                |
+| How to Play   | Opens a modal with game instructions (movement, interaction, combat, timer, pause)                        |
+| Reset         | Submits the player's current progress to the leaderboard (if XP > 0), then returns to the Title Screen   |
+| Mute / Unmute | Toggles all game audio (music and sound effects) on/off. Button text updates to reflect current state.    |
+
+- All toolbar buttons use `tabindex="-1"` and return focus to the game canvas after interaction to prevent keyboard input conflicts with Phaser.
+
+---
+
+## Shared Leaderboard
+
+A **shared leaderboard** ranks the top 25 players by XP, persisted via **Firebase Firestore**.
+
+### Leaderboard Details
+
+- **Max entries:** 25 (top scores only)
+- **Ranked by:** XP (descending)
+- **Fields stored:** Player name, XP, Accuracy %, Battles won, Battles total, Timestamp
+- **Multiple entries allowed** per player name (each session is a separate entry)
+- **Accessible from:** Toolbar "Leaderboard" button on any screen
+
+### When Scores Are Submitted
+
+- Automatically on the **End-of-Game Summary** screen (win or lose)
+- When the player clicks **Reset** in the toolbar (if XP > 0)
+- Scores are **only written** if the XP qualifies for the top 25 (low scores are rejected client-side)
+
+### Performance Optimizations
+
+- **Top-25-only writes:** Before writing, the client queries the current top 25. If the board is full and the player's XP doesn't beat the lowest entry, no write occurs.
+- **Cached threshold:** The lowest qualifying XP and entry count are cached in memory. Subsequent submit calls skip the Firestore read entirely if the score clearly won't qualify.
+- **Cache refresh:** The cache is updated on every successful submit and every leaderboard fetch.
+
+### Leaderboard UI (Modal)
+
+- **Title:** "Hall of Fame" with gold border
+- **Top 3 entries** highlighted: Gold (#1), Silver (#2), Bronze (#3) with colored borders and rank badges
+- **Each entry shows:** Rank, Name, XP, Accuracy %, Battles won/total
+- **Refresh button** to re-fetch the latest data
+- **Empty state:** "No scores yet. Be the first!"
+
+### Firebase Configuration
+
+- **Service:** Firebase Firestore (free Spark tier)
+- **Security rules:** Allow read and create (with field validation), allow delete (for eviction of lowest score), deny update
+- **Data validation:** Name ≤ 10 chars (string), XP (number), accuracy (number), battlesWon (number), battlesTotal (number), timestamp (server timestamp)
+
+---
+
+## Music & Sound Control
+
+### Sound System
+
+- Background music is managed by a centralized **SoundManager** using the Web Audio API.
+- Distinct music tracks play for: Title Screen, Overworld, and Battle scenes.
+- Sound effects include: correct/wrong answer tones, victory/defeat stingers, streak bonuses.
+
+### Mute Toggle
+
+- Controlled via the **Mute** button in the Toolbar.
+- When muted: all music stops, AudioContext is suspended, and all `playTone`/`startMusic` calls are suppressed via a `muted` flag.
+- When unmuted: AudioContext resumes, and the track that was playing before mute is restarted automatically.
+- Browser autoplay policy is handled by initializing AudioContext on first user gesture (keypress or click) on the Title Screen.
+
+---
+
 ## Tech Stack
 
 - **Framework:** Phaser.js 3 (web-based, desktop only)
-- **Language:** JavaScript/TypeScript
+- **Language:** JavaScript
 - **Build tool:** Vite
+- **Backend:** Firebase Firestore (leaderboard persistence)
 - **Question data:** `zendesk_boss_question_bank.json` (200 questions, loaded at runtime)
 - **Target resolution:** 800x600 pixels
 - **Browser support:** Chrome, Firefox, Safari, Edge (latest versions)
@@ -216,6 +315,7 @@ All assets sourced from `Legacy Collection/Assets/`.
 | ---------------------- | ----------------------------------------------------------------------------- |
 | Big Boss sprites (x3)  | TPS Report Overlord, Channel Surfer, Bill Lumbergh — pixel art boss portraits |
 | Red Swingline stapler  | Lives indicator icon                                                          |
+| Golden Swingline stapler | Milton's lost stapler — shown in dialogue and End-of-Game trophy (`stapler_gold.png`) |
 | Pieces of Flair        | Streak bonus icon                                                             |
 | Battle UI frame        | Text box borders, menu chrome for quiz interface                              |
 | Pixel font             | Retro monospace font for dialogue and UI                                      |
