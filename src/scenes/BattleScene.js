@@ -192,10 +192,16 @@ export class BattleScene extends Phaser.Scene {
       }).setOrigin(0.5);
 
       btn.on('pointerover', () => {
-        if (!this.isAnimating) btn.setFillStyle(0x3a6878);
+        if (!this.isAnimating) {
+          this.selectedIndex = index;
+          this.highlightAnswer();
+        }
       });
       btn.on('pointerout', () => {
-        if (!this.isAnimating) btn.setFillStyle(0x2a4858);
+        if (!this.isAnimating) {
+          this.selectedIndex = -1;
+          this.highlightAnswer();
+        }
       });
 
       const index = i;
@@ -206,6 +212,26 @@ export class BattleScene extends Phaser.Scene {
       this.answerButtons.push(btn);
       this.answerTexts.push(txt);
     }
+
+    // Keyboard navigation for answer choices
+    this.selectedIndex = -1;
+    this.input.keyboard.on('keydown-UP', () => {
+      if (this.isAnimating) return;
+      if (this.selectedIndex <= 0) this.selectedIndex = 2;
+      else this.selectedIndex--;
+      this.highlightAnswer();
+    });
+    this.input.keyboard.on('keydown-DOWN', () => {
+      if (this.isAnimating) return;
+      if (this.selectedIndex < 0) this.selectedIndex = 0;
+      else if (this.selectedIndex >= 2) this.selectedIndex = 0;
+      else this.selectedIndex++;
+      this.highlightAnswer();
+    });
+    this.input.keyboard.on('keydown-ENTER', () => {
+      if (this.isAnimating || this.selectedIndex < 0) return;
+      this.handleAnswer(this.selectedIndex);
+    });
 
     // Question counter
     this.questionCounter = this.add.text(width / 2, 568, '', {
@@ -250,14 +276,14 @@ export class BattleScene extends Phaser.Scene {
     }).setOrigin(0.5).setDepth(11).setAlpha(0);
 
     // Streak display
-    this.streakText = this.add.text(width / 2, 310, '', {
-      fontSize: '18px',
+    this.streakText = this.add.text(width / 2, 200, '', {
+      fontSize: '28px',
       fontFamily: 'monospace',
       color: '#f0c040',
       fontStyle: 'bold',
       stroke: '#000000',
-      strokeThickness: 4
-    }).setOrigin(0.5).setAlpha(0);
+      strokeThickness: 6
+    }).setOrigin(0.5).setAlpha(0).setDepth(15);
   }
 
   createHUD(width, height) {
@@ -350,12 +376,26 @@ export class BattleScene extends Phaser.Scene {
     Phaser.Utils.Array.Shuffle(shuffledAnswers);
     this.currentShuffledAnswers = shuffledAnswers;
 
+    this.selectedIndex = -1;
     for (let i = 0; i < 3; i++) {
       this.answerTexts[i].setText(shuffledAnswers[i] || '');
       this.answerButtons[i].setFillStyle(0x2a4858);
+      this.answerButtons[i].setStrokeStyle(2, 0x446688);
       this.answerButtons[i].setAlpha(1);
       this.answerTexts[i].setAlpha(1);
       this.answerButtons[i].setInteractive({ useHandCursor: true });
+    }
+  }
+
+  highlightAnswer() {
+    for (let i = 0; i < 3; i++) {
+      if (i === this.selectedIndex) {
+        this.answerButtons[i].setFillStyle(0x3a6878);
+        this.answerButtons[i].setStrokeStyle(2, 0x03b1fc);
+      } else {
+        this.answerButtons[i].setFillStyle(0x2a4858);
+        this.answerButtons[i].setStrokeStyle(2, 0x446688);
+      }
     }
   }
 
@@ -523,15 +563,19 @@ export class BattleScene extends Phaser.Scene {
   }
 
   showStreakBonus(text) {
-    this.streakText.setText(text).setAlpha(1);
+    this.streakText.setText(text).setAlpha(1).setScale(1);
+    this.streakText.y = 200;
     this.tweens.add({
       targets: this.streakText,
-      y: this.streakText.y - 30,
+      y: 150,
+      scaleX: 1.3,
+      scaleY: 1.3,
       alpha: 0,
-      duration: 1500,
+      duration: 2000,
       ease: 'Power2',
       onComplete: () => {
-        this.streakText.y = 310;
+        this.streakText.y = 200;
+        this.streakText.setScale(1);
       }
     });
   }
