@@ -119,7 +119,10 @@ export class BattleScene extends Phaser.Scene {
 
     // Boss sprite (right side)
     if (this.bossSpriteKey) {
-      this.bossSpriteObj = this.add.sprite(580, 150, this.bossSpriteKey, 0).setScale(2.5);
+      const isBig = this.bossType === 'big';
+      const scale = isBig ? 1.1 : 0.85;
+      const yPos = isBig ? 140 : 155;
+      this.bossSpriteObj = this.add.sprite(580, yPos, this.bossSpriteKey, 0).setScale(scale);
       this.bossSpriteObj.play(`${this.bossSpriteKey}-idle`);
     } else {
       this.bossSpriteObj = this.add.sprite(580, 170, 'enemies', this.enemyFrame).setScale(8);

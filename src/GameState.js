@@ -17,6 +17,7 @@ export const LEVELS = [
         miniBoss: 'Org structure',
         background: 'bg-country',
         enemyFrame: 0,
+        bossSprite: 'office-dwight-schrute',
         introDialogue: [
           'Excuse me... have you seen my stapler?',
           'Oh, you\'re the new admin.\nI was told there would be one.',
@@ -32,6 +33,7 @@ export const LEVELS = [
         miniBoss: 'Brand, business schedule, custom ticket fields',
         background: 'bg-country',
         enemyFrame: 4,
+        bossSprite: 'office-stanley-hudson',
         introDialogue: [
           'Oh... it\'s you again. Good.',
           'The Brand & Config boss is next.\nBusiness hours, ticket fields, all that.',
@@ -46,6 +48,7 @@ export const LEVELS = [
         miniBoss: 'Workflow',
         background: 'bg-country',
         enemyFrame: 8,
+        bossSprite: 'office-kevin-malone',
         introDialogue: [
           'I... I don\'t like this place.',
           'The Workflow boss is tough.\nTriggers, automations, views, macros...',
@@ -60,6 +63,7 @@ export const LEVELS = [
         miniBoss: 'Adding agents',
         background: 'bg-country',
         enemyFrame: 4,
+        bossSprite: 'office-andy-bernard',
         introDialogue: [
           'They keep adding new people but\nno one ever introduces themselves to me.',
           'This boss is about adding agents.\nRoles, permissions, invitations...',
@@ -74,7 +78,7 @@ export const LEVELS = [
         miniBoss: null,
         background: 'bg-country',
         enemyFrame: 8,
-        bossSprite: 'boss-ogre',
+        bossSprite: 'office-david-wallace',
         introDialogue: [
           '...',
           'Oh no. That\'s the TPS Report Overlord.',
@@ -105,6 +109,7 @@ export const LEVELS = [
         miniBoss: 'Help Center',
         background: 'bg-forest',
         enemyFrame: 0,
+        bossSprite: 'office-angela-martin',
         introDialogue: [
           'I wrote a Help Center article once.\nNo one read it.',
           'This boss guards all the\nknowledge base content.',
@@ -119,6 +124,7 @@ export const LEVELS = [
         miniBoss: 'Messaging',
         background: 'bg-forest',
         enemyFrame: 4,
+        bossSprite: 'office-ryan-howard',
         introDialogue: [
           'No one ever messages me.\nNot even the bots.',
           'This boss controls web widgets,\nbots, and messaging channels.',
@@ -133,6 +139,7 @@ export const LEVELS = [
         miniBoss: 'Voice',
         background: 'bg-forest',
         enemyFrame: 8,
+        bossSprite: 'office-creed-bratton',
         introDialogue: [
           'The phone keeps ringing and\nno one ever answers it.',
           'This boss controls Talk setup,\nphone numbers, and IVR menus.',
@@ -147,7 +154,7 @@ export const LEVELS = [
         miniBoss: null,
         background: 'bg-forest',
         enemyFrame: 4,
-        bossSprite: 'boss-nightmare',
+        bossSprite: 'office-jan-levinson',
         introDialogue: [
           '...',
           'Oh no. That\'s The Channel Surfer.\nThe big boss of this level.',
@@ -178,6 +185,7 @@ export const LEVELS = [
         miniBoss: 'Training agents',
         background: 'bg-night-town',
         enemyFrame: 0,
+        bossSprite: 'office-toby-flenderson',
         introDialogue: [
           'We\'re getting close to going live.\nI can feel it.',
           'This boss is about training agents.\nOnboarding, resources, best practices.',
@@ -192,6 +200,7 @@ export const LEVELS = [
         miniBoss: 'External email forwarding',
         background: 'bg-night-town',
         enemyFrame: 4,
+        bossSprite: 'office-jim-halpert',
         introDialogue: [
           'This next one is about\nemail forwarding. DNS stuff.',
           'SPF, DKIM, forwarding rules...\nit\'s all very technical.',
@@ -206,6 +215,7 @@ export const LEVELS = [
         miniBoss: 'Configure voice channel',
         background: 'bg-night-town',
         enemyFrame: 8,
+        bossSprite: 'office-oscar-martinez',
         introDialogue: [
           'This boss handles voice configuration.\nNumber porting and activation.',
           'Have you ever configured\nan IVR menu? It\'s... something.',
@@ -220,6 +230,7 @@ export const LEVELS = [
         miniBoss: 'Activate Help Center',
         background: 'bg-night-town',
         enemyFrame: 0,
+        bossSprite: 'office-meredith-palmer',
         introDialogue: [
           'The Help Center is almost\nready to go public.',
           'Activation, theming, permissions...\nall the final touches.',
@@ -234,6 +245,7 @@ export const LEVELS = [
         miniBoss: 'Set up messaging channel',
         background: 'bg-night-town',
         enemyFrame: 4,
+        bossSprite: 'office-darryl-philbin',
         introDialogue: [
           'Almost there. The messaging widget\nis nearly ready for customers.',
           'Widget config, authentication,\nthe whole nine yards.',
@@ -248,7 +260,7 @@ export const LEVELS = [
         miniBoss: null,
         background: 'bg-caverns',
         enemyFrame: 8,
-        bossSprite: 'boss-demon',
+        bossSprite: 'office-michael-scott',
         introDialogue: [
           '...',
           'Oh no. It\'s him. It\'s Lumbergh.',

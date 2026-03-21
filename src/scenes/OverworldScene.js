@@ -90,7 +90,8 @@ export class OverworldScene extends Phaser.Scene {
       if (!defeated) {
         let enemy;
         if (boss.bossSprite) {
-          enemy = this.add.sprite(pos.x, pos.y - 40, boss.bossSprite, 0).setScale(0.8);
+          const owScale = boss.type === 'big' ? 0.5 : 0.4;
+          enemy = this.add.sprite(pos.x, pos.y - 50, boss.bossSprite, 0).setScale(owScale);
           enemy.play(`${boss.bossSprite}-idle`);
         } else {
           const ef = boss.enemyFrame || 0;
