@@ -1,0 +1,3202 @@
+[
+    {
+        "id": 1,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Groups",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is a Zendesk group mainly used for?",
+        "answers": [
+            "Organizing agents",
+            "Storing macros",
+            "Publishing articles"
+        ],
+        "correct_answer": "Organizing agents",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 2,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Groups",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "A ticket can belong to how many groups at one time?",
+        "answers": [
+            "One",
+            "Three",
+            "Unlimited"
+        ],
+        "correct_answer": "One",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 3,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Organizations",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What does an organization represent in Zendesk?",
+        "answers": [
+            "A collection of end users",
+            "A list of views",
+            "A voice number"
+        ],
+        "correct_answer": "A collection of end users",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 4,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "User fields",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Why create a user field?",
+        "answers": [
+            "To store extra user data",
+            "To change ticket status",
+            "To add phone lines"
+        ],
+        "correct_answer": "To store extra user data",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 5,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Organization fields",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Organization fields store data about what?",
+        "answers": [
+            "Companies or accounts",
+            "Individual tickets only",
+            "Agent signatures"
+        ],
+        "correct_answer": "Companies or accounts",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 6,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Groups",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What is a common reason to create multiple groups?",
+        "answers": [
+            "Separate teams by function",
+            "Store different brands",
+            "Create article sections"
+        ],
+        "correct_answer": "Separate teams by function",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 7,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Organizations",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What can organizations help with in B2B support?",
+        "answers": [
+            "Grouping users by company",
+            "Replacing triggers",
+            "Creating channels"
+        ],
+        "correct_answer": "Grouping users by company",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 8,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "User fields",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "A user field is best for storing which example?",
+        "answers": [
+            "Customer tier",
+            "Ticket priority",
+            "Business hours"
+        ],
+        "correct_answer": "Customer tier",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 9,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Organization fields",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which is best stored in an organization field?",
+        "answers": [
+            "Account manager",
+            "Ticket type",
+            "Macro text"
+        ],
+        "correct_answer": "Account manager",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 10,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Org structure design",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "If support is split by product line, what should usually be created first?",
+        "answers": [
+            "Groups",
+            "Article labels",
+            "Talk greetings"
+        ],
+        "correct_answer": "Groups",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 11,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Groups",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Which assignment is most directly tied to ticket ownership by team?",
+        "answers": [
+            "Group assignment",
+            "Organization assignment",
+            "Brand assignment"
+        ],
+        "correct_answer": "Group assignment",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 12,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "User fields",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why standardize user fields early in setup?",
+        "answers": [
+            "To support routing and reporting",
+            "To publish help articles",
+            "To enable voicemail"
+        ],
+        "correct_answer": "To support routing and reporting",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 13,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Organizations",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Users in the same company are often grouped into what?",
+        "answers": [
+            "Organizations",
+            "Macros",
+            "Views"
+        ],
+        "correct_answer": "Organizations",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 14,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "User fields",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Custom user fields are configured by admins in order to add what?",
+        "answers": [
+            "Additional profile data",
+            "New ticket statuses",
+            "New SLAs"
+        ],
+        "correct_answer": "Additional profile data",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 15,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Organization fields",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Which field type is tied to the account, not the individual requester?",
+        "answers": [
+            "Organization field",
+            "Ticket field",
+            "Agent alias"
+        ],
+        "correct_answer": "Organization field",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 16,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Groups",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What is a good example of a Zendesk group?",
+        "answers": [
+            "Billing Support",
+            "High priority",
+            "Solved tickets"
+        ],
+        "correct_answer": "Billing Support",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 17,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Org structure planning",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should drive your group design most?",
+        "answers": [
+            "How work is handled",
+            "The number of macros",
+            "Article translations"
+        ],
+        "correct_answer": "How work is handled",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 18,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Organizations",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "When should you use organizations?",
+        "answers": [
+            "When customers belong to companies",
+            "When agents need macros",
+            "When voice is enabled"
+        ],
+        "correct_answer": "When customers belong to companies",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 19,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "User fields",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "A custom user field can be useful in triggers because it stores what?",
+        "answers": [
+            "Reusable customer data",
+            "Call recording settings",
+            "Article permissions"
+        ],
+        "correct_answer": "Reusable customer data",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 20,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Organization fields",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the best reason to create an organization field for region?",
+        "answers": [
+            "Support routing and segmentation",
+            "Publish multiple brands",
+            "Enable voicemail"
+        ],
+        "correct_answer": "Support routing and segmentation",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 21,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Brands",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is a Zendesk brand used for?",
+        "answers": [
+            "Supporting distinct customer identities",
+            "Storing ticket comments",
+            "Creating call recordings"
+        ],
+        "correct_answer": "Supporting distinct customer identities",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408833921306-Multibrand-resources"
+    },
+    {
+        "id": 22,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Business schedules",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Why configure a business schedule?",
+        "answers": [
+            "To define support hours",
+            "To assign article labels",
+            "To add agents to groups"
+        ],
+        "correct_answer": "To define support hours",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
+    },
+    {
+        "id": 23,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Custom ticket fields",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Custom ticket fields help admins do what?",
+        "answers": [
+            "Capture structured ticket data",
+            "Create phone greetings",
+            "Build agent profiles"
+        ],
+        "correct_answer": "Capture structured ticket data",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
+    },
+    {
+        "id": 24,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Brands",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "If your company supports two products with separate identities, what might you use?",
+        "answers": [
+            "Multiple brands",
+            "Multiple ticket forms only",
+            "Multiple automations only"
+        ],
+        "correct_answer": "Multiple brands",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408833921306-Multibrand-resources"
+    },
+    {
+        "id": 25,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Business schedules",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Business hours are especially important for which feature?",
+        "answers": [
+            "SLA timing",
+            "Article voting",
+            "User avatars"
+        ],
+        "correct_answer": "SLA timing",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
+    },
+    {
+        "id": 26,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Custom ticket fields",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which is a good use of a custom ticket field?",
+        "answers": [
+            "Product area",
+            "Agent password",
+            "Talk number"
+        ],
+        "correct_answer": "Product area",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
+    },
+    {
+        "id": 27,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Custom ticket fields",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why should ticket fields be designed carefully?",
+        "answers": [
+            "They affect forms, routing, and reporting",
+            "They change agent roles",
+            "They create channels"
+        ],
+        "correct_answer": "They affect forms, routing, and reporting",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
+    },
+    {
+        "id": 28,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Brands",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What can differ between brands?",
+        "answers": [
+            "Customer-facing identity",
+            "Ticket status names",
+            "Agent license type"
+        ],
+        "correct_answer": "Customer-facing identity",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408833921306-Multibrand-resources"
+    },
+    {
+        "id": 29,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Business schedules",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What else can be added with business hours?",
+        "answers": [
+            "Holidays",
+            "Macros",
+            "Organizations"
+        ],
+        "correct_answer": "Holidays",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
+    },
+    {
+        "id": 30,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Custom ticket fields",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Which field type is best for choosing one value from a fixed list?",
+        "answers": [
+            "Dropdown",
+            "Text",
+            "Decimal"
+        ],
+        "correct_answer": "Dropdown",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
+    },
+    {
+        "id": 31,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Brands",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why plan brands before channels go live?",
+        "answers": [
+            "Channels often connect to a specific brand",
+            "Brands replace groups",
+            "Brands define ticket statuses"
+        ],
+        "correct_answer": "Channels often connect to a specific brand",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408833921306-Multibrand-resources"
+    },
+    {
+        "id": 32,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Business schedules",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the main benefit of accurate business schedules during setup?",
+        "answers": [
+            "More accurate operational timing",
+            "More article comments",
+            "More agent seats"
+        ],
+        "correct_answer": "More accurate operational timing",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
+    },
+    {
+        "id": 33,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Custom ticket fields",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is a strong reason to use ticket fields instead of free-text notes?",
+        "answers": [
+            "Consistent data for automation",
+            "Longer call recordings",
+            "More brands"
+        ],
+        "correct_answer": "Consistent data for automation",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
+    },
+    {
+        "id": 34,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Brands",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "A brand usually affects what customers see?",
+        "answers": [
+            "Name and identity",
+            "Internal audit log",
+            "Agent role editor"
+        ],
+        "correct_answer": "Name and identity",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408833921306-Multibrand-resources"
+    },
+    {
+        "id": 35,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Business schedules",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Business schedules are set by admins to reflect what?",
+        "answers": [
+            "Working time",
+            "Article order",
+            "Theme colors"
+        ],
+        "correct_answer": "Working time",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
+    },
+    {
+        "id": 36,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Custom ticket fields",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What object do custom ticket fields belong to?",
+        "answers": [
+            "Tickets",
+            "Users",
+            "Articles only"
+        ],
+        "correct_answer": "Tickets",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
+    },
+    {
+        "id": 37,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Custom ticket fields",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which field is best if agents must select an issue category?",
+        "answers": [
+            "Dropdown field",
+            "Text field",
+            "Date field"
+        ],
+        "correct_answer": "Dropdown field",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
+    },
+    {
+        "id": 38,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Brands",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "When is multibrand especially useful?",
+        "answers": [
+            "Multiple customer-facing identities",
+            "One small support team only",
+            "No email support"
+        ],
+        "correct_answer": "Multiple customer-facing identities",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408833921306-Multibrand-resources"
+    },
+    {
+        "id": 39,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Business schedules",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "If support runs in different time windows, what should be reviewed carefully?",
+        "answers": [
+            "Schedules and holidays",
+            "Macro categories",
+            "Article attachments"
+        ],
+        "correct_answer": "Schedules and holidays",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408842938522-Setting-your-schedule-with-business-hours-and-holidays"
+    },
+    {
+        "id": 40,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Ticket field strategy",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Too many unnecessary ticket fields usually cause what problem?",
+        "answers": [
+            "Poor agent efficiency",
+            "More call minutes",
+            "Duplicate brands"
+        ],
+        "correct_answer": "Poor agent efficiency",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
+    },
+    {
+        "id": 41,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Routing",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Routing is mainly about doing what with tickets?",
+        "answers": [
+            "Sending them to the right team",
+            "Deleting old comments",
+            "Publishing articles"
+        ],
+        "correct_answer": "Sending them to the right team",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 42,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Triggers",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "When do triggers run?",
+        "answers": [
+            "When tickets are created or updated",
+            "Once per month",
+            "Only during business hours"
+        ],
+        "correct_answer": "When tickets are created or updated",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 43,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Automations",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What makes automations different from triggers?",
+        "answers": [
+            "They run on time-based conditions",
+            "They create brands",
+            "They assign agent roles"
+        ],
+        "correct_answer": "They run on time-based conditions",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
+    },
+    {
+        "id": 44,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Views",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is a Zendesk view?",
+        "answers": [
+            "A filtered list of tickets",
+            "A user role",
+            "A help center section"
+        ],
+        "correct_answer": "A filtered list of tickets",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
+    },
+    {
+        "id": 45,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Macros",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is a macro used for?",
+        "answers": [
+            "Applying prebuilt ticket updates",
+            "Changing business hours",
+            "Managing article themes"
+        ],
+        "correct_answer": "Applying prebuilt ticket updates",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
+    },
+    {
+        "id": 46,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Triggers",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which workflow tool is best for sending an email when a ticket is created?",
+        "answers": [
+            "Trigger",
+            "Automation",
+            "View"
+        ],
+        "correct_answer": "Trigger",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 47,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Automations",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which tool is best for reminding agents after a ticket sits too long?",
+        "answers": [
+            "Automation",
+            "Macro",
+            "Group"
+        ],
+        "correct_answer": "Automation",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
+    },
+    {
+        "id": 48,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Views",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why do teams use views?",
+        "answers": [
+            "To organize work queues",
+            "To create ticket forms",
+            "To set channel greetings"
+        ],
+        "correct_answer": "To organize work queues",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
+    },
+    {
+        "id": 49,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Macros",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "A macro commonly includes what?",
+        "answers": [
+            "Reply text and field updates",
+            "Business hour rules",
+            "Brand logos"
+        ],
+        "correct_answer": "Reply text and field updates",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
+    },
+    {
+        "id": 50,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Routing",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What often powers routing logic?",
+        "answers": [
+            "Triggers and field values",
+            "Article votes",
+            "Agent profile photos"
+        ],
+        "correct_answer": "Triggers and field values",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 51,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Triggers",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the best practice when building triggers?",
+        "answers": [
+            "Use clear conditions and actions",
+            "Put everything in one trigger",
+            "Avoid ticket fields"
+        ],
+        "correct_answer": "Use clear conditions and actions",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 52,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Automations",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "An automation is most useful for which case?",
+        "answers": [
+            "Escalating aging open tickets",
+            "Setting a brand logo",
+            "Importing users"
+        ],
+        "correct_answer": "Escalating aging open tickets",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
+    },
+    {
+        "id": 53,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Views",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What makes a view effective for agents?",
+        "answers": [
+            "It matches a real work queue",
+            "It includes every ticket",
+            "It replaces triggers"
+        ],
+        "correct_answer": "It matches a real work queue",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
+    },
+    {
+        "id": 54,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Macros",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why are macros valuable during launch?",
+        "answers": [
+            "They improve consistency and speed",
+            "They add phone numbers",
+            "They create organizations"
+        ],
+        "correct_answer": "They improve consistency and speed",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
+    },
+    {
+        "id": 55,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Routing",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should routing rules align to first?",
+        "answers": [
+            "Team ownership model",
+            "Article hierarchy",
+            "Call recording retention"
+        ],
+        "correct_answer": "Team ownership model",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 56,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Views",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Who mainly uses views day to day?",
+        "answers": [
+            "Agents",
+            "End users",
+            "Only callers"
+        ],
+        "correct_answer": "Agents",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
+    },
+    {
+        "id": 57,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Macros",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "A macro can help with repetitive work by doing what?",
+        "answers": [
+            "Reusing common updates",
+            "Creating business schedules",
+            "Changing roles"
+        ],
+        "correct_answer": "Reusing common updates",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
+    },
+    {
+        "id": 58,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Triggers",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which event can fire a trigger?",
+        "answers": [
+            "Ticket update",
+            "Article translation",
+            "Theme upload only"
+        ],
+        "correct_answer": "Ticket update",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 59,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Automations",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Automations check tickets based on what?",
+        "answers": [
+            "Elapsed time and conditions",
+            "Agent passwords",
+            "Brand theme colors"
+        ],
+        "correct_answer": "Elapsed time and conditions",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408832701850-About-automations-and-how-they-work"
+    },
+    {
+        "id": 60,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Workflow design",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should be created before complex automations?",
+        "answers": [
+            "Core fields and process logic",
+            "Call greetings",
+            "Article comments"
+        ],
+        "correct_answer": "Core fields and process logic",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 61,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Routing",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "A basic routing rule often assigns a ticket to what?",
+        "answers": [
+            "A group",
+            "A holiday",
+            "A help center section"
+        ],
+        "correct_answer": "A group",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 62,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Macros",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What is a launch-friendly macro example?",
+        "answers": [
+            "First response template",
+            "Business hour calendar",
+            "Agent seat assignment"
+        ],
+        "correct_answer": "First response template",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
+    },
+    {
+        "id": 63,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Views",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What problem can too many overlapping views create?",
+        "answers": [
+            "Agent confusion",
+            "Voice outage",
+            "Brand duplication"
+        ],
+        "correct_answer": "Agent confusion",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
+    },
+    {
+        "id": 64,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Triggers",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why should trigger logic be tested before go-live?",
+        "answers": [
+            "To avoid unwanted ticket actions",
+            "To add more agents",
+            "To update article themes"
+        ],
+        "correct_answer": "To avoid unwanted ticket actions",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 65,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Workflow",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the best overall goal of workflow setup?",
+        "answers": [
+            "Consistent and efficient ticket handling",
+            "More article themes",
+            "More voice greetings"
+        ],
+        "correct_answer": "Consistent and efficient ticket handling",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 66,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Agents",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is the main purpose of adding agents in Zendesk?",
+        "answers": [
+            "Let staff work on tickets",
+            "Create customer organizations",
+            "Publish help articles automatically"
+        ],
+        "correct_answer": "Let staff work on tickets",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 67,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Roles",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Why assign the right role to a user?",
+        "answers": [
+            "To control permissions",
+            "To set business hours",
+            "To create phone lines"
+        ],
+        "correct_answer": "To control permissions",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 68,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Groups",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "When adding an agent, why assign them to a group?",
+        "answers": [
+            "To connect them to team workflows",
+            "To publish the Help Center",
+            "To create holidays"
+        ],
+        "correct_answer": "To connect them to team workflows",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 69,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Permissions",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What should admins avoid when adding new agents?",
+        "answers": [
+            "Giving more access than needed",
+            "Using groups",
+            "Using ticket fields"
+        ],
+        "correct_answer": "Giving more access than needed",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 70,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Roles",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should be decided before inviting agents?",
+        "answers": [
+            "Their role and group membership",
+            "Their article votes",
+            "Their voicemail PIN only"
+        ],
+        "correct_answer": "Their role and group membership",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 71,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Admins vs agents",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Who should usually have full configuration access?",
+        "answers": [
+            "Admins",
+            "All agents",
+            "End users"
+        ],
+        "correct_answer": "Admins",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 72,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Agent setup",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why is adding agents after workflow planning helpful?",
+        "answers": [
+            "You can map them to the right teams",
+            "It enables article labels",
+            "It creates brands"
+        ],
+        "correct_answer": "You can map them to the right teams",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 73,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Permissions",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "A good permission design follows what principle?",
+        "answers": [
+            "Least access needed",
+            "Most access possible",
+            "No group assignment"
+        ],
+        "correct_answer": "Least access needed",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 74,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Groups",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why is group membership important for agents?",
+        "answers": [
+            "It affects queue visibility and assignment",
+            "It changes brand logos",
+            "It publishes articles"
+        ],
+        "correct_answer": "It affects queue visibility and assignment",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 75,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Agent rollout",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is a smart approach before inviting all agents at once?",
+        "answers": [
+            "Pilot with a small group",
+            "Disable all views",
+            "Delete default triggers"
+        ],
+        "correct_answer": "Pilot with a small group",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 76,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Roles",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why should custom roles be reviewed carefully?",
+        "answers": [
+            "They determine agent capabilities",
+            "They create SLAs",
+            "They route email forwarding"
+        ],
+        "correct_answer": "They determine agent capabilities",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 77,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Agents",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Agents are internal users who mainly do what?",
+        "answers": [
+            "Handle support work",
+            "Read only public articles",
+            "Submit tickets only"
+        ],
+        "correct_answer": "Handle support work",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 78,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "User roles",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Which role can usually configure account settings?",
+        "answers": [
+            "Admin",
+            "End user",
+            "Requester"
+        ],
+        "correct_answer": "Admin",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 79,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Groups",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Adding agents to the right groups helps with what?",
+        "answers": [
+            "Correct ticket ownership",
+            "Article translation",
+            "Theme installation"
+        ],
+        "correct_answer": "Correct ticket ownership",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 80,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Rollout",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should agents receive along with access?",
+        "answers": [
+            "Training and workflow guidance",
+            "Brand logos only",
+            "Holiday calendars only"
+        ],
+        "correct_answer": "Training and workflow guidance",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 81,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Permissions",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What risk comes from poor role planning?",
+        "answers": [
+            "Security and process issues",
+            "Help Center colors changing",
+            "Phone numbers disappearing"
+        ],
+        "correct_answer": "Security and process issues",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 82,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Agent onboarding",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why should agent onboarding align with views and macros?",
+        "answers": [
+            "So agents can work efficiently from day one",
+            "So brands can be created faster",
+            "So articles get more votes"
+        ],
+        "correct_answer": "So agents can work efficiently from day one",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 83,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "Organizations",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What is the main value of linking users to organizations?",
+        "answers": [
+            "Shared account context",
+            "More macros",
+            "Extra phone numbers"
+        ],
+        "correct_answer": "Shared account context",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886146842-About-organizations-and-groups"
+    },
+    {
+        "id": 84,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Ticket field strategy",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should every ticket field have?",
+        "answers": [
+            "A clear business purpose",
+            "A matching article section",
+            "A phone greeting"
+        ],
+        "correct_answer": "A clear business purpose",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883152794-Adding-custom-ticket-fields-to-your-tickets-and-forms"
+    },
+    {
+        "id": 85,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Macros",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which team benefit do macros provide most?",
+        "answers": [
+            "Consistency",
+            "Extra brands",
+            "Extra channels"
+        ],
+        "correct_answer": "Consistency",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408887656602-Using-macros-to-update-tickets"
+    },
+    {
+        "id": 86,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Org structure",
+        "topic": "User fields",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "A user field can help identify what about a customer?",
+        "answers": [
+            "Profile attributes",
+            "Call routing only",
+            "Article comments only"
+        ],
+        "correct_answer": "Profile attributes",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822051866-Adding-custom-fields-to-users"
+    },
+    {
+        "id": 87,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Views",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Views are usually built from what?",
+        "answers": [
+            "Conditions",
+            "Phone greetings",
+            "Brand colors"
+        ],
+        "correct_answer": "Conditions",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408888828570-Creating-views-to-build-customized-lists-of-tickets"
+    },
+    {
+        "id": 88,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Adding agents",
+        "topic": "Agent setup",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Before agents start, they should have access to what?",
+        "answers": [
+            "Relevant views and macros",
+            "Theme code only",
+            "Brand billing only"
+        ],
+        "correct_answer": "Relevant views and macros",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408883763866-Understanding-standard-user-roles-for-Zendesk-Support"
+    },
+    {
+        "id": 89,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Brand, business schedule, custom ticket fields",
+        "topic": "Brands",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should be consistent within a brand setup?",
+        "answers": [
+            "Customer-facing experience",
+            "Internal ticket IDs",
+            "All group names globally"
+        ],
+        "correct_answer": "Customer-facing experience",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408833921306-Multibrand-resources"
+    },
+    {
+        "id": 90,
+        "big_boss": "Team & Workflow",
+        "mini_boss": "Workflow",
+        "topic": "Workflow planning",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should admins map before building triggers and views?",
+        "answers": [
+            "The support process",
+            "The article font",
+            "The voicemail greeting"
+        ],
+        "correct_answer": "The support process",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408822236058-About-Zendesk-triggers-and-how-they-work"
+    },
+    {
+        "id": 91,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Help Center basics",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is the Zendesk Help Center mainly for?",
+        "answers": [
+            "Self-service support content",
+            "Internal payroll",
+            "Voice routing"
+        ],
+        "correct_answer": "Self-service support content",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 92,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Guide",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Which Zendesk product powers the Help Center?",
+        "answers": [
+            "Guide",
+            "Talk",
+            "Explore"
+        ],
+        "correct_answer": "Guide",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 93,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Content structure",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Help Center content is commonly organized into what?",
+        "answers": [
+            "Categories, sections, and articles",
+            "Groups, macros, and views",
+            "Schedules, brands, and roles"
+        ],
+        "correct_answer": "Categories, sections, and articles",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 94,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Self-service",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Why launch a Help Center?",
+        "answers": [
+            "To deflect repetitive tickets",
+            "To assign agent seats",
+            "To configure call recording"
+        ],
+        "correct_answer": "To deflect repetitive tickets",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 95,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Publishing",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should exist before activating the Help Center publicly?",
+        "answers": [
+            "Useful content",
+            "Voice greetings",
+            "Agent passwords"
+        ],
+        "correct_answer": "Useful content",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 96,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Content design",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What makes Help Center content easier to find?",
+        "answers": [
+            "Clear structure and naming",
+            "More ticket fields",
+            "More business schedules"
+        ],
+        "correct_answer": "Clear structure and naming",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 97,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Articles",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What is a good first set of Help Center articles?",
+        "answers": [
+            "Top common questions",
+            "Only legal notices",
+            "Only release notes"
+        ],
+        "correct_answer": "Top common questions",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 98,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Permissions",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why review Help Center permissions before launch?",
+        "answers": [
+            "To control who can see content",
+            "To choose agent groups",
+            "To enable voicemail"
+        ],
+        "correct_answer": "To control who can see content",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 99,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Branding",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should your Help Center reflect?",
+        "answers": [
+            "Your support experience and brand",
+            "Your trigger order only",
+            "Your phone extension map only"
+        ],
+        "correct_answer": "Your support experience and brand",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 100,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Readiness",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the best launch approach for a new Help Center?",
+        "answers": [
+            "Start with high-value content and improve",
+            "Wait until every possible article is written",
+            "Publish with no structure"
+        ],
+        "correct_answer": "Start with high-value content and improve",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 101,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Messaging basics",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is Zendesk Messaging used for?",
+        "answers": [
+            "Conversational support in web or mobile",
+            "Publishing articles only",
+            "Managing business hours only"
+        ],
+        "correct_answer": "Conversational support in web or mobile",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 102,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Channels",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Messaging is best described as what type of channel?",
+        "answers": [
+            "Asynchronous conversation channel",
+            "Voice-only channel",
+            "Article-only channel"
+        ],
+        "correct_answer": "Asynchronous conversation channel",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 103,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Widgets",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Where is messaging often deployed first?",
+        "answers": [
+            "Website widget",
+            "Agent profile page",
+            "Audit log"
+        ],
+        "correct_answer": "Website widget",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 104,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Customer experience",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Why do many teams add messaging?",
+        "answers": [
+            "To offer fast conversational support",
+            "To replace all ticket fields",
+            "To create organizations"
+        ],
+        "correct_answer": "To offer fast conversational support",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 105,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Configuration",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Before launching messaging, what should be defined?",
+        "answers": [
+            "Who handles conversations and when",
+            "Only article labels",
+            "Only phone extensions"
+        ],
+        "correct_answer": "Who handles conversations and when",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 106,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Readiness",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should match your messaging launch plan?",
+        "answers": [
+            "Agent capacity",
+            "Article vote count",
+            "Holiday names only"
+        ],
+        "correct_answer": "Agent capacity",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 107,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Branding",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should messaging align with?",
+        "answers": [
+            "Brand and support flow",
+            "Only call recordings",
+            "Only organization fields"
+        ],
+        "correct_answer": "Brand and support flow",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 108,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Use cases",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What type of questions are best for messaging at launch?",
+        "answers": [
+            "Common, quick interactions",
+            "Only long legal cases",
+            "Only internal admin tasks"
+        ],
+        "correct_answer": "Common, quick interactions",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 109,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Strategy",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is a common risk of launching messaging without planning?",
+        "answers": [
+            "Slow response experience",
+            "Too many article categories",
+            "Duplicate business schedules"
+        ],
+        "correct_answer": "Slow response experience",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 110,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Readiness",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should be tested before enabling messaging broadly?",
+        "answers": [
+            "Conversation flow and staffing",
+            "Only article attachments",
+            "Only user avatars"
+        ],
+        "correct_answer": "Conversation flow and staffing",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 111,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Voice basics",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is Zendesk Voice primarily for?",
+        "answers": [
+            "Phone support",
+            "Article publishing",
+            "User profile storage"
+        ],
+        "correct_answer": "Phone support",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 112,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Talk",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Which Zendesk product handles voice?",
+        "answers": [
+            "Talk",
+            "Guide",
+            "Sell"
+        ],
+        "correct_answer": "Talk",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 113,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Setup",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is commonly needed to start voice support?",
+        "answers": [
+            "A configured phone number",
+            "A help article label",
+            "A user field only"
+        ],
+        "correct_answer": "A configured phone number",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 114,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Routing",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Voice setup should align with what?",
+        "answers": [
+            "Team coverage and routing",
+            "Article comments",
+            "Theme code"
+        ],
+        "correct_answer": "Team coverage and routing",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 115,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Configuration",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Before enabling voice, what should admins define?",
+        "answers": [
+            "Who answers calls and when",
+            "Only article sections",
+            "Only requester fields"
+        ],
+        "correct_answer": "Who answers calls and when",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 116,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Readiness",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why test the voice channel before launch?",
+        "answers": [
+            "To validate call flow",
+            "To add more article labels",
+            "To create organizations"
+        ],
+        "correct_answer": "To validate call flow",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 117,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Capacity",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Voice support requires planning for what?",
+        "answers": [
+            "Real-time staffing",
+            "Article voting",
+            "Theme previews"
+        ],
+        "correct_answer": "Real-time staffing",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 118,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Numbers",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "A voice number is usually tied to what support need?",
+        "answers": [
+            "Inbound calling",
+            "Article authoring",
+            "User segmentation"
+        ],
+        "correct_answer": "Inbound calling",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 119,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Strategy",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the biggest risk of launching voice without readiness?",
+        "answers": [
+            "Poor caller experience",
+            "Too many macros",
+            "Duplicate organizations"
+        ],
+        "correct_answer": "Poor caller experience",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 120,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Operations",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why should voice setup reflect business hours?",
+        "answers": [
+            "Calls need accurate coverage expectations",
+            "Articles need translations",
+            "Users need custom fields"
+        ],
+        "correct_answer": "Calls need accurate coverage expectations",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 121,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Content strategy",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What should a new Help Center focus on first?",
+        "answers": [
+            "Most common customer needs",
+            "Every edge case",
+            "Only internal policies"
+        ],
+        "correct_answer": "Most common customer needs",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 122,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Widget deployment",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Where do customers often first see messaging?",
+        "answers": [
+            "On the website",
+            "In the admin audit log",
+            "In the role editor"
+        ],
+        "correct_answer": "On the website",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 123,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Talk setup",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Voice support in Zendesk is often called what?",
+        "answers": [
+            "Talk",
+            "Guide",
+            "Explore"
+        ],
+        "correct_answer": "Talk",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 124,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Activation",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should be reviewed before making the Help Center public?",
+        "answers": [
+            "Content and permissions",
+            "Only phone numbers",
+            "Only user roles"
+        ],
+        "correct_answer": "Content and permissions",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 125,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Capacity planning",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why should messaging availability match staffing?",
+        "answers": [
+            "To maintain response quality",
+            "To increase article votes",
+            "To create more groups"
+        ],
+        "correct_answer": "To maintain response quality",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 126,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Testing",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should be verified in voice testing?",
+        "answers": [
+            "Call handling flow",
+            "Article labels",
+            "User field order"
+        ],
+        "correct_answer": "Call handling flow",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 127,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Structure",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why is information architecture important in the Help Center?",
+        "answers": [
+            "It improves findability",
+            "It changes user roles",
+            "It enables call recording"
+        ],
+        "correct_answer": "It improves findability",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 128,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Launch strategy",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is a safe way to launch messaging?",
+        "answers": [
+            "Start with limited scope",
+            "Enable everywhere immediately",
+            "Skip staffing review"
+        ],
+        "correct_answer": "Start with limited scope",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 129,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Coverage",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Which factor matters most for voice success on day one?",
+        "answers": [
+            "Reliable coverage plan",
+            "More ticket forms",
+            "More article sections"
+        ],
+        "correct_answer": "Reliable coverage plan",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 130,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Guide basics",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What is the main audience for a Help Center?",
+        "answers": [
+            "Customers seeking answers",
+            "Only admins",
+            "Only voice agents"
+        ],
+        "correct_answer": "Customers seeking answers",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 131,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Customer experience",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Messaging gives customers what kind of support experience?",
+        "answers": [
+            "Conversational",
+            "Spreadsheet-based",
+            "Phone-tree only"
+        ],
+        "correct_answer": "Conversational",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 132,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Operations",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Voice interactions usually require what from agents?",
+        "answers": [
+            "Immediate availability",
+            "Article writing only",
+            "Theme editing"
+        ],
+        "correct_answer": "Immediate availability",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 133,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Content planning",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "How should article topics be prioritized first?",
+        "answers": [
+            "By common customer demand",
+            "By longest title",
+            "By oldest draft"
+        ],
+        "correct_answer": "By common customer demand",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 134,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Planning",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should admins define for messaging hours?",
+        "answers": [
+            "When live support is available",
+            "When articles are voted on",
+            "When groups are renamed"
+        ],
+        "correct_answer": "When live support is available",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 135,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Planning",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Before adding a voice number, what should be clear?",
+        "answers": [
+            "Who will answer calls",
+            "Which articles are archived",
+            "Which org field is hidden"
+        ],
+        "correct_answer": "Who will answer calls",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 136,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Readiness",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What makes a Help Center launch successful?",
+        "answers": [
+            "Relevant content and clear navigation",
+            "Many empty sections",
+            "No content review"
+        ],
+        "correct_answer": "Relevant content and clear navigation",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 137,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Operations",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should happen if messaging volume exceeds capacity?",
+        "answers": [
+            "Adjust rollout or staffing",
+            "Add more article categories",
+            "Remove all groups"
+        ],
+        "correct_answer": "Adjust rollout or staffing",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 138,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Launch readiness",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why is a pilot useful for voice launch?",
+        "answers": [
+            "It helps validate real call operations",
+            "It creates ticket forms",
+            "It updates article comments"
+        ],
+        "correct_answer": "It helps validate real call operations",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 139,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Guide",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "A Help Center article is mainly meant to do what?",
+        "answers": [
+            "Answer a question",
+            "Assign a group",
+            "Create a schedule"
+        ],
+        "correct_answer": "Answer a question",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 140,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Setup",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Messaging should be launched where customers already seek help. True focus?",
+        "answers": [
+            "Yes, customer touchpoints",
+            "No, only admin screens",
+            "No, only reports"
+        ],
+        "correct_answer": "Yes, customer touchpoints",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 141,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Talk basics",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What channel type is Talk?",
+        "answers": [
+            "Voice",
+            "Article",
+            "Workflow"
+        ],
+        "correct_answer": "Voice",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 142,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Permissions",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Permissions in the Help Center determine what?",
+        "answers": [
+            "Who can view content",
+            "Who owns phone numbers",
+            "Who edits business hours"
+        ],
+        "correct_answer": "Who can view content",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 143,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Use case fit",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Messaging is often strong for what kind of issue?",
+        "answers": [
+            "Quick support questions",
+            "Very long offline audits",
+            "Help Center theming only"
+        ],
+        "correct_answer": "Quick support questions",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 144,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Capacity planning",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Voice capacity planning should focus on what?",
+        "answers": [
+            "Agent availability",
+            "Article hierarchy",
+            "Organization logos"
+        ],
+        "correct_answer": "Agent availability",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 145,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Design",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the core reason to keep Help Center navigation simple?",
+        "answers": [
+            "Customers find answers faster",
+            "Agents get more roles",
+            "Calls route automatically"
+        ],
+        "correct_answer": "Customers find answers faster",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 146,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Launch readiness",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should messaging setup avoid at launch?",
+        "answers": [
+            "Overpromising availability",
+            "Using branding",
+            "Testing conversation flow"
+        ],
+        "correct_answer": "Overpromising availability",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 147,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Launch readiness",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should callers experience after voice goes live?",
+        "answers": [
+            "A reliable support path",
+            "A list of macros",
+            "A Help Center draft"
+        ],
+        "correct_answer": "A reliable support path",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 148,
+        "big_boss": "Channels",
+        "mini_boss": "Help Center",
+        "topic": "Articles",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Articles belong inside what Help Center structure element?",
+        "answers": [
+            "Sections",
+            "Groups",
+            "Schedules"
+        ],
+        "correct_answer": "Sections",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 149,
+        "big_boss": "Channels",
+        "mini_boss": "Messaging",
+        "topic": "Basics",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Messaging supports what style of customer interaction?",
+        "answers": [
+            "Back-and-forth chat",
+            "Article voting only",
+            "Role assignment only"
+        ],
+        "correct_answer": "Back-and-forth chat",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 150,
+        "big_boss": "Channels",
+        "mini_boss": "Voice",
+        "topic": "Basics",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Voice support handles customer contact through what medium?",
+        "answers": [
+            "Phone calls",
+            "Article pages",
+            "Ticket forms only"
+        ],
+        "correct_answer": "Phone calls",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 151,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Agent training",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Why train agents before launch?",
+        "answers": [
+            "So they can use Zendesk effectively",
+            "So they can edit billing only",
+            "So they can create brands only"
+        ],
+        "correct_answer": "So they can use Zendesk effectively",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 152,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Readiness",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What should agents know on day one?",
+        "answers": [
+            "How to handle their work",
+            "How to code themes",
+            "How to buy phone numbers"
+        ],
+        "correct_answer": "How to handle their work",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 153,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Tools",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Which tools should agents learn before go-live?",
+        "answers": [
+            "Views and macros",
+            "Brand billing only",
+            "Holiday setup only"
+        ],
+        "correct_answer": "Views and macros",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 154,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Process",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Training should include what besides tool clicks?",
+        "answers": [
+            "Real support workflows",
+            "Only brand names",
+            "Only theme colors"
+        ],
+        "correct_answer": "Real support workflows",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 155,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Readiness",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What is a good training outcome?",
+        "answers": [
+            "Agents can work confidently",
+            "Agents can redesign Guide themes",
+            "Agents can create subscriptions"
+        ],
+        "correct_answer": "Agents can work confidently",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 156,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Launch prep",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why use hands-on practice in training?",
+        "answers": [
+            "It improves launch readiness",
+            "It changes roles",
+            "It creates channels"
+        ],
+        "correct_answer": "It improves launch readiness",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 157,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Change management",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What happens when training is too shallow?",
+        "answers": [
+            "Adoption suffers",
+            "More brands appear",
+            "Article labels change"
+        ],
+        "correct_answer": "Adoption suffers",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 158,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Best practice",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should training mirror most closely?",
+        "answers": [
+            "Actual day-to-day work",
+            "Help Center code",
+            "Billing workflows only"
+        ],
+        "correct_answer": "Actual day-to-day work",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 159,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Agent enablement",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Training helps agents become what at launch?",
+        "answers": [
+            "Prepared",
+            "Hidden",
+            "Archived"
+        ],
+        "correct_answer": "Prepared",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 160,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Agent workflows",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should agents practice in Zendesk before launch?",
+        "answers": [
+            "Common ticket scenarios",
+            "Only branding updates",
+            "Only role exports"
+        ],
+        "correct_answer": "Common ticket scenarios",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 161,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Email channel",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Why set up external email forwarding?",
+        "answers": [
+            "To send support emails into Zendesk",
+            "To publish Help Center articles",
+            "To add phone numbers"
+        ],
+        "correct_answer": "To send support emails into Zendesk",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 162,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Setup",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Forwarding support email helps customers contact support through what channel?",
+        "answers": [
+            "Email",
+            "Voice only",
+            "Help Center only"
+        ],
+        "correct_answer": "Email",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 163,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Readiness",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What should be tested after email forwarding is configured?",
+        "answers": [
+            "That messages create tickets",
+            "That articles get votes",
+            "That roles are renamed"
+        ],
+        "correct_answer": "That messages create tickets",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 164,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Launch prep",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why verify forwarding before launch?",
+        "answers": [
+            "To avoid lost customer emails",
+            "To create more brands",
+            "To reorder views"
+        ],
+        "correct_answer": "To avoid lost customer emails",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 165,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Operations",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "A successful forwarding setup ensures what?",
+        "answers": [
+            "Customer emails reach Zendesk",
+            "Articles publish faster",
+            "Voice quality improves"
+        ],
+        "correct_answer": "Customer emails reach Zendesk",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 166,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Testing",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What is the simplest way to test forwarding?",
+        "answers": [
+            "Send a test email",
+            "Create a new brand",
+            "Archive a macro"
+        ],
+        "correct_answer": "Send a test email",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 167,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Risk",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the main launch risk if forwarding fails?",
+        "answers": [
+            "Customers cannot reach support by email",
+            "Views disappear",
+            "Organizations merge"
+        ],
+        "correct_answer": "Customers cannot reach support by email",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 168,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Best practice",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should admins confirm after forwarding is live?",
+        "answers": [
+            "Real emails continue arriving correctly",
+            "Article themes changed",
+            "Roles were reset"
+        ],
+        "correct_answer": "Real emails continue arriving correctly",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 169,
+        "big_boss": "Going live",
+        "mini_boss": "Configure voice channel",
+        "topic": "Voice go-live",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What should be ready before launching voice?",
+        "answers": [
+            "Number and coverage plan",
+            "Only article drafts",
+            "Only user fields"
+        ],
+        "correct_answer": "Number and coverage plan",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 170,
+        "big_boss": "Going live",
+        "mini_boss": "Configure voice channel",
+        "topic": "Testing",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What should you do before publishing your voice number widely?",
+        "answers": [
+            "Test the call experience",
+            "Delete all macros",
+            "Hide all views"
+        ],
+        "correct_answer": "Test the call experience",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 171,
+        "big_boss": "Going live",
+        "mini_boss": "Configure voice channel",
+        "topic": "Readiness",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What must align with voice launch timing?",
+        "answers": [
+            "Agent availability",
+            "Article labels",
+            "Organization names"
+        ],
+        "correct_answer": "Agent availability",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 172,
+        "big_boss": "Going live",
+        "mini_boss": "Configure voice channel",
+        "topic": "Operations",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why should business hours be clear for voice?",
+        "answers": [
+            "To set caller expectations",
+            "To create views",
+            "To assign organizations"
+        ],
+        "correct_answer": "To set caller expectations",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 173,
+        "big_boss": "Going live",
+        "mini_boss": "Configure voice channel",
+        "topic": "Launch risk",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the biggest issue if voice is announced too early?",
+        "answers": [
+            "Customers may call before support is ready",
+            "Help Center articles vanish",
+            "Groups are deleted"
+        ],
+        "correct_answer": "Customers may call before support is ready",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 174,
+        "big_boss": "Going live",
+        "mini_boss": "Configure voice channel",
+        "topic": "Best practice",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What proves voice is ready for launch?",
+        "answers": [
+            "Tested flows and staffed coverage",
+            "More ticket forms",
+            "More article attachments"
+        ],
+        "correct_answer": "Tested flows and staffed coverage",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 175,
+        "big_boss": "Going live",
+        "mini_boss": "Activate Help Center",
+        "topic": "Help Center go-live",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Before activating the Help Center, what should you review?",
+        "answers": [
+            "Content readiness",
+            "Phone extensions only",
+            "Agent passwords only"
+        ],
+        "correct_answer": "Content readiness",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 176,
+        "big_boss": "Going live",
+        "mini_boss": "Activate Help Center",
+        "topic": "Permissions",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What else should be checked before Help Center activation?",
+        "answers": [
+            "Permissions",
+            "Call wait music",
+            "Agent signatures only"
+        ],
+        "correct_answer": "Permissions",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 177,
+        "big_boss": "Going live",
+        "mini_boss": "Activate Help Center",
+        "topic": "Customer experience",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why should navigation be reviewed before launch?",
+        "answers": [
+            "So customers can find answers easily",
+            "So ticket statuses change",
+            "So voice calls route"
+        ],
+        "correct_answer": "So customers can find answers easily",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 178,
+        "big_boss": "Going live",
+        "mini_boss": "Activate Help Center",
+        "topic": "Readiness",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should a soft launch of the Help Center help validate?",
+        "answers": [
+            "Usability and content usefulness",
+            "Role billing",
+            "Macro permissions only"
+        ],
+        "correct_answer": "Usability and content usefulness",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 179,
+        "big_boss": "Going live",
+        "mini_boss": "Activate Help Center",
+        "topic": "Launch risk",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the biggest risk of activating too early?",
+        "answers": [
+            "Customers see incomplete help content",
+            "Groups stop routing",
+            "Voice numbers disconnect"
+        ],
+        "correct_answer": "Customers see incomplete help content",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 180,
+        "big_boss": "Going live",
+        "mini_boss": "Activate Help Center",
+        "topic": "Best practice",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the best first goal for Help Center launch?",
+        "answers": [
+            "Answer top customer questions well",
+            "Cover every product detail instantly",
+            "Replace all other channels"
+        ],
+        "correct_answer": "Answer top customer questions well",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 181,
+        "big_boss": "Going live",
+        "mini_boss": "Set up messaging channel",
+        "topic": "Messaging go-live",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Before launching messaging, what should be clear?",
+        "answers": [
+            "Who will respond",
+            "Which macros are archived",
+            "Which groups are hidden"
+        ],
+        "correct_answer": "Who will respond",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 182,
+        "big_boss": "Going live",
+        "mini_boss": "Set up messaging channel",
+        "topic": "Availability",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Why define messaging availability before launch?",
+        "answers": [
+            "To set support expectations",
+            "To publish articles",
+            "To create roles"
+        ],
+        "correct_answer": "To set support expectations",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 183,
+        "big_boss": "Going live",
+        "mini_boss": "Set up messaging channel",
+        "topic": "Testing",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What should be tested before messaging is widely visible?",
+        "answers": [
+            "Conversation flow",
+            "Article translations only",
+            "Organization imports only"
+        ],
+        "correct_answer": "Conversation flow",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 184,
+        "big_boss": "Going live",
+        "mini_boss": "Set up messaging channel",
+        "topic": "Capacity",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why should launch scope match staffing?",
+        "answers": [
+            "To avoid slow responses",
+            "To increase brands",
+            "To reduce article sections"
+        ],
+        "correct_answer": "To avoid slow responses",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 185,
+        "big_boss": "Going live",
+        "mini_boss": "Set up messaging channel",
+        "topic": "Launch risk",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What happens if messaging is launched too broadly at first?",
+        "answers": [
+            "Service quality may drop",
+            "Voice numbers increase",
+            "Ticket fields disappear"
+        ],
+        "correct_answer": "Service quality may drop",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 186,
+        "big_boss": "Going live",
+        "mini_boss": "Set up messaging channel",
+        "topic": "Best practice",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is a good messaging launch approach?",
+        "answers": [
+            "Start small and refine",
+            "Launch with no staffing plan",
+            "Avoid testing"
+        ],
+        "correct_answer": "Start small and refine",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 187,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Onboarding",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "What should agent training include first?",
+        "answers": [
+            "Core daily tasks",
+            "Theme coding",
+            "Subscription management"
+        ],
+        "correct_answer": "Core daily tasks",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 188,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Validation",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "After setting forwarding, what should appear in Zendesk?",
+        "answers": [
+            "New email tickets",
+            "New article drafts",
+            "New business schedules"
+        ],
+        "correct_answer": "New email tickets",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 189,
+        "big_boss": "Going live",
+        "mini_boss": "Configure voice channel",
+        "topic": "Launch prep",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Voice should not go live until what is ready?",
+        "answers": [
+            "Support coverage",
+            "Article labels",
+            "Organization tags"
+        ],
+        "correct_answer": "Support coverage",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 190,
+        "big_boss": "Going live",
+        "mini_boss": "Activate Help Center",
+        "topic": "Launch prep",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "A Help Center should launch with what kind of articles?",
+        "answers": [
+            "Useful starter content",
+            "Random drafts",
+            "Only internal notes"
+        ],
+        "correct_answer": "Useful starter content",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 191,
+        "big_boss": "Going live",
+        "mini_boss": "Set up messaging channel",
+        "topic": "Launch prep",
+        "difficulty": "easy",
+        "xp_value": 10,
+        "question": "Messaging should appear where customers are likely to need help. Best answer?",
+        "answers": [
+            "Relevant support touchpoints",
+            "Only admin settings",
+            "Only the audit log"
+        ],
+        "correct_answer": "Relevant support touchpoints",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 192,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Confidence",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "What does good training reduce during launch?",
+        "answers": [
+            "Agent confusion",
+            "Article sections",
+            "Phone numbers"
+        ],
+        "correct_answer": "Agent confusion",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 193,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Go-live checklist",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Why include email forwarding in a go-live checklist?",
+        "answers": [
+            "It is a key customer entry point",
+            "It creates views",
+            "It updates user fields"
+        ],
+        "correct_answer": "It is a key customer entry point",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 194,
+        "big_boss": "Going live",
+        "mini_boss": "Configure voice channel",
+        "topic": "Checklist",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which voice item belongs on a launch checklist?",
+        "answers": [
+            "Inbound call testing",
+            "Article labels",
+            "Role export names"
+        ],
+        "correct_answer": "Inbound call testing",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 195,
+        "big_boss": "Going live",
+        "mini_boss": "Activate Help Center",
+        "topic": "Checklist",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which Help Center item belongs on a launch checklist?",
+        "answers": [
+            "Navigation review",
+            "Phone extension list",
+            "Agent seat invoice"
+        ],
+        "correct_answer": "Navigation review",
+        "article_url": "https://support.zendesk.com/hc/en-us/sections/4405298844570"
+    },
+    {
+        "id": 196,
+        "big_boss": "Going live",
+        "mini_boss": "Set up messaging channel",
+        "topic": "Checklist",
+        "difficulty": "medium",
+        "xp_value": 20,
+        "question": "Which messaging item belongs on a launch checklist?",
+        "answers": [
+            "Conversation test",
+            "Article archive",
+            "Group renaming"
+        ],
+        "correct_answer": "Conversation test",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    },
+    {
+        "id": 197,
+        "big_boss": "Going live",
+        "mini_boss": "Training agents",
+        "topic": "Best practice",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What is the strongest sign agents are ready?",
+        "answers": [
+            "They can handle realistic scenarios",
+            "They know every admin setting",
+            "They can edit theme code"
+        ],
+        "correct_answer": "They can handle realistic scenarios",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408843500058-Start-here-Zendesk-Training-Offerings-Overview"
+    },
+    {
+        "id": 198,
+        "big_boss": "Going live",
+        "mini_boss": "External email forwarding",
+        "topic": "Risk prevention",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why should forwarding be monitored after launch?",
+        "answers": [
+            "To catch delivery issues quickly",
+            "To create more roles",
+            "To improve article themes"
+        ],
+        "correct_answer": "To catch delivery issues quickly",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408886828698-Forwarding-incoming-email-from-your-existing-email-address-to-Zendesk-Support"
+    },
+    {
+        "id": 199,
+        "big_boss": "Going live",
+        "mini_boss": "Configure voice channel",
+        "topic": "Risk prevention",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "Why should a new voice channel be launched carefully?",
+        "answers": [
+            "It affects live customer experiences immediately",
+            "It changes article sections",
+            "It edits organization fields"
+        ],
+        "correct_answer": "It affects live customer experiences immediately",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408838773530-Welcome-to-Talk-for-voice"
+    },
+    {
+        "id": 200,
+        "big_boss": "Going live",
+        "mini_boss": "Set up messaging channel",
+        "topic": "Risk prevention",
+        "difficulty": "hard",
+        "xp_value": 30,
+        "question": "What should be true before scaling messaging broadly?",
+        "answers": [
+            "The team can support demand",
+            "All macros are deleted",
+            "All articles are private"
+        ],
+        "correct_answer": "The team can support demand",
+        "article_url": "https://support.zendesk.com/hc/en-us/articles/4408846454682-About-conversational-support-with-messaging"
+    }
+]
