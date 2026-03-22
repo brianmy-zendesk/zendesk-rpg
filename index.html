@@ -247,6 +247,28 @@
     }
     #howtoplay-close:hover { background: #cc3333; }
 
+    .howtoplay-github {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 16px;
+      padding-top: 12px;
+      border-top: 1px solid #333355;
+    }
+    .howtoplay-github a {
+      color: #03b1fc;
+      font-family: monospace;
+      font-size: 13px;
+      text-decoration: none;
+    }
+    .howtoplay-github a:hover { text-decoration: underline; }
+
+    .github-icon {
+      width: 20px;
+      height: 20px;
+      image-rendering: pixelated;
+    }
+
     /* --- Unsupported Device Gate --- */
     #unsupported-overlay {
       display: none;
@@ -336,6 +358,52 @@
         <li>Press P or the Coffee Break button to pause the timer</li>
         <li>Defeat all bosses across 3 levels to win</li>
       </ul>
+      <div class="howtoplay-github">
+        <svg class="github-icon" viewBox="0 0 16 16" fill="#cccccc" shape-rendering="crispEdges">
+          <rect x="5" y="0" width="6" height="1"/>
+          <rect x="3" y="1" width="2" height="1"/>
+          <rect x="11" y="1" width="2" height="1"/>
+          <rect x="2" y="2" width="1" height="1"/>
+          <rect x="5" y="2" width="2" height="1"/>
+          <rect x="9" y="2" width="2" height="1"/>
+          <rect x="13" y="2" width="1" height="1"/>
+          <rect x="1" y="3" width="1" height="1"/>
+          <rect x="4" y="3" width="1" height="1"/>
+          <rect x="6" y="3" width="1" height="1"/>
+          <rect x="9" y="3" width="1" height="1"/>
+          <rect x="11" y="3" width="1" height="1"/>
+          <rect x="14" y="3" width="1" height="1"/>
+          <rect x="1" y="4" width="1" height="1"/>
+          <rect x="4" y="4" width="1" height="1"/>
+          <rect x="11" y="4" width="1" height="1"/>
+          <rect x="14" y="4" width="1" height="1"/>
+          <rect x="0" y="5" width="1" height="1"/>
+          <rect x="15" y="5" width="1" height="1"/>
+          <rect x="0" y="6" width="1" height="3"/>
+          <rect x="15" y="6" width="1" height="3"/>
+          <rect x="1" y="9" width="1" height="1"/>
+          <rect x="14" y="9" width="1" height="1"/>
+          <rect x="2" y="10" width="1" height="1"/>
+          <rect x="13" y="10" width="1" height="1"/>
+          <rect x="3" y="11" width="2" height="1"/>
+          <rect x="11" y="11" width="2" height="1"/>
+          <rect x="5" y="12" width="1" height="1"/>
+          <rect x="10" y="12" width="1" height="1"/>
+          <rect x="3" y="12" width="1" height="2"/>
+          <rect x="12" y="12" width="1" height="2"/>
+          <rect x="4" y="13" width="1" height="1"/>
+          <rect x="11" y="13" width="1" height="1"/>
+          <rect x="2" y="14" width="2" height="1"/>
+          <rect x="5" y="14" width="2" height="1"/>
+          <rect x="9" y="14" width="2" height="1"/>
+          <rect x="12" y="14" width="2" height="1"/>
+          <rect x="1" y="5" width="14" height="1" fill-opacity="0.15"/>
+          <rect x="1" y="6" width="14" height="3" fill-opacity="0.15"/>
+          <rect x="2" y="9" width="12" height="1" fill-opacity="0.15"/>
+          <rect x="3" y="10" width="10" height="1" fill-opacity="0.15"/>
+        </svg>
+        <a href="https://github.com/brianmy-zendesk/zendesk-rpg" target="_blank">View source on GitHub</a>
+      </div>
     </div>
   </div>
 
