@@ -169,7 +169,7 @@ zendesk-rpg/
 │   ├── leaderboard.js        # Leaderboard submit/fetch with caching
 │   └── main.js               # Phaser init, toolbar, modals
 ├── index.html                # Game shell, toolbar, modals, mobile gate
-├── zendesk_boss_question_bank.json  # 200 quiz questions
+├── zendesk_boss_question_bank.json  # 400+ quiz questions
 ├── PRD.md                    # Product requirements document
 └── package.json
 ```
