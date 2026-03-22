@@ -246,6 +246,53 @@
       font-weight: bold;
     }
     #howtoplay-close:hover { background: #cc3333; }
+
+    /* --- Unsupported Device Gate --- */
+    #unsupported-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: #2d2d4a;
+      z-index: 9999;
+      justify-content: center;
+      align-items: center;
+    }
+    #unsupported-overlay.active { display: flex; }
+
+    #unsupported-modal {
+      background: #0a0a1a;
+      border: 3px solid #03b1fc;
+      padding: 40px 32px;
+      max-width: 400px;
+      width: 90%;
+      text-align: center;
+    }
+    #unsupported-modal h2 {
+      color: #03b1fc;
+      font-family: monospace;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    #unsupported-modal p {
+      color: #cccccc;
+      font-family: monospace;
+      font-size: 14px;
+      line-height: 1.8;
+      margin-bottom: 28px;
+    }
+    #unsupported-cta {
+      display: inline-block;
+      background: #03b1fc;
+      color: #ffffff;
+      border: none;
+      padding: 14px 40px;
+      font-family: monospace;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    #unsupported-cta:hover { background: #0599d4; }
   </style>
 </head>
 <body>
@@ -291,6 +338,26 @@
       </ul>
     </div>
   </div>
+
+  <!-- Unsupported Device Gate -->
+  <div id="unsupported-overlay">
+    <div id="unsupported-modal">
+      <h2>Play on desktop</h2>
+      <p>Zendesk RPG is designed to be played on your desktop. To play the game, continue on a computer.</p>
+      <a id="unsupported-cta" href="https://www.zendesk.com">Visit zendesk.com</a>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)
+        || (navigator.maxTouchPoints > 0 && window.matchMedia('(max-width: 1024px)').matches);
+      if (isMobile) {
+        document.getElementById('unsupported-overlay').classList.add('active');
+        document.getElementById('game-wrapper').style.display = 'none';
+      }
+    })();
+  </script>
 
   <script type="module" src="/src/main.js"></script>
 </body>
