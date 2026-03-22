@@ -4,7 +4,7 @@
 
 A full playthrough takes approximately **10 minutes**.
 
-![Support Space Screenshot](public/assets/screenshots/title-screen.png)
+![Support Space Screenshot](public/Support-Space-GameCover.png)
 
 ---
 
@@ -29,6 +29,7 @@ Think Pokemon meets Zendesk Admin training — a fun, educational way to learn h
 ## Game Rules
 
 ### Battle Mechanics
+
 - **Lives**: 3 (represented as red Swingline staplers)
 - **Player HP**: 100 per battle
 - **Wrong Answer Penalty**: -25 HP (mini-boss), -30 HP (big boss)
@@ -36,22 +37,26 @@ Think Pokemon meets Zendesk Admin training — a fun, educational way to learn h
 - **Pause**: Press P or the Coffee Break button to pause the timer
 
 ### Mini-Boss Battles (Coworker Confrontation)
+
 - **Questions per battle**: 5 (3 easy, 1 medium, 1 hard)
 - **Boss HP**: 100
 - **Damage per correct answer**: Easy = 20, Medium = 25, Hard = 35
 
 ### Big Boss Battles (Boss Encounter)
+
 - **Questions per battle**: 8 (2 easy, 3 medium, 3 hard)
 - **Boss HP**: 200
 - **Damage per correct answer**: Easy = 15, Medium = 25, Hard = 40
 - Questions drawn from all topics within the level (no repeats from mini-boss battles)
 
 ### XP & Scoring
+
 - **XP per correct answer**: Easy = 10, Medium = 20, Hard = 30
 - **Streak Bonus (3x)**: "Flair Bonus!" +10 XP
 - **Streak Bonus (5x)**: "37 Pieces of Flair!" +25 XP
 
 ### Performance Ratings
+
 - **90%+ accuracy**: Gold — "You've been promoted to Senior Admin."
 - **70-89% accuracy**: Silver — "Looks like someone has a case of the Mondays."
 - **Below 70% accuracy**: Bronze — "I believe you have my stapler."
@@ -59,35 +64,45 @@ Think Pokemon meets Zendesk Admin training — a fun, educational way to learn h
 ## Level Progression
 
 ### Level 1: Team & Workflow
-| Boss | Type | Topics |
-|------|------|--------|
-| Org Structure | Mini | Groups, User fields, Organizations |
-| Brand & Config | Mini | Brand, Business schedule, Custom fields |
-| Workflow | Mini | Routing, Triggers, Automations, Views, Macros |
-| Adding Agents | Mini | Agent roles, Invitations, Permissions |
-| **The TPS Report Overlord** | **Big** | All Team & Workflow topics |
+
+
+| Boss                        | Type    | Topics                                        |
+| --------------------------- | ------- | --------------------------------------------- |
+| Org Structure               | Mini    | Groups, User fields, Organizations            |
+| Brand & Config              | Mini    | Brand, Business schedule, Custom fields       |
+| Workflow                    | Mini    | Routing, Triggers, Automations, Views, Macros |
+| Adding Agents               | Mini    | Agent roles, Invitations, Permissions         |
+| **The TPS Report Overlord** | **Big** | All Team & Workflow topics                    |
+
 
 ### Level 2: Channels
-| Boss | Type | Topics |
-|------|------|--------|
-| Help Center | Mini | Knowledge base, Articles, Sections |
-| Messaging | Mini | Web widget, Messaging channels, Bots |
-| Voice | Mini | Talk setup, Phone numbers, IVR |
-| **The Channel Surfer** | **Big** | All Channels topics |
+
+
+| Boss                   | Type    | Topics                               |
+| ---------------------- | ------- | ------------------------------------ |
+| Help Center            | Mini    | Knowledge base, Articles, Sections   |
+| Messaging              | Mini    | Web widget, Messaging channels, Bots |
+| Voice                  | Mini    | Talk setup, Phone numbers, IVR       |
+| **The Channel Surfer** | **Big** | All Channels topics                  |
+
 
 ### Level 3: Going Live
-| Boss | Type | Topics |
-|------|------|--------|
-| Training Agents | Mini | Agent onboarding, Training resources |
-| External Email Forwarding | Mini | Email forwarding, SPF/DNS |
-| Configure Voice Channel | Mini | Voice activation, Number porting |
-| Activate Help Center | Mini | HC activation, Theming |
-| Set Up Messaging Channel | Mini | Messaging activation, Widget config |
-| **Bill Lumbergh** | **Big** | All Going Live topics |
+
+
+| Boss                      | Type    | Topics                               |
+| ------------------------- | ------- | ------------------------------------ |
+| Training Agents           | Mini    | Agent onboarding, Training resources |
+| External Email Forwarding | Mini    | Email forwarding, SPF/DNS            |
+| Configure Voice Channel   | Mini    | Voice activation, Number porting     |
+| Activate Help Center      | Mini    | HC activation, Theming               |
+| Set Up Messaging Channel  | Mini    | Messaging activation, Widget config  |
+| **Bill Lumbergh**         | **Big** | All Going Live topics                |
+
 
 ## Leaderboard
 
 The shared leaderboard uses Firebase Firestore for real-time persistence:
+
 - Top 25 scores ranked by XP
 - Displays: Rank, Player name, XP, Accuracy %, Battles won/total
 - Gold/Silver/Bronze highlighting for top 3
@@ -122,11 +137,13 @@ npm install
 
 ### Available Commands
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Launch development server |
-| `npm run build` | Create production build in `dist/` |
-| `npm run preview` | Preview production build locally |
+
+| Command           | Description                        |
+| ----------------- | ---------------------------------- |
+| `npm run dev`     | Launch development server          |
+| `npm run build`   | Create production build in `dist/` |
+| `npm run preview` | Preview production build locally   |
+
 
 ### Project Structure
 
@@ -167,7 +184,9 @@ zendesk-rpg/
 ## Content
 
 ### Question Bank
+
 All 439 questions are stored in `zendesk_boss_question_bank.json` with:
+
 - Question text and 3 answer options
 - Correct answer
 - Difficulty tier (easy, medium, hard)
@@ -177,31 +196,37 @@ All 439 questions are stored in `zendesk_boss_question_bank.json` with:
 
 ### Office Space References
 
-| Element | Reference |
-|---------|-----------|
-| Final Boss | Bill Lumbergh — "Yeah, if you could go ahead and configure that, that'd be great." |
-| Boss 1 | The TPS Report Overlord — demands TPS reports (ticket configuration) |
-| Boss 2 | The Channel Surfer — controls all communication channels |
-| Wrong Answers | "PC LOAD LETTER" error flash |
-| Lives | Red Swingline staplers |
-| Streak Bonus | "Pieces of Flair" |
-| NPC | Milton — mumbles about his missing stapler |
-| Golden Stapler | Milton's lost stapler — revealed in final dialogue and victory screen |
-| Victory | "I could set the building on fire" celebration |
-| Game Over | "You have been relocated to the basement" |
+
+| Element        | Reference                                                                          |
+| -------------- | ---------------------------------------------------------------------------------- |
+| Final Boss     | Bill Lumbergh — "Yeah, if you could go ahead and configure that, that'd be great." |
+| Boss 1         | The TPS Report Overlord — demands TPS reports (ticket configuration)               |
+| Boss 2         | The Channel Surfer — controls all communication channels                           |
+| Wrong Answers  | "PC LOAD LETTER" error flash                                                       |
+| Lives          | Red Swingline staplers                                                             |
+| Streak Bonus   | "Pieces of Flair"                                                                  |
+| NPC            | Milton — mumbles about his missing stapler                                         |
+| Golden Stapler | Milton's lost stapler — revealed in final dialogue and victory screen              |
+| Victory        | "I could set the building on fire" celebration                                     |
+| Game Over      | "You have been relocated to the basement"                                          |
+
 
 ## Credits
 
 ### Created By
+
 **Brian My** — Game design, development, and Zendesk content
 
 ### Built With
+
 - [Phaser](https://phaser.io) — Game engine
 - [Firebase](https://firebase.google.com/) — Leaderboard database
 - [Vite](https://vitejs.dev/) — Build tool
 
 ### Art Assets
+
 Pixel art sourced from the Legacy Collection asset pack, including:
+
 - tiny-rpg-town-files (hero, NPC, town tileset)
 - grotto_escape_pack (enemies, items, health meter)
 - Various environment backgrounds (country, mist forest, night town, caverns)
