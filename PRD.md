@@ -252,7 +252,7 @@ A **shared leaderboard** ranks the top 25 players by XP, persisted via **Firebas
 - **Language:** JavaScript
 - **Build tool:** Vite
 - **Backend:** Firebase Firestore (leaderboard persistence)
-- **Question data:** `zendesk_boss_question_bank.json` (200 questions, loaded at runtime)
+- **Question data:** `zendesk_boss_question_bank.json` (439 questions, loaded at runtime)
 - **Target resolution:** 800x600 pixels
 - **Browser support:** Chrome, Firefox, Safari, Edge (latest versions)
 
@@ -393,7 +393,7 @@ All assets sourced from `Legacy Collection/Assets/`.
   - All missed questions with Help Center links
   - Performance rating (Senior Admin / Case of the Mondays / I believe you have my stapler)
 - Victory screen: "I could set the building on fire" celebration
-- All 200 questions from `zendesk_boss_question_bank.json` integrated
+- All 439 questions from `zendesk_boss_question_bank.json` integrated
 - Polish: screen transitions, battle animations, particle effects for streaks
 - Full background music track (chiptune corporate elevator muzak)
 - Distinct sound effects per boss type
@@ -423,4 +423,4 @@ All assets sourced from `Legacy Collection/Assets/`.
 }
 ```
 
-**Totals:** 200 questions | 3 big bosses | 10 mini-bosses | 3 difficulty tiers (easy/medium/hard) | XP values: 10/20/30
+**Totals:** 439 questions | 3 big bosses | 10 mini-bosses | 3 difficulty tiers (easy/medium/hard) | XP values: 10/20/30
