@@ -1,10 +1,10 @@
-# Product Requirements Document: Zendesk RPG — "Support Land"
+# Product Requirements Document: Zendesk RPG — "Support Space"
 
-> *"You're a new Zendesk admin and must defeat chaos in Support Land."*
+> *"You're a new Zendesk admin and must defeat chaos in Support Space."*
 
 ## Overview
 
-Support Land is a retro 2D Pokemon-style RPG built for the web (desktop only) using Phaser.js. New Zendesk employees battle through a series of Zendesk configuration "bosses" by answering quiz questions about setting up Zendesk for the first time. The game is themed around the 1999 movie *Office Space* — expect Lumbergh-style boss encounters, TPS report references, "PC LOAD LETTER" error messages on wrong answers, red Swingline stapler power-ups, and Milton-esque mumbling NPCs.
+Support Space is a retro 2D Pokemon-style RPG built for the web (desktop only) using Phaser.js. New Zendesk employees battle through a series of Zendesk configuration "bosses" by answering quiz questions about setting up Zendesk for the first time. The game is themed around the 1999 movie *Office Space* — expect Lumbergh-style boss encounters, TPS report references, "PC LOAD LETTER" error messages on wrong answers, red Swingline stapler power-ups, and Milton-esque mumbling NPCs.
 
 A full playthrough takes approximately **10 minutes**.
 

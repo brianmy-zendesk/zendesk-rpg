@@ -1,7 +1,7 @@
 {
   "name": "zendesk-rpg",
   "version": "1.0.0",
-  "description": "Support Land - A Zendesk RPG",
+  "description": "Support Space - A Zendesk RPG",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -1,5 +1,5 @@
 /**
- * Central game progression config and state for Support Land.
+ * Central game progression config and state for Support Space.
  * Defines all 3 levels: boss sequences, NPC dialogues, and progression.
  */
 
@@ -273,7 +273,7 @@ export const LEVELS = [
     ],
     completionDialogue: [
       'You... you defeated Lumbergh.',
-      'I can\'t believe it.\nSupport Land is free.',
+      'I can\'t believe it.\nSupport Space is free.',
       'Your Zendesk instance is fully\nconfigured and live.',
       'And look... he dropped something.',
       'MY STAPLER! You got my stapler back!',

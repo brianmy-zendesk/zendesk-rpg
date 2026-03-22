@@ -24,7 +24,7 @@ export class TitleScene extends Phaser.Scene {
     bg.setAlpha(0.3);
 
     // Title
-    this.add.text(width / 2, 100, 'SUPPORT LAND', {
+    this.add.text(width / 2, 100, 'SUPPORT SPACE', {
       fontSize: '64px', fontFamily: 'monospace', color: '#03b1fc',
       fontStyle: 'bold', stroke: '#000000', strokeThickness: 8
     }).setOrigin(0.5);
@@ -40,7 +40,7 @@ export class TitleScene extends Phaser.Scene {
       '"You see, what we\'re trying to do here is',
       'to get you to go live with Zendesk properly."',
       '',
-      '- Bill Lumbergh, VP of Support Land'
+      '- Bill Lumbergh, VP of Support Space'
     ];
     this.add.text(width / 2, 255, introLines.join('\n'), {
       fontSize: '14px', fontFamily: 'monospace', color: '#f0c040',

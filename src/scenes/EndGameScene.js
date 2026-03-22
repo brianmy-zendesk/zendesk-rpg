@@ -74,7 +74,7 @@ export class EndGameScene extends Phaser.Scene {
 
     const subtitle = this.gameOver
       ? 'You have been relocated to the basement.'
-      : 'You have conquered Support Land!';
+      : 'You have conquered Support Space!';
     const sub = this.add.text(width / 2, 90, subtitle, {
       fontSize: '14px', fontFamily: 'monospace', color: '#aaaaaa'
     }).setOrigin(0.5).setAlpha(0);
