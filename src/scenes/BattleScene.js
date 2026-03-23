@@ -70,6 +70,7 @@ export class BattleScene extends Phaser.Scene {
     this.battleXp = 0;
     this.battleResults = [];
     this.isAnimating = false;
+    this.pausedDuringQuestion = false;
   }
 
   create() {
@@ -453,6 +454,10 @@ export class BattleScene extends Phaser.Scene {
       this.answerButtons[i].setInteractive({ useHandCursor: true });
     }
 
+    // Track when question was shown for speed bonus
+    this.questionStartTime = this.time.now;
+    this.pausedDuringQuestion = false;
+
     // Start attack countdown
     this.startAttackTimer();
   }
@@ -520,6 +525,7 @@ export class BattleScene extends Phaser.Scene {
   togglePause() {
     this.isPaused = !this.isPaused;
     if (this.isPaused) {
+      this.pausedDuringQuestion = true;
       this.pauseBtnText.setText('▶ Back to Work');
       this.pauseBtnBg.setStrokeStyle(1, 0xf0c040);
       this.pauseBtnText.setColor('#f0c040');
@@ -541,6 +547,8 @@ export class BattleScene extends Phaser.Scene {
     this.stopAttackTimer();
     this.attackTimeLeft = seconds;
     this.timerText.setText(`Attacks in ${this.attackTimeLeft}`).setAlpha(1).setColor('#ffffff');
+    this.pauseBtnBg.setAlpha(1);
+    this.pauseBtnText.setAlpha(1);
 
     this.attackTimerEvent = this.time.addEvent({
       delay: 1000,
@@ -616,6 +624,7 @@ export class BattleScene extends Phaser.Scene {
 
   handleAnswer(index) {
     this.isAnimating = true;
+    this.isPaused = false;
     this.stopAttackTimer();
     const q = this.questions[this.currentQuestionIndex];
     const selectedAnswer = this.currentShuffledAnswers[index];
@@ -662,8 +671,26 @@ export class BattleScene extends Phaser.Scene {
     const { width, height } = this.cameras.main;
     this.streak++;
 
-    // XP
-    const xp = q.xp_value;
+    // Speed bonus multiplier (disabled if timer was paused)
+    const answerTime = (this.time.now - this.questionStartTime) / 1000;
+    let speedMultiplier = 1.0;
+    let speedLabel = '';
+    if (!this.pausedDuringQuestion) {
+      if (answerTime <= 3) {
+        speedMultiplier = 2.0;
+        speedLabel = 'LIGHTNING FAST! 2x';
+      } else if (answerTime <= 5) {
+        speedMultiplier = 1.5;
+        speedLabel = 'QUICK! 1.5x';
+      } else if (answerTime <= 8) {
+        speedMultiplier = 1.25;
+        speedLabel = 'STEADY 1.25x';
+      }
+    }
+
+    // XP with speed bonus
+    const baseXp = q.xp_value;
+    const xp = Math.round(baseXp * speedMultiplier);
     this.battleXp += xp;
     const totalScore = (this.registry.get('score') || 0) + xp;
     this.registry.set('score', totalScore);
@@ -686,7 +713,8 @@ export class BattleScene extends Phaser.Scene {
     this.cameras.main.flash(200, 255, 255, 255);
 
     // Show feedback
-    this.showFeedback('CORRECT!', `+${xp} XP  |  -${damage} Boss HP`, '', 0x44ff44);
+    const speedText = speedLabel ? `  |  ${speedLabel}` : '';
+    this.showFeedback('CORRECT!', `+${xp} XP  |  -${damage} Boss HP${speedText}`, '', 0x44ff44);
 
     // Streak bonus
     if (this.streak === 3) {
