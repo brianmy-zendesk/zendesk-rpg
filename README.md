@@ -21,6 +21,7 @@ Think Pokemon meets Zendesk Admin training — a fun, educational way to learn h
 - **Office Space Theme** — Battle the TPS Report Overlord, The Channel Surfer, and Bill Lumbergh himself
 - **Retro RPG Gameplay** — Pokemon-inspired overworld exploration and turn-based quiz combat
 - **Shared Leaderboard** — Compete with colleagues worldwide via Firebase (top 25 scores)
+- **Speed Bonuses** — Answer quickly for up to 2x XP multipliers
 - **Streak Bonuses** — Earn "Pieces of Flair" for consecutive correct answers
 - **Learn From Mistakes** — Every wrong answer links to the relevant Zendesk Help Center article
 - **Pixel Art Aesthetic** — Retro visuals with smooth animations and chiptune music
@@ -51,7 +52,13 @@ Think Pokemon meets Zendesk Admin training — a fun, educational way to learn h
 
 ### XP & Scoring
 
-- **XP per correct answer**: Easy = 10, Medium = 20, Hard = 30
+- **Base XP per correct answer**: Easy = 10, Medium = 20, Hard = 30
+- **Speed Bonus**: Answer faster for bonus XP multipliers:
+  - ≤3 seconds: 2.0x "LIGHTNING FAST!"
+  - ≤5 seconds: 1.5x "QUICK!"
+  - ≤8 seconds: 1.25x "STEADY"
+  - >8 seconds: 1.0x (no bonus)
+  - Disabled if the timer is paused during the question
 - **Streak Bonus (3x)**: "Flair Bonus!" +10 XP
 - **Streak Bonus (5x)**: "37 Pieces of Flair!" +25 XP
 

@@ -156,6 +156,20 @@ Shown when the player defeats all 3 big bosses OR loses all lives:
 | Background music vibe | Corporate elevator muzak (retro chiptune style)                                        |
 
 
+### Speed Bonus
+
+Correct answers earn an XP multiplier based on how quickly the player responds. The multiplier is applied to the base XP value of the question.
+
+| Answer Speed | Multiplier | Label |
+| ------------ | ---------- | ----- |
+| ≤ 3 seconds  | 2.0x       | "LIGHTNING FAST! 2x" |
+| ≤ 5 seconds  | 1.5x       | "QUICK! 1.5x" |
+| ≤ 8 seconds  | 1.25x      | "STEADY 1.25x" |
+| > 8 seconds  | 1.0x       | (no bonus) |
+
+- Speed bonus is **disabled** if the player pauses the timer (Coffee Break) at any point during the question.
+- Speed bonus applies only to base question XP, not to streak bonuses.
+
 ### Streak Bonus: Pieces of Flair
 
 - 3 correct answers in a row = "Flair Bonus!" +10 XP
